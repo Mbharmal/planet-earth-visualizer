@@ -49,6 +49,8 @@ The build is fully static — host `app/dist/` anywhere (GitHub Pages, Cloudflar
 
 ## Notes
 
+- **Blank globe / "WebGL2 context" error in a remote-desktop session:** virtual displays (Chrome Remote Desktop, VNC) have no GPU, and Chrome ≥139 blocks software WebGL by default. Relaunch Chrome with `--enable-unsafe-swiftshader` (software rendering, works fine), or use Firefox, or open the app on a machine with GPU access.
+
 - Node 18+ works today (Vite is pinned to v6 for that reason); `.nvmrc` points at Node 22 — after upgrading you can bump to Vite 7.
 - The Wikidata generator sends a descriptive User-Agent (see `generator/src/sparql.ts` — update the contact address if you fork this) and backs off on 429s.
 - Images are hotlinked from Wikimedia Commons as 400px thumbs, loaded one at a time when a card opens.

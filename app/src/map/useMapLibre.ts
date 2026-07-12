@@ -33,7 +33,9 @@ export function useMapLibre(containerRef: RefObject<HTMLDivElement | null>): Map
     if (!webglAvailable()) {
       setError(
         'Your browser could not create a WebGL2 context, which the 3D globe needs. ' +
-          'Enable hardware acceleration (or WebGL) in the browser settings, or try another browser.',
+          'Enable hardware acceleration in the browser settings. In a remote-desktop session ' +
+          '(no GPU available), newer Chrome disables software WebGL — relaunch it as ' +
+          '"google-chrome --enable-unsafe-swiftshader", or use Firefox.',
       )
       return
     }
