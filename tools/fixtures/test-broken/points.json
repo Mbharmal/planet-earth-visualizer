@@ -1,0 +1,13 @@
+[
+  {
+    "id": "B1",
+    "name": "Bad Latitude",
+    "lat": 999,
+    "lng": 0,
+    "card": {
+      "summary": "lat out of range",
+      "facts": [],
+      "links": {}
+    }
+  }
+]

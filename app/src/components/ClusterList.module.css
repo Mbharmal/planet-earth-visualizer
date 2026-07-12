@@ -1,0 +1,71 @@
+.popover {
+  position: absolute;
+  transform: translate(-50%, 12px);
+  width: 250px;
+  max-height: 320px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(15, 19, 34, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  z-index: 25;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  color: #b8c0d8;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.close {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.list {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  color: #e8eaf2;
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.itemName {
+  flex: 1;
+}
+
+.itemDate {
+  color: #8891ad;
+  font-size: 0.8rem;
+}

@@ -36,7 +36,14 @@ export function useViewData(path: string | null): ViewDataState {
         if (!cancelled) setState({ status: 'ready', data: { manifest, entries } })
       })
       .catch((err: unknown) => {
-        if (!cancelled) setState({ status: 'error', message: err instanceof Error ? err.message : String(err) })
+        if (cancelled) return
+        const message =
+          err instanceof Error
+            ? err.name === 'ZodError' || err.name === '$ZodError'
+              ? 'dataset failed validation'
+              : err.message
+            : String(err)
+        setState({ status: 'error', message })
       })
 
     return () => {

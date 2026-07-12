@@ -1,0 +1,11 @@
+{
+  "id": "test-pair",
+  "title": "Test Pair",
+  "description": "Temporary test view: two entries at identical coordinates.",
+  "emoji": "🧪",
+  "color": "#2eaf6e",
+  "source": "manual",
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "count": 3,
+  "attribution": "Test data."
+}

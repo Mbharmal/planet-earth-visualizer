@@ -1,0 +1,11 @@
+{
+  "id": "test-broken",
+  "title": "Test Broken",
+  "description": "Temporary test view with invalid data.",
+  "emoji": "💥",
+  "color": "#c0392b",
+  "source": "manual",
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "count": 1,
+  "attribution": "Test data."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "T1",
+    "name": "Paris Person One",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "card": {
+      "summary": "First test person born in Paris",
+      "birth": { "date": "1900-01-01", "place": "Paris, France" },
+      "facts": ["Test fact"],
+      "links": {}
+    }
+  },
+  {
+    "id": "T2",
+    "name": "Paris Person Two",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "card": {
+      "summary": "Second test person born in Paris",
+      "birth": { "date": "1910-02-02", "place": "Paris, France" },
+      "facts": ["Test fact"],
+      "links": {}
+    }
+  },
+  {
+    "id": "T3",
+    "name": "Tokyo Person",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "card": {
+      "summary": "Test person born in Tokyo",
+      "birth": { "date": "1920-03-03", "place": "Tokyo, Japan" },
+      "facts": ["Test fact"],
+      "links": {}
+    }
+  }
+]
