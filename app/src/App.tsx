@@ -16,6 +16,7 @@ const initialHash = parseHash()
 
 export default function App() {
   const [map, setMap] = useState<maplibregl.Map | null>(null)
+  const [mapError, setMapError] = useState<string | null>(null)
   const [activeViewId, setActiveViewId] = useState<string | null>(initialHash.view ?? null)
   const [selectedId, setSelectedId] = useState<string | null>(initialHash.entry ?? null)
   const [cluster, setCluster] = useState<ClusterSelection | null>(null)
@@ -109,8 +110,14 @@ export default function App() {
 
   return (
     <div className="app">
-      <MapView onMap={setMap} />
-      {!map && <LoadingOverlay />}
+      <MapView onMap={setMap} onError={setMapError} />
+      {mapError && (
+        <div className="fatal-panel" role="alert">
+          <h2>The globe couldn't start</h2>
+          <p>{mapError}</p>
+        </div>
+      )}
+      {!map && !mapError && <LoadingOverlay />}
       <TitleBadge subtitle={viewState.status === 'ready' ? viewState.data.manifest.description : undefined} />
       <ViewSwitcher
         views={views}
