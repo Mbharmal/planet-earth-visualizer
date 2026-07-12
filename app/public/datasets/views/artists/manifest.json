@@ -1,0 +1,11 @@
+{
+  "id": "artists",
+  "title": "Artists",
+  "description": "Birthplaces of famous painters and sculptors around the world.",
+  "emoji": "🎨",
+  "color": "#e2703a",
+  "source": "wikidata",
+  "generatedAt": "2026-07-12T23:17:42.674Z",
+  "count": 387,
+  "attribution": "Data: Wikidata (CC0). Images: Wikimedia Commons."
+}

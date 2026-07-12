@@ -1,0 +1,11 @@
+{
+  "id": "chess-players",
+  "title": "Chess Players",
+  "description": "Birthplaces of famous chess players around the world.",
+  "emoji": "♟️",
+  "color": "#8e5cd9",
+  "source": "wikidata",
+  "generatedAt": "2026-07-12T23:16:46.787Z",
+  "count": 200,
+  "attribution": "Data: Wikidata (CC0). Images: Wikimedia Commons."
+}

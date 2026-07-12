@@ -40,8 +40,15 @@ export function wireViewInteractions(map: MapLibreMap, handlers: ViewInteraction
   }
 
   const onPointClick = (e: MapLayerMouseEvent) => {
-    const feature = e.features?.[0]
-    if (feature) handlers.onSelect(String(feature.properties.id))
+    const features = e.features ?? []
+    // Past clusterMaxZoom, entries with identical coordinates render as stacked
+    // individual dots — a click hits all of them, so offer the list again.
+    const ids = [...new Set(features.map((f) => String(f.properties.id)))]
+    if (ids.length > 1) {
+      handlers.onClusterLeaves({ screen: { x: e.point.x, y: e.point.y }, entryIds: ids })
+    } else if (ids[0]) {
+      handlers.onSelect(ids[0])
+    }
   }
 
   const onClusterEnter = () => {

@@ -2,6 +2,20 @@
   "schemaVersion": 1,
   "views": [
     {
+      "id": "artists",
+      "title": "Artists",
+      "emoji": "🎨",
+      "color": "#e2703a",
+      "path": "views/artists"
+    },
+    {
+      "id": "chess-players",
+      "title": "Chess Players",
+      "emoji": "♟️",
+      "color": "#8e5cd9",
+      "path": "views/chess-players"
+    },
+    {
       "id": "scientists",
       "title": "Scientists",
       "emoji": "🔬",

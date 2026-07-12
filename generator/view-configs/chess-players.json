@@ -1,0 +1,11 @@
+{
+  "id": "chess-players",
+  "title": "Chess Players",
+  "description": "Birthplaces of famous chess players around the world.",
+  "emoji": "♟️",
+  "color": "#8e5cd9",
+  "occupations": ["Q10873124"],
+  "occupationNote": "chess player",
+  "minSitelinks": 25,
+  "limit": 200
+}

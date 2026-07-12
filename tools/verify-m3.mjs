@@ -57,7 +57,11 @@ const waitForLayer = () =>
 await page.goto('http://localhost:5173/', { waitUntil: 'networkidle2', timeout: 60_000 })
 await waitForLayer()
 const chips = await page.$$eval('nav[aria-label="Views"] button', (els) => els.map((el) => el.textContent.trim()))
-check('switcher lists views from index.json', chips.length === 3, chips.join(', '))
+check(
+  'switcher lists views from index.json',
+  chips.some((c) => c.includes('Test Pair')) && chips.some((c) => c.includes('Test Broken')),
+  chips.join(', '),
+)
 
 // 2. Switch to Test Pair view
 await page.evaluate(() => {

@@ -1,0 +1,11 @@
+{
+  "id": "artists",
+  "title": "Artists",
+  "description": "Birthplaces of famous painters and sculptors around the world.",
+  "emoji": "🎨",
+  "color": "#e2703a",
+  "occupations": ["Q1028181", "Q1281618"],
+  "occupationNote": "painter, sculptor",
+  "minSitelinks": 40,
+  "limit": 400
+}

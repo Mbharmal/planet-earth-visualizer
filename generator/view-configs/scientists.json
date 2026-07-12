@@ -4,8 +4,8 @@
   "description": "Birthplaces of famous scientists and mathematicians around the world.",
   "emoji": "🔬",
   "color": "#4f7df9",
-  "source": "wikidata",
-  "generatedAt": "2026-07-12T23:17:30.671Z",
-  "count": 391,
-  "attribution": "Data: Wikidata (CC0). Images: Wikimedia Commons."
+  "occupations": ["Q169470", "Q170790", "Q593644"],
+  "occupationNote": "physicist, mathematician, chemist",
+  "minSitelinks": 45,
+  "limit": 400
 }
