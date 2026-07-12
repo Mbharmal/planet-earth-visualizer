@@ -2,6 +2,8 @@ import type maplibregl from 'maplibre-gl'
 import { useEffect, useMemo, useState } from 'react'
 import { ClusterList } from './components/ClusterList'
 import { InfoCard } from './components/InfoCard'
+import { LoadingOverlay } from './components/LoadingOverlay'
+import { TitleBadge } from './components/TitleBadge'
 import { ViewSwitcher } from './components/ViewSwitcher'
 import { useViewData } from './data/useViewData'
 import { useViewIndex } from './data/useViewIndex'
@@ -108,6 +110,8 @@ export default function App() {
   return (
     <div className="app">
       <MapView onMap={setMap} />
+      {!map && <LoadingOverlay />}
+      <TitleBadge subtitle={viewState.status === 'ready' ? viewState.data.manifest.description : undefined} />
       <ViewSwitcher
         views={views}
         activeViewId={activeViewId}
