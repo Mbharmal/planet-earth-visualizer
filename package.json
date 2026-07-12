@@ -14,5 +14,8 @@
     "generate": "npm run generate -w generator --",
     "typecheck": "tsc --noEmit -p shared && tsc --noEmit -p generator && tsc --noEmit -p app",
     "test": "npm run test -w shared"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.3.0"
   }
 }

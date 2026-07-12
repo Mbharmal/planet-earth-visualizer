@@ -1,4 +1,6 @@
+/* Explicit sizing: maplibre's own .maplibregl-map rule forces position: relative,
+   so absolute inset positioning would collapse this container to zero height. */
 .map {
-  position: absolute;
-  inset: 0;
+  width: 100%;
+  height: 100%;
 }
