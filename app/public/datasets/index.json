@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "views": [
+    {
+      "id": "scientists",
+      "title": "Scientists",
+      "emoji": "🔬",
+      "color": "#4f7df9",
+      "path": "views/scientists"
+    }
+  ]
+}

@@ -36,6 +36,11 @@ export function useMapLibre(containerRef: RefObject<HTMLDivElement | null>) {
 
     map.on('load', () => setMap(map))
 
+    if (import.meta.env.DEV) {
+      // Exposed for dev tooling (tools/*.mjs verification scripts).
+      ;(window as unknown as { __map?: maplibregl.Map }).__map = map
+    }
+
     return () => {
       setMap(null)
       map.remove()

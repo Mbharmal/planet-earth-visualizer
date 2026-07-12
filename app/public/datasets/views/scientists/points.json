@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Q937",
+    "name": "Albert Einstein",
+    "lat": 48.4011,
+    "lng": 9.9876,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head.jpg?width=400"
+      },
+      "summary": "German-born theoretical physicist",
+      "birth": { "date": "1879-03-14", "place": "Ulm, Germany" },
+      "death": { "date": "1955-04-18", "place": "Princeton, United States" },
+      "facts": [
+        "Theory of special and general relativity",
+        "Nobel Prize in Physics 1921 for the photoelectric effect",
+        "Mass–energy equivalence, E = mc²"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Albert_Einstein" }
+    }
+  },
+  {
+    "id": "Q935",
+    "name": "Isaac Newton",
+    "lat": 52.809,
+    "lng": -0.628,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GodfreyKneller-IsaacNewton-1689.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GodfreyKneller-IsaacNewton-1689.jpg?width=400"
+      },
+      "summary": "English physicist and mathematician",
+      "birth": { "date": "1643-01-04", "place": "Woolsthorpe, England" },
+      "death": { "date": "1727-03-31", "place": "Kensington, England" },
+      "facts": [
+        "Laws of motion and universal gravitation (Principia, 1687)",
+        "Co-inventor of calculus",
+        "Built the first practical reflecting telescope"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Newton" }
+    }
+  },
+  {
+    "id": "Q7186",
+    "name": "Marie Curie",
+    "lat": 52.2297,
+    "lng": 21.0122,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Curie%20c1920.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Curie%20c1920.jpg?width=400"
+      },
+      "summary": "Polish-French physicist and chemist",
+      "birth": { "date": "1867-11-07", "place": "Warsaw, Poland" },
+      "death": { "date": "1934-07-04", "place": "Passy, France" },
+      "facts": [
+        "Discovered polonium and radium",
+        "First person to win two Nobel Prizes (Physics 1903, Chemistry 1911)",
+        "Pioneered research on radioactivity"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Marie_Curie" }
+    }
+  },
+  {
+    "id": "Q1035",
+    "name": "Charles Darwin",
+    "lat": 52.7073,
+    "lng": -2.7539,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20seated%20crop.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Darwin%20seated%20crop.jpg?width=400"
+      },
+      "summary": "English naturalist and biologist",
+      "birth": { "date": "1809-02-12", "place": "Shrewsbury, England" },
+      "death": { "date": "1882-04-19", "place": "Downe, England" },
+      "facts": [
+        "Theory of evolution by natural selection",
+        "On the Origin of Species (1859)",
+        "Voyage of the Beagle"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Charles_Darwin" }
+    }
+  },
+  {
+    "id": "Q9036",
+    "name": "Nikola Tesla",
+    "lat": 44.5808,
+    "lng": 15.3061,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/N.Tesla.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/N.Tesla.JPG?width=400"
+      },
+      "summary": "Serbian-American inventor and electrical engineer",
+      "birth": { "date": "1856-07-10", "place": "Smiljan, Croatia" },
+      "death": { "date": "1943-01-07", "place": "New York City, United States" },
+      "facts": [
+        "Alternating current (AC) electricity supply system",
+        "Induction motor and Tesla coil",
+        "Pioneering work on wireless transmission"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Nikola_Tesla" }
+    }
+  },
+  {
+    "id": "Q7259",
+    "name": "Ada Lovelace",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada%20Lovelace%20portrait.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada%20Lovelace%20portrait.jpg?width=400"
+      },
+      "summary": "English mathematician and writer",
+      "birth": { "date": "1815-12-10", "place": "London, England" },
+      "death": { "date": "1852-11-27", "place": "London, England" },
+      "facts": [
+        "Considered the first computer programmer",
+        "Wrote the first algorithm for Babbage's Analytical Engine",
+        "Foresaw computers going beyond pure calculation"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Ada_Lovelace" }
+    }
+  },
+  {
+    "id": "Q131149",
+    "name": "Srinivasa Ramanujan",
+    "lat": 11.341,
+    "lng": 77.7172,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Srinivasa%20Ramanujan%20-%20OPC%20-%201.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Srinivasa%20Ramanujan%20-%20OPC%20-%201.jpg?width=400"
+      },
+      "summary": "Indian mathematician",
+      "birth": { "date": "1887-12-22", "place": "Erode, India" },
+      "death": { "date": "1920-04-26", "place": "Kumbakonam, India" },
+      "facts": [
+        "Nearly 3,900 results in number theory, infinite series and continued fractions",
+        "Self-taught; collaborated with G. H. Hardy at Cambridge",
+        "The Ramanujan number 1729 (taxicab number)"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan" }
+    }
+  },
+  {
+    "id": "Q307",
+    "name": "Galileo Galilei",
+    "lat": 43.7167,
+    "lng": 10.4,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Justus%20Sustermans%20-%20Portrait%20of%20Galileo%20Galilei%2C%201636.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Justus%20Sustermans%20-%20Portrait%20of%20Galileo%20Galilei%2C%201636.jpg?width=400"
+      },
+      "summary": "Italian astronomer, physicist and engineer",
+      "birth": { "date": "1564-02-15", "place": "Pisa, Italy" },
+      "death": { "date": "1642-01-08", "place": "Arcetri, Italy" },
+      "facts": [
+        "Father of observational astronomy and modern physics",
+        "Discovered the four largest moons of Jupiter",
+        "Championed heliocentrism"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Galileo_Galilei" }
+    }
+  },
+  {
+    "id": "Q7251",
+    "name": "Alan Turing",
+    "lat": 51.5265,
+    "lng": -0.1857,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Turing%20Aged%2016.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Turing%20Aged%2016.jpg?width=400"
+      },
+      "summary": "English mathematician and computer scientist",
+      "birth": { "date": "1912-06-23", "place": "London, England" },
+      "death": { "date": "1954-06-07", "place": "Wilmslow, England" },
+      "facts": [
+        "Father of theoretical computer science (Turing machine)",
+        "Broke the Enigma cipher at Bletchley Park",
+        "The Turing test for machine intelligence"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Alan_Turing" }
+    }
+  },
+  {
+    "id": "Q7099",
+    "name": "Emmy Noether",
+    "lat": 49.5897,
+    "lng": 11.012,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Noether.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noether.jpg?width=400"
+      },
+      "summary": "German mathematician",
+      "birth": { "date": "1882-03-23", "place": "Erlangen, Germany" },
+      "death": { "date": "1935-04-14", "place": "Bryn Mawr, United States" },
+      "facts": [
+        "Noether's theorem linking symmetries and conservation laws",
+        "Revolutionized abstract algebra",
+        "Described by Einstein as the most important woman in mathematics"
+      ],
+      "links": { "wikipedia": "https://en.wikipedia.org/wiki/Emmy_Noether" }
+    }
+  }
+]

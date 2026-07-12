@@ -1,0 +1,107 @@
+.card {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  width: min(380px, calc(100vw - 24px));
+  overflow-y: auto;
+  background: rgba(15, 19, 34, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  z-index: 20;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.close:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.imageWrap {
+  aspect-ratio: 4 / 3;
+  background: #1a2138;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.body {
+  padding: 16px 18px 18px;
+}
+
+.name {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+  border-left: 4px solid;
+  padding-left: 10px;
+}
+
+.summary {
+  margin: 0 0 8px;
+  color: #b8c0d8;
+}
+
+.lifeline {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+  color: #8891ad;
+}
+
+.facts {
+  margin: 0 0 14px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.92rem;
+}
+
+.links {
+  margin: 0;
+  display: flex;
+  gap: 14px;
+}
+
+.links a {
+  color: #7ea6ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .card {
+    top: auto;
+    right: 8px;
+    left: 8px;
+    bottom: 8px;
+    width: auto;
+    max-height: 55vh;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "scientists",
+  "title": "Scientists",
+  "description": "Birthplaces of famous scientists and mathematicians around the world.",
+  "emoji": "🔬",
+  "color": "#4f7df9",
+  "source": "manual",
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "count": 10,
+  "attribution": "Data: Wikidata (CC0). Images: Wikimedia Commons."
+}
