@@ -53,6 +53,8 @@ export const ViewEntrySchema = z.object({
   /** Death place coordinates, when known — enables birth→death migration arcs. */
   deathLat: z.number().min(-90).max(90).optional(),
   deathLng: z.number().min(-180).max(180).optional(),
+  /** Notability proxy (Wikipedia sitelink count) — drives tour roster selection. */
+  fame: z.int().nonnegative().optional(),
   card: z.object({
     image: z
       .object({

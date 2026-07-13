@@ -62,4 +62,11 @@ describe.each(index.views.map((v) => [v.id, v] as const))('view %s', (_id, summa
     expect(withImage / points.length).toBeGreaterThan(0.7)
     expect(withSummary / points.length).toBeGreaterThan(0.9)
   })
+
+  it('generated entries carry a fame score', async () => {
+    const { manifest, points } = await load()
+    if (manifest.source !== 'wikidata') return
+    const withFame = points.filter((p) => typeof p.fame === 'number').length
+    expect(withFame / points.length).toBeGreaterThan(0.95)
+  })
 })

@@ -68,6 +68,7 @@ export function bindingsToEntries(bindings: SparqlBinding[]): ViewEntry[] {
       lat,
       lng,
       ...(deathLat !== undefined && deathLng !== undefined ? { deathLat, deathLng } : {}),
+      ...(binding.sitelinks?.value ? { fame: Number(binding.sitelinks.value) } : {}),
       card: {
         ...(binding.image?.value ? { image: commonsImageUrls(binding.image.value) } : {}),
         summary: binding.personDescription?.value ?? '',
