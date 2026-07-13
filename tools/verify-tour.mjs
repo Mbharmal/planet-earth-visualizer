@@ -59,6 +59,28 @@ const dot = await page.evaluate(() => {
 })
 check('tour dot rendered with journey color', !!dot?.color, JSON.stringify(dot))
 
+// 3b. Card click → expands and pauses the tour (wait out any in-flight phase)
+const hadCard = await page
+  .waitForSelector('[aria-expanded="false"]', { timeout: 15_000 })
+  .then(() => true)
+  .catch(() => false)
+if (hadCard) {
+  await page.click('[aria-expanded="false"]')
+  await settle(800)
+  const expandState = await page.evaluate(() => ({
+    expanded: !!document.querySelector('[aria-expanded="true"]'),
+    paused: !!document.querySelector('[aria-label="Resume tour"]'),
+    detail: document.querySelector('[aria-expanded="true"]')?.innerText?.slice(0, 100) ?? '',
+  }))
+  check('card click expands and pauses', expandState.expanded && expandState.paused, expandState.detail.replaceAll('\n', ' | ').slice(0, 80))
+  await page.screenshot({ path: process.argv[4] ?? 'tour_expanded.png' })
+  await page.click('[aria-expanded="true"]') // collapse
+  await page.click('[aria-label="Resume tour"]')
+  await settle(500)
+} else {
+  check('card click expands and pauses', false, 'no card visible to click (timing)')
+}
+
 // 4. Drag pauses the tour
 await page.mouse.move(640, 400)
 await page.mouse.down()

@@ -19,6 +19,7 @@ export interface TourHandle {
   speed: TourSpeed
   start(): void
   toggle(): void
+  pause(): void
   setSpeed(speed: TourSpeed): void
   cancel(): void
 }
@@ -86,6 +87,10 @@ export function useTour(
     else engine.play()
   }, [start, status])
 
+  const pause = useCallback(() => {
+    engineRef.current?.pause()
+  }, [])
+
   const setSpeed = useCallback((s: TourSpeed) => {
     engineRef.current?.setSpeed(s)
     setSpeedState(s)
@@ -96,5 +101,5 @@ export function useTour(
     engineRef.current = null
   }, [])
 
-  return { status, stop, progress, speed, start, toggle, setSpeed, cancel }
+  return { status, stop, progress, speed, start, toggle, pause, setSpeed, cancel }
 }

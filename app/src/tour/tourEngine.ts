@@ -1,6 +1,6 @@
 import type { Feature, LineString, Point, Position } from 'geojson'
-import type { Map as MapLibreMap } from 'maplibre-gl'
-import { angularDistanceRad, arcForEntry } from '../data/arcs'
+import maplibregl, { type Map as MapLibreMap } from 'maplibre-gl'
+import { angularDistanceRad, arcForEntry, diedWhereBorn, selfLoop } from '../data/arcs'
 import { addTourLayers, removeTourLayers, setTourArcs, setTourPoints } from './tourLayers'
 import type { TourStop } from './roster'
 
@@ -17,7 +17,9 @@ export interface TourCallbacks {
 }
 
 const REVEAL_MS = 1500
-const DWELL_MS = 2800
+const DWELL_MS = 3200
+/** Arcs longer than this get a camera pull-back so both endpoints stay framed. */
+const FRAME_ARC_KM = 900
 const FLY_MIN_MS = 1800
 const FLY_MAX_MS = 3200
 const EARTH_KM = 6371
@@ -83,7 +85,7 @@ export class TourEngine {
 
   pause() {
     if (this.destroyed || this.status !== 'playing') return
-    if (this.phase === 'flying') this.map.stop() // freeze camera mid-flight
+    this.map.stop() // freeze any camera animation (flight or reveal framing)
     this.setStatus('paused')
   }
 
@@ -167,7 +169,8 @@ export class TourEngine {
 
     this.activeArcs = []
     for (const entry of stop.entries) {
-      const coords = arcForEntry(entry)
+      // Died where born → a small closed petal loop instead of silence.
+      const coords = diedWhereBorn(entry) ? selfLoop([entry.lng, entry.lat]) : arcForEntry(entry)
       if (coords) {
         this.activeArcs.push({
           entryId: entry.id,
@@ -177,6 +180,7 @@ export class TourEngine {
         })
       }
     }
+    this.frameArcsIfNeeded(stop)
     setTourPoints(this.map, {
       type: 'FeatureCollection',
       features: stop.entries.map((entry) => ({
@@ -217,6 +221,34 @@ export class TourEngine {
       }
       setTourPoints(this.map, { type: 'FeatureCollection', features: points })
     }
+  }
+
+  /** Pull the camera back during the reveal when an arc would leave the frame. */
+  private frameArcsIfNeeded(stop: TourStop) {
+    let maxKm = 0
+    for (const arc of this.activeArcs) {
+      const [lng, lat] = arc.deathPoint
+      maxKm = Math.max(maxKm, angularDistanceRad(stop.center, [lng!, lat!]) * EARTH_KM)
+    }
+    if (maxKm < FRAME_ARC_KM) return
+
+    const bounds = new maplibregl.LngLatBounds()
+    for (const arc of this.activeArcs) {
+      for (const [lng, lat] of arc.coords) bounds.extend([lng!, lat!])
+    }
+    for (const entry of stop.entries) bounds.extend([entry.lng, entry.lat])
+    const camera = this.map.cameraForBounds(bounds, {
+      padding: { top: 90, left: 90, right: 90, bottom: 170 },
+      maxZoom: stop.zoom,
+    })
+    if (!camera) return
+    this.map.easeTo({
+      center: camera.center,
+      zoom: camera.zoom,
+      bearing: 0,
+      pitch: 0,
+      duration: Math.max(600, (REVEAL_MS * 0.85) / this.speed),
+    })
   }
 
   private commitActiveArcs() {

@@ -216,7 +216,7 @@ export default function App() {
           onSpeedCycle={cycleSpeed}
         />
       )}
-      {tour.stop && <TourCard stop={tour.stop} />}
+      {tour.stop && <TourCard stop={tour.stop} onExpand={tour.pause} />}
       {(indexState.status === 'error' || viewState.status === 'error') && (
         <div className="error-banner">
           Failed to load {indexState.status === 'error' ? 'view index' : 'view'}:{' '}

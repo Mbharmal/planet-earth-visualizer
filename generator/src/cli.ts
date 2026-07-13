@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { ViewConfigSchema, type ViewConfig } from './config'
 import { buildQuery, runQuery } from './sparql'
 import { bindingsToEntries } from './transform'
+import { fetchKnownFor } from './works'
 import { rebuildIndex, writeView } from './writeView'
 
 const CONFIGS_DIR = new URL('../view-configs/', import.meta.url).pathname
@@ -29,8 +30,13 @@ async function main() {
     console.log(`Generating "${config.id}" (${config.occupationNote ?? config.occupations.join(', ')}, sitelinks ≥ ${config.minSitelinks}) ...`)
     const bindings = await runQuery(buildQuery(config))
     const entries = bindingsToEntries(bindings)
+    const knownFor = await fetchKnownFor(entries)
+    for (const entry of entries) {
+      const info = knownFor.get(entry.id)
+      if (info) entry.card.knownFor = info
+    }
     const manifest = await writeView(config, entries)
-    console.log(`  ${bindings.length} rows → ${manifest.count} entries written`)
+    console.log(`  ${bindings.length} rows → ${manifest.count} entries written (${knownFor.size} with knownFor)`)
   }
 
   const index = await rebuildIndex()

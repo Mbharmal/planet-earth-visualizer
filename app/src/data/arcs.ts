@@ -83,10 +83,57 @@ export function bowedArc(from: [number, number], to: [number, number]): Position
   return points
 }
 
+/**
+ * A small closed "petal" loop at a point — the tour's mark for someone who
+ * died where they were born. Built by rotating the point around the axis of a
+ * circle center offset poleward (Rodrigues rotation), so it starts and ends
+ * exactly at the point.
+ */
+export function selfLoop(at: [number, number], radiusKm = 85): Position[] {
+  const p = toVec(at[0], at[1])
+  const r = radiusKm / 6371 // radians
+  // Circle center: point rotated toward the north pole by r (southern
+  // hemisphere gets a southward petal, which reads identically).
+  const northish: Vec3 = at[1] > 80 ? [1, 0, 0] : [0, 0, 1]
+  const axisEast = normalize(cross(northish, p))
+  const toward = normalize(cross(p, axisEast)) // unit vector at p toward the pole
+  const center = normalize(add(scale(p, Math.cos(r)), scale(toward, Math.sin(r))))
+
+  const points: Position[] = []
+  let prevLng = at[0]
+  const STEPS_LOOP = 36
+  for (let i = 0; i <= STEPS_LOOP; i++) {
+    const θ = (i / STEPS_LOOP) * 2 * Math.PI
+    // Rodrigues rotation of p around the axis through `center`.
+    const k = center
+    const cosθ = Math.cos(θ)
+    const sinθ = Math.sin(θ)
+    const kxp = cross(k, p)
+    const kdp = dot(k, p)
+    const rotated: Vec3 = [
+      p[0] * cosθ + kxp[0] * sinθ + k[0] * kdp * (1 - cosθ),
+      p[1] * cosθ + kxp[1] * sinθ + k[1] * kdp * (1 - cosθ),
+      p[2] * cosθ + kxp[2] * sinθ + k[2] * kdp * (1 - cosθ),
+    ]
+    let [lng, lat] = vecToLngLat(normalize(rotated))
+    while (lng - prevLng > 180) lng -= 360
+    while (lng - prevLng < -180) lng += 360
+    prevLng = lng
+    points.push([lng, lat])
+  }
+  return points
+}
+
 /** The bowed birth→death arc for one entry, or null when not applicable. */
 export function arcForEntry(entry: ViewEntry): Position[] | null {
   if (entry.deathLat === undefined || entry.deathLng === undefined) return null
   return bowedArc([entry.lng, entry.lat], [entry.deathLng, entry.deathLat])
+}
+
+/** True when the entry has death coordinates essentially at its birthplace. */
+export function diedWhereBorn(entry: ViewEntry): boolean {
+  if (entry.deathLat === undefined || entry.deathLng === undefined) return false
+  return angularDistanceRad([entry.lng, entry.lat], [entry.deathLng, entry.deathLat]) < MIN_ARC_RADIANS
 }
 
 /** Birth→death arcs for every entry that has death coordinates. */

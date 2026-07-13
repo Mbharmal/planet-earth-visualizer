@@ -67,6 +67,15 @@ export const ViewEntrySchema = z.object({
     death: z.object({ date: z.string().optional(), place: z.string().optional() }).optional(),
     /** Short notable facts / works, rendered as a list. */
     facts: z.array(z.string()).max(5),
+    /** The single most famous work — shown during tour stops and on cards. */
+    knownFor: z
+      .object({
+        title: z.string().min(1),
+        image: z.object({ url: z.url(), thumbUrl: z.url() }).optional(),
+        /** Sanitized MathML markup (browsers render it natively). */
+        formula: z.string().optional(),
+      })
+      .optional(),
     links: z.object({
       wikipedia: z.url().optional(),
       wikidata: z.url().optional(),
