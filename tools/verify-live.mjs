@@ -37,7 +37,11 @@ const landing = await page.evaluate(() => {
   }
 })
 check('map canvas renders at full size', landing.canvas)
-check('view switcher lists 3 views', landing.chips.length === 3, landing.chips.join(', '))
+check(
+  'view switcher lists views + stories',
+  landing.chips.length >= 4 && landing.chips.some((c) => c.includes('Stories')),
+  landing.chips.join(', '),
+)
 check('no fatal/error panels', !landing.fatal && !landing.banner, landing.fatal ?? landing.banner ?? '')
 await page.screenshot({ path: `${prefix}_landing.png` })
 

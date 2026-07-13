@@ -434,7 +434,11 @@ Everything else — hand-curated views (write the JSON by hand; `npm test` valid
 
 ### The roadmap (tracked as tasks)
 
-**Shipped since this doc was first written:** *Journeys* — guided multi-waypoint life stories as a second dataset kind (`datasets/journeys/<id>.json`, discovered via the same index). Manual-first player (`app/src/journey/`): Next/Prev/arrow keys, optional autoplay, animated bowed path segments with visited/future styling, numbered waypoint dots, camera padded around a reading panel carrying narratives, Commons images, native-MathML formulas, works chips and further-reading links. Deep links `#journey=euler&wp=3`. Authoring guide: `docs/ADDING_A_JOURNEY.md`. Euler is the flagship/template. Wikidata-drafted journeys (P69/P108/P551) remain future generator-assist work.
+**Shipped since this doc was first written:**
+
+*WW2 Battles + Stories* — first events view (`kind: 'events'` in manifest/config: class-family + date-window SPARQL selection, after part-of chain climbing proved unreliable — see the war-stories section); date labels adapt (Began/Ended); journeys generalized into *stories* (`person`→`subject`, role enum→free-text labels) with three hand-written WW2 stories (Stalingrad, D-Day→Berlin, Pacific) alongside Euler.
+
+*Journeys* — guided multi-waypoint life stories as a second dataset kind (`datasets/journeys/<id>.json`, discovered via the same index). Manual-first player (`app/src/journey/`): Next/Prev/arrow keys, optional autoplay, animated bowed path segments with visited/future styling, numbered waypoint dots, camera padded around a reading panel carrying narratives, Commons images, native-MathML formulas, works chips and further-reading links. Deep links `#journey=euler&wp=3`. Authoring guide: `docs/ADDING_A_JOURNEY.md`. Euler is the flagship/template. Wikidata-drafted journeys (P69/P108/P551) remain future generator-assist work.
 
 | Feature | Design sketch |
 |---|---|
