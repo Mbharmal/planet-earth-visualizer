@@ -45,7 +45,7 @@ Wikidata birthplaces resolve to city centroids, so e.g. nine famous scientists s
 
 ## Deploying
 
-The build is fully static — host `app/dist/` anywhere (GitHub Pages, Cloudflare Pages: build command `npm run build`, output `app/dist`).
+Pushing to `main` deploys automatically to GitHub Pages via `.github/workflows/deploy.yml` (test → build → deploy). The Vite base is relative (`./`), so the same build works at the Pages subpath, a custom domain, or any other static host.
 
 ## Notes
 

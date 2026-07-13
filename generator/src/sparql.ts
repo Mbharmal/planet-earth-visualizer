@@ -4,7 +4,7 @@ const ENDPOINT = 'https://query.wikidata.org/sparql'
 
 // Wikimedia etiquette: descriptive User-Agent with contact info, sequential
 // queries only, backoff on 429/5xx. https://meta.wikimedia.org/wiki/User-Agent_policy
-const USER_AGENT = 'PlanetEarthVisualizer/0.1 (side project; mailto:bharmalmohammed999@gmail.com)'
+const USER_AGENT = 'PlanetEarthVisualizer/0.1 (https://github.com/Mbharmal/planet-earth-visualizer)'
 
 export interface SparqlBinding {
   [variable: string]: { type: string; value: string } | undefined
