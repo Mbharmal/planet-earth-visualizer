@@ -9,16 +9,19 @@ interface TourCardProps {
   stop: TourStop
   /** True while the tour is actively playing (collapses any expanded card). */
   playing: boolean
+  /** 'events' formats dates as a plain range, not a lifespan. */
+  kind?: 'people' | 'events'
   /** Called when the user expands a card — the tour should pause. */
   onExpand: () => void
   /** Called when the user collapses the card again — the tour should resume. */
   onCollapse: () => void
 }
 
-function lifespan(entryBirthYear: number | null, deathDate: string | undefined): string {
+function lifespan(entryBirthYear: number | null, deathDate: string | undefined, kind: 'people' | 'events'): string {
   const born = entryBirthYear !== null ? formatYear(entryBirthYear) : '?'
   const deathMatch = deathDate?.match(/^(-?\d+)/)
   const died = deathMatch ? formatYear(Number(deathMatch[1])) : ''
+  if (kind === 'events') return died && died !== born ? `${born} – ${died}` : born
   return died ? `${born} – ${died}` : `b. ${born}`
 }
 
@@ -45,7 +48,7 @@ function KnownFor({ entry, compact }: { entry: ViewEntry; compact: boolean }) {
 }
 
 /** Face card(s) for the tour's current stop. Click to pause + expand; click again to collapse + resume. */
-export function TourCard({ stop, playing, onExpand, onCollapse }: TourCardProps) {
+export function TourCard({ stop, playing, kind = 'people', onExpand, onCollapse }: TourCardProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null)
 
   // If the tour resumes by other means (spacebar, canvas click), fold the card back up.
@@ -89,7 +92,7 @@ export function TourCard({ stop, playing, onExpand, onCollapse }: TourCardProps)
               )}
               <div className={styles.text}>
                 <h3 className={styles.name}>{entry.name}</h3>
-                <p className={styles.years}>{lifespan(entryYear(entry), entry.card.death?.date)}</p>
+                <p className={styles.years}>{lifespan(entryYear(entry), entry.card.death?.date, kind)}</p>
                 {entry.card.birth?.place && <p className={styles.place}>{entry.card.birth.place}</p>}
               </div>
             </div>

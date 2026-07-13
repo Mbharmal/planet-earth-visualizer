@@ -23,9 +23,9 @@ export const ViewSummarySchema = z.object({
 export const JourneySummarySchema = z.object({
   id: slug,
   title: z.string().min(1),
-  person: z.string().min(1),
+  subject: z.string().min(1),
   color: hexColor,
-  /** Path of the journey file relative to the datasets root, e.g. "journeys/euler.json". */
+  /** Path of the story file relative to the datasets root, e.g. "journeys/euler.json". */
   path: z.string().min(1),
 })
 
@@ -48,6 +48,8 @@ export const ViewManifestSchema = z.object({
   description: z.string(),
   emoji: z.string().min(1),
   color: hexColor,
+  /** What the entries are — drives date labels ("Born/Died" vs "Began/Ended"). Default: people. */
+  kind: z.enum(['people', 'events']).optional(),
   pointStyle: PointStyleSchema.optional(),
   source: z.enum(['wikidata', 'manual']),
   generatedAt: z.iso.datetime(),
@@ -120,7 +122,8 @@ export const JourneyWaypointSchema = z.object({
   /** Year span at this place (negative = BCE). `to` omitted for a single-year event. */
   from: z.int(),
   to: z.int().optional(),
-  role: z.enum(['birth', 'education', 'work', 'residence', 'voyage', 'death']),
+  /** Short chapter tag shown above the title, e.g. "Born here", "The turning point". */
+  label: z.string().min(1).max(40),
   /** The story of this chapter — a paragraph or two of plain text. */
   narrative: z.string().min(1),
   media: z
@@ -139,11 +142,13 @@ export const JourneyWaypointSchema = z.object({
 export const JourneySchema = z.object({
   id: slug,
   title: z.string().min(1),
-  person: z.object({
+  /** Who or what the story is about — a person (journey) or an event (story). */
+  subject: z.object({
     name: z.string().min(1),
-    lifespan: z.string().min(1),
+    /** Shown under the name: a lifespan for people, a date range for events. */
+    subtitle: z.string().min(1),
     image: imageRef.optional(),
-    wikidata: z.url().optional(),
+    link: z.url().optional(),
   }),
   summary: z.string().min(1),
   color: hexColor,

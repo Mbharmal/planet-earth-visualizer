@@ -1,0 +1,115 @@
+{
+  "id": "ww2-dday",
+  "title": "D-Day and the liberation of Western Europe",
+  "subject": {
+    "name": "The Western Front, 1940–1945",
+    "subtitle": "May 1940 – May 1945",
+    "link": "https://en.wikipedia.org/wiki/Western_Front_(World_War_II)"
+  },
+  "summary": "From the beaches of Dunkirk to the beaches of Normandy and on to Berlin: how the Western Allies were driven off the continent, and how — four years later, in the largest seaborne invasion in history — they came back.",
+  "color": "#2e6f8e",
+  "waypoints": [
+    {
+      "id": "dunkirk",
+      "title": "Deliverance at Dunkirk",
+      "place": "Dunkirk, France",
+      "lat": 51.0344,
+      "lng": 2.3768,
+      "from": 1940,
+      "label": "The escape",
+      "narrative": "In May 1940 the German thrust through the Ardennes cut the Allied armies in two and pinned the British Expeditionary Force against the Channel. Between 26 May and 4 June, Operation Dynamo evacuated 338,000 British and French soldiers from Dunkirk's beaches — warships, ferries and the famous 'little ships' shuttling under constant air attack. It was a defeat; Churchill said so plainly — 'wars are not won by evacuations' — but the army that escaped became the seed of everything that followed.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunkirk%2026-29%20May%201940%20NYP68075.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunkirk%2026-29%20May%201940%20NYP68075.jpg?width=400",
+          "caption": "Troops awaiting evacuation on the beach at Dunkirk, May 1940"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Dunkirk evacuation", "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation" }
+      ]
+    },
+    {
+      "id": "normandy",
+      "title": "The longest day",
+      "place": "Omaha Beach, Normandy, France",
+      "lat": 49.3697,
+      "lng": -0.8781,
+      "from": 1944,
+      "label": "The landings",
+      "narrative": "At dawn on 6 June 1944, after a year of deception operations that convinced the Germans the blow would fall at Calais, some 156,000 Allied troops landed across five Normandy beaches — Utah, Omaha, Gold, Juno, Sword — supported by nearly 7,000 vessels and 11,000 aircraft. On Omaha, the first waves were nearly wiped out on the sand; by nightfall the beachhead held everywhere. It was the largest amphibious invasion in history, and it opened the second front the Soviets had demanded for three years.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Into%20the%20Jaws%20of%20Death%2023-0455M%20edit.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Into%20the%20Jaws%20of%20Death%2023-0455M%20edit.jpg?width=400",
+          "caption": "'Into the Jaws of Death' — American troops leaving their landing craft at Omaha Beach, 6 June 1944"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Normandy landings", "url": "https://en.wikipedia.org/wiki/Normandy_landings" },
+        { "label": "Wikipedia: Operation Overlord", "url": "https://en.wikipedia.org/wiki/Operation_Overlord" }
+      ]
+    },
+    {
+      "id": "paris",
+      "title": "Paris libéré",
+      "place": "Paris, France",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "from": 1944,
+      "label": "Liberation",
+      "narrative": "After the breakout from Normandy and the destruction of much of the German army in the Falaise pocket, resistance fighters rose inside Paris on 19 August 1944. Hitler ordered the city held or left 'a field of ruins'; its commander, Dietrich von Choltitz, surrendered it intact on 25 August as Free French and American forces entered. De Gaulle marched down the Champs-Élysées the next day through crowds of two million. 'Paris outragée! Paris brisée! Paris martyrisée! Mais Paris libérée!'",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crowds%20of%20French%20patriots%20line%20the%20Champs%20Elysees-edit2.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Crowds%20of%20French%20patriots%20line%20the%20Champs%20Elysees-edit2.jpg?width=400",
+          "caption": "Crowds line the Champs-Élysées as Free French forces parade, 26 August 1944"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Liberation of Paris", "url": "https://en.wikipedia.org/wiki/Liberation_of_Paris" }
+      ]
+    },
+    {
+      "id": "bulge",
+      "title": "The last gamble in the Ardennes",
+      "place": "Bastogne, Belgium",
+      "lat": 50.0039,
+      "lng": 5.7215,
+      "from": 1944,
+      "to": 1945,
+      "label": "The counterblow",
+      "narrative": "On 16 December 1944, thirty German divisions struck through the fog-bound Ardennes — the same forest as 1940 — aiming to split the Allies and retake Antwerp. The surprise was total; the 'bulge' drove 80 kilometres deep. At the road junction of Bastogne, the encircled 101st Airborne held on; asked to surrender, General McAuliffe answered with one word: 'Nuts!' When the skies cleared, Allied airpower and Patton's relieving thrust broke the offensive. It was the largest and bloodiest battle the US Army fought in the war — some 19,000 American dead — and it consumed Germany's last reserves in the West.",
+      "resources": [
+        { "label": "Wikipedia: Battle of the Bulge", "url": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge" },
+        { "label": "Wikipedia: Siege of Bastogne", "url": "https://en.wikipedia.org/wiki/Siege_of_Bastogne" }
+      ]
+    },
+    {
+      "id": "berlin",
+      "title": "The end in Europe",
+      "place": "Berlin, Germany",
+      "lat": 52.52,
+      "lng": 13.405,
+      "from": 1945,
+      "label": "Victory in Europe",
+      "narrative": "In March 1945 the Western Allies crossed the Rhine; on 25 April, American and Soviet soldiers shook hands on the wrecked bridge at Torgau on the Elbe, cutting Germany in two. The final assault on Berlin fell to the Red Army — a last, terrible urban battle among the ministries and U-Bahn tunnels. Hitler killed himself in his bunker on 30 April; the Reichstag fell on 2 May; the unconditional surrender was signed on 8 May 1945 — Victory in Europe Day. The war that began with the fall of France five years earlier ended in the rubble of the Reich's capital.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20a%20flag%20over%20the%20Reichstag%202.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20a%20flag%20over%20the%20Reichstag%202.jpg?width=400",
+          "caption": "Raising a flag over the Reichstag, Berlin, May 1945 (Yevgeny Khaldei)"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Battle of Berlin", "url": "https://en.wikipedia.org/wiki/Battle_of_Berlin" },
+        { "label": "Wikipedia: Victory in Europe Day", "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day" }
+      ]
+    }
+  ],
+  "resources": [
+    { "label": "Wikipedia: Western Front (WW2)", "url": "https://en.wikipedia.org/wiki/Western_Front_(World_War_II)" },
+    { "label": "Wikipedia: Operation Overlord", "url": "https://en.wikipedia.org/wiki/Operation_Overlord" }
+  ],
+  "attribution": "Content compiled from Wikipedia. Images: Wikimedia Commons (US National Archives, Imperial War Museums)."
+}

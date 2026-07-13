@@ -21,15 +21,43 @@
       "emoji": "🔬",
       "color": "#4f7df9",
       "path": "views/scientists"
+    },
+    {
+      "id": "ww2-battles",
+      "title": "WW2 Battles",
+      "emoji": "⚔️",
+      "color": "#b23a48",
+      "path": "views/ww2-battles"
     }
   ],
   "journeys": [
     {
       "id": "euler",
       "title": "Leonhard Euler — the wandering mathematician",
-      "person": "Leonhard Euler",
+      "subject": "Leonhard Euler",
       "color": "#4a3aa7",
       "path": "journeys/euler.json"
+    },
+    {
+      "id": "ww2-dday",
+      "title": "D-Day and the liberation of Western Europe",
+      "subject": "The Western Front, 1940–1945",
+      "color": "#2e6f8e",
+      "path": "journeys/ww2-dday.json"
+    },
+    {
+      "id": "ww2-pacific",
+      "title": "The Pacific: Pearl Harbor to Tokyo Bay",
+      "subject": "The Pacific War, 1941–1945",
+      "color": "#0f7a6b",
+      "path": "journeys/ww2-pacific.json"
+    },
+    {
+      "id": "ww2-stalingrad",
+      "title": "Stalingrad: the turning point in the East",
+      "subject": "The Eastern Front, 1941–1943",
+      "color": "#b23a48",
+      "path": "journeys/ww2-stalingrad.json"
     }
   ]
 }

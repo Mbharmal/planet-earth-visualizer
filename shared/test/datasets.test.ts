@@ -36,7 +36,7 @@ describe('journeys', () => {
       const journey = JourneySchema.parse(JSON.parse(await readFile(join(DATASETS_DIR, summary.path), 'utf8')))
       expect(journey.id).toBe(summary.id)
       expect(journey.color).toBe(summary.color)
-      expect(journey.person.name).toBe(summary.person)
+      expect(journey.subject.name).toBe(summary.subject)
       // Chronological waypoints, each resource link is https-ish
       const years = journey.waypoints.map((w) => w.from)
       expect([...years].sort((a, b) => a - b)).toEqual(years)

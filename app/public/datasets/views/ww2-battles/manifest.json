@@ -1,0 +1,12 @@
+{
+  "id": "ww2-battles",
+  "title": "WW2 Battles",
+  "description": "Battles and offensives of the Second World War, where and when they were fought.",
+  "emoji": "⚔️",
+  "color": "#b23a48",
+  "kind": "events",
+  "source": "wikidata",
+  "generatedAt": "2026-07-13T06:49:57.736Z",
+  "count": 206,
+  "attribution": "Data: Wikidata (CC0). Images: Wikimedia Commons."
+}

@@ -15,6 +15,54 @@ function parseDate(value: string | undefined): string | undefined {
   return match ? match[1] : undefined
 }
 
+/** Event rows → entries. Start/end dates map onto the entry's birth/death slots
+ *  (semantically: when the entity began and ended) — the era slider and tour
+ *  chronology derive from them unchanged. */
+export function bindingsToEventEntries(bindings: SparqlBinding[]): ViewEntry[] {
+  const seen = new Set<string>()
+  const entries: ViewEntry[] = []
+
+  for (const binding of bindings) {
+    const uri = binding.event?.value
+    const name = binding.eventLabel?.value
+    const wkt = binding.coord?.value
+    if (!uri || !name || !wkt) continue
+    const qid = uri.split('/').pop() ?? uri
+    if (seen.has(qid) || /^Q\d+$/.test(name)) continue
+
+    const coordMatch = wkt.match(WKT_POINT)
+    if (!coordMatch) continue
+    const lng = Number(coordMatch[1])
+    const lat = Number(coordMatch[2])
+    if (!Number.isFinite(lat) || !Number.isFinite(lng) || Math.abs(lat) > 90 || Math.abs(lng) > 180) continue
+    seen.add(qid)
+
+    const start = parseDate(binding.start?.value) ?? parseDate(binding.when?.value)
+    const end = parseDate(binding.end?.value)
+    if (!start) continue // undated events can't ride the timeline
+
+    entries.push({
+      id: qid,
+      name,
+      lat,
+      lng,
+      ...(binding.sitelinks?.value ? { fame: Number(binding.sitelinks.value) } : {}),
+      card: {
+        ...(binding.image?.value ? { image: commonsImageUrls(binding.image.value) } : {}),
+        summary: binding.eventDescription?.value ?? '',
+        birth: { date: start },
+        ...(end ? { death: { date: end } } : {}),
+        facts: [],
+        links: {
+          ...(binding.wikipedia?.value ? { wikipedia: binding.wikipedia.value } : {}),
+          wikidata: `https://www.wikidata.org/wiki/${qid}`,
+        },
+      },
+    })
+  }
+  return entries
+}
+
 export function bindingsToEntries(bindings: SparqlBinding[]): ViewEntry[] {
   const seen = new Set<string>()
   const entries: ViewEntry[] = []

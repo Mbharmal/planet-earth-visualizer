@@ -12,16 +12,7 @@ interface JourneyPanelProps {
   onExit: () => void
 }
 
-const ROLE_LABEL: Record<string, string> = {
-  birth: 'Born here',
-  education: 'Studied here',
-  work: 'Worked here',
-  residence: 'Lived here',
-  voyage: 'Passed through',
-  death: 'Died here',
-}
-
-/** The journey's reading panel: chapter narrative, media, works, resources, navigation. */
+/** The story's reading panel: chapter narrative, media, works, resources, navigation. */
 export function JourneyPanel({
   journey,
   waypointIndex,
@@ -39,12 +30,12 @@ export function JourneyPanel({
   return (
     <aside className={styles.panel} style={{ '--accent': journey.color } as React.CSSProperties} aria-label={journey.title}>
       <div className={styles.header}>
-        {journey.person.image && (
-          <img className={styles.portrait} src={journey.person.image.thumbUrl} alt={journey.person.name} />
+        {journey.subject.image && (
+          <img className={styles.portrait} src={journey.subject.image.thumbUrl} alt={journey.subject.name} />
         )}
         <div className={styles.headerText}>
-          <h2 className={styles.name}>{journey.person.name}</h2>
-          <p className={styles.lifespan}>{journey.person.lifespan}</p>
+          <h2 className={styles.name}>{journey.subject.name}</h2>
+          <p className={styles.lifespan}>{journey.subject.subtitle}</p>
         </div>
         <button className={styles.exit} onClick={onExit} aria-label="Exit journey">
           ×
@@ -54,7 +45,7 @@ export function JourneyPanel({
       <div className={styles.chapter}>
         <p className={styles.chapterMeta}>
           Chapter {waypointIndex + 1} of {journey.waypoints.length} · {wp.from}
-          {wp.to ? ` – ${wp.to}` : ''} · {ROLE_LABEL[wp.role] ?? wp.role}
+          {wp.to ? ` – ${wp.to}` : ''} · {wp.label}
         </p>
         <h3 className={styles.chapterTitle}>{wp.title}</h3>
         <p className={styles.place}>{wp.place}</p>
@@ -98,7 +89,7 @@ export function JourneyPanel({
 
       {last && journey.resources && journey.resources.length > 0 && (
         <div className={styles.resources}>
-          <h4>Further reading on {journey.person.name}</h4>
+          <h4>Further reading on {journey.subject.name}</h4>
           {journey.resources.map((r) => (
             <a key={r.url} href={r.url} target="_blank" rel="noreferrer">
               {r.label} ↗

@@ -1,0 +1,115 @@
+{
+  "id": "ww2-pacific",
+  "title": "The Pacific: Pearl Harbor to Tokyo Bay",
+  "subject": {
+    "name": "The Pacific War, 1941–1945",
+    "subtitle": "December 1941 – September 1945",
+    "link": "https://en.wikipedia.org/wiki/Pacific_War"
+  },
+  "summary": "A war fought across a third of the planet's surface: it opened with a Sunday-morning surprise attack on Hawaii, turned on five minutes at Midway, and ended on a battleship's deck in Tokyo Bay less than four years later.",
+  "color": "#0f7a6b",
+  "waypoints": [
+    {
+      "id": "pearl-harbor",
+      "title": "A date which will live in infamy",
+      "place": "Pearl Harbor, Hawaii",
+      "lat": 21.3649,
+      "lng": -157.9507,
+      "from": 1941,
+      "label": "The attack",
+      "narrative": "At 7:55 on Sunday morning, 7 December 1941, 353 aircraft from six Japanese carriers struck the US Pacific Fleet at anchor. In under two hours they sank or damaged all eight battleships and killed 2,403 Americans — 1,177 of them aboard USS Arizona, which exploded and sank in nine minutes. But the fleet's aircraft carriers were at sea, the fuel farms and repair yards survived, and a divided America woke united. Japan had planned a knockout; it got, in Admiral Yamamoto's reputed words, a sleeping giant.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20USS%20Arizona%20(BB-39)%20burning%20after%20the%20Japanese%20attack%20on%20Pearl%20Harbor%20-%20NARA%20195617%20-%20Edit.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20USS%20Arizona%20(BB-39)%20burning%20after%20the%20Japanese%20attack%20on%20Pearl%20Harbor%20-%20NARA%20195617%20-%20Edit.jpg?width=400",
+          "caption": "USS Arizona burning after the attack, 7 December 1941 (US National Archives)"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Attack on Pearl Harbor", "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor" }
+      ]
+    },
+    {
+      "id": "midway",
+      "title": "Five minutes at Midway",
+      "place": "Midway Atoll",
+      "lat": 28.2072,
+      "lng": -177.3735,
+      "from": 1942,
+      "label": "The turning point",
+      "narrative": "Six months after Pearl Harbor, US codebreakers read enough of Japan's naval cipher to know the next target: Midway. Admiral Nimitz set an ambush with three carriers — including Yorktown, patched back together in 72 hours after the Coral Sea. On the morning of 4 June 1942, American dive bombers caught the Japanese carriers refuelling and rearming; in about five minutes, Akagi, Kaga and Sōryū were burning wrecks, Hiryū following by nightfall. Japan lost four fleet carriers and its irreplaceable veteran aircrews. The Pacific initiative changed hands in a single morning and never changed back.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Yorktown%20hit-740px.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Yorktown%20hit-740px.jpg?width=400",
+          "caption": "USS Yorktown struck by a torpedo at Midway, 4 June 1942"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Battle of Midway", "url": "https://en.wikipedia.org/wiki/Battle_of_Midway" },
+        { "label": "Wikipedia: Magic (cryptanalysis of Japanese codes)", "url": "https://en.wikipedia.org/wiki/Magic_(cryptography)" }
+      ]
+    },
+    {
+      "id": "guadalcanal",
+      "title": "Guadalcanal: the first step back",
+      "place": "Guadalcanal, Solomon Islands",
+      "lat": -9.4456,
+      "lng": 160.0,
+      "from": 1942,
+      "to": 1943,
+      "label": "The offensive begins",
+      "narrative": "In August 1942 US Marines waded ashore on a malarial island few Americans could find on a map, to seize an airfield that threatened the lifeline to Australia. Six months of jungle fighting, night naval battles in 'Ironbottom Sound', and constant air combat followed — a grinding attritional campaign that neither side could afford but Japan could afford less. When the Japanese evacuated in February 1943, the long island-hopping road to Tokyo had begun.",
+      "resources": [
+        { "label": "Wikipedia: Guadalcanal campaign", "url": "https://en.wikipedia.org/wiki/Guadalcanal_campaign" }
+      ]
+    },
+    {
+      "id": "iwo-jima",
+      "title": "Uncommon valor at Iwo Jima",
+      "place": "Iwo Jima, Japan",
+      "lat": 24.7574,
+      "lng": 141.2917,
+      "from": 1945,
+      "label": "The last approaches",
+      "narrative": "By 1945 the island-hopping campaign reached Japan's doorstep. Iwo Jima — eight square miles of volcanic rock, needed as a fighter base and emergency landing field for B-29s — was defended from a honeycomb of tunnels by 21,000 men ordered to die in place; nearly all did. The Marines took 26,000 casualties in five weeks, the only major battle where American casualties exceeded Japanese. Joe Rosenthal's photograph of the flag-raising on Mount Suribachi, taken on the battle's fifth day, became the most reproduced image of the war.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20the%20Flag%20on%20Iwo%20Jima%2C%20larger%20-%20edit1.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20the%20Flag%20on%20Iwo%20Jima%2C%20larger%20-%20edit1.jpg?width=400",
+          "caption": "Raising the Flag on Iwo Jima, Mount Suribachi, 23 February 1945 (Joe Rosenthal)"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Battle of Iwo Jima", "url": "https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima" },
+        { "label": "Wikipedia: Raising the Flag on Iwo Jima", "url": "https://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima" }
+      ]
+    },
+    {
+      "id": "tokyo-bay",
+      "title": "Surrender in Tokyo Bay",
+      "place": "Tokyo Bay, aboard USS Missouri",
+      "lat": 35.3606,
+      "lng": 139.7583,
+      "from": 1945,
+      "label": "The war ends",
+      "narrative": "After the firebombing of Japan's cities, the atomic bombings of Hiroshima and Nagasaki, and the Soviet declaration of war, Emperor Hirohito broadcast Japan's surrender on 15 August 1945 — the first time most Japanese had ever heard his voice. On 2 September, aboard the battleship USS Missouri in Tokyo Bay, the instrument of surrender was signed in twenty-three minutes while hundreds of Allied carrier aircraft roared overhead. General MacArthur closed the ceremony: 'These proceedings are closed.' The Second World War — six years and some sixty million lives — was over.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surrender%20of%20Japan%20-%20USS%20Missouri.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Surrender%20of%20Japan%20-%20USS%20Missouri.jpg?width=400",
+          "caption": "The Japanese surrender delegation aboard USS Missouri, 2 September 1945"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Surrender of Japan", "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan" },
+        { "label": "Wikipedia: Pacific War", "url": "https://en.wikipedia.org/wiki/Pacific_War" }
+      ]
+    }
+  ],
+  "resources": [
+    { "label": "Wikipedia: Pacific War", "url": "https://en.wikipedia.org/wiki/Pacific_War" },
+    { "label": "The National WWII Museum: The Pacific", "url": "https://www.nationalww2museum.org/war/topics/pacific-theater" }
+  ],
+  "attribution": "Content compiled from Wikipedia. Images: Wikimedia Commons (US National Archives, US Navy)."
+}

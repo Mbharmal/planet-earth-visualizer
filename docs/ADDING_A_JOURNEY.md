@@ -1,6 +1,6 @@
-# Adding a journey
+# Adding a story (journey)
 
-A journey is a guided, chapter-by-chapter life story on the globe. **It is pure data** — adding one requires no code. Use `app/public/datasets/journeys/euler.json` as the living template; this guide explains every field.
+A story is a guided, chapter-by-chapter narrative on the globe — a person's life (a *journey*, like Euler's) or a historical episode (like "Stalingrad: the turning point"). Both use the same format; only the `subject` differs. **It is pure data** — adding one requires no code. Use `app/public/datasets/journeys/euler.json` as the living template; this guide explains every field.
 
 ## The 3-step recipe
 
@@ -14,11 +14,11 @@ A journey is a guided, chapter-by-chapter life story on the globe. **It is pure 
 {
   "id": "euler",                       // lowercase slug; becomes the deep link (#journey=euler)
   "title": "Leonhard Euler — the wandering mathematician",
-  "person": {
-    "name": "Leonhard Euler",
-    "lifespan": "1707 – 1783",         // free text, shown under the name
-    "image": { "url": "…", "thumbUrl": "…", "caption": "…" },   // portrait (see Images below)
-    "wikidata": "https://www.wikidata.org/wiki/Q7604"
+  "subject": {
+    "name": "Leonhard Euler",          // a person — or an event: "The Pacific War, 1941–1945"
+    "subtitle": "1707 – 1783",         // lifespan for people, date range for events
+    "image": { "url": "…", "thumbUrl": "…", "caption": "…" },   // portrait (optional)
+    "link": "https://www.wikidata.org/wiki/Q7604"
   },
   "summary": "One paragraph hook for the whole journey.",
   "color": "#4a3aa7",                  // path + accents; pick something distinct from view colors
@@ -37,7 +37,7 @@ A journey is a guided, chapter-by-chapter life story on the globe. **It is pure 
   "place": "St. Petersburg, Russia",
   "lat": 59.9398, "lng": 30.3146,      // decimal degrees; negative = S / W
   "from": 1727, "to": 1741,            // year span (omit "to" for a single-year event; negative = BCE)
-  "role": "work",                      // birth | education | work | residence | voyage | death
+  "label": "Worked here",              // free text chapter tag: "Born here", "The turning point", …
   "narrative": "A paragraph or two telling this chapter…",
   "media": {                           // all optional; image and formula can coexist
     "image": { "url": "…", "thumbUrl": "…", "caption": "…" },

@@ -1,0 +1,13 @@
+{
+  "id": "ww2-battles",
+  "title": "WW2 Battles",
+  "description": "Battles and offensives of the Second World War, where and when they were fought.",
+  "emoji": "⚔️",
+  "color": "#b23a48",
+  "kind": "events",
+  "eventClasses": ["Q178561", "Q2001676", "Q1261499"],
+  "eventFrom": "1939-09-01",
+  "eventTo": "1945-09-02",
+  "minSitelinks": 15,
+  "limit": 300
+}

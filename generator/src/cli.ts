@@ -1,8 +1,8 @@
 import { readdir, readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { ViewConfigSchema, type ViewConfig } from './config'
-import { buildQuery, runQuery } from './sparql'
-import { bindingsToEntries } from './transform'
+import { buildEventsQuery, buildQuery, runQuery } from './sparql'
+import { bindingsToEntries, bindingsToEventEntries } from './transform'
 import { fetchKnownFor } from './works'
 import { rebuildIndex, writeView } from './writeView'
 
@@ -27,16 +27,22 @@ async function main() {
   }
 
   for (const config of targets) {
-    console.log(`Generating "${config.id}" (${config.occupationNote ?? config.occupations.join(', ')}, sitelinks ≥ ${config.minSitelinks}) ...`)
-    const bindings = await runQuery(buildQuery(config))
-    const entries = bindingsToEntries(bindings)
-    const knownFor = await fetchKnownFor(entries)
-    for (const entry of entries) {
-      const info = knownFor.get(entry.id)
-      if (info) entry.card.knownFor = info
+    const events = config.kind === 'events'
+    const detail = events
+      ? `${config.eventClasses?.join('+')} in ${config.eventFrom}..${config.eventTo}`
+      : (config.occupationNote ?? config.occupations?.join(', '))
+    console.log(`Generating "${config.id}" (${detail}, sitelinks ≥ ${config.minSitelinks}) ...`)
+    const bindings = await runQuery(events ? buildEventsQuery(config) : buildQuery(config))
+    const entries = events ? bindingsToEventEntries(bindings) : bindingsToEntries(bindings)
+    if (!events) {
+      const knownFor = await fetchKnownFor(entries)
+      for (const entry of entries) {
+        const info = knownFor.get(entry.id)
+        if (info) entry.card.knownFor = info
+      }
     }
     const manifest = await writeView(config, entries)
-    console.log(`  ${bindings.length} rows → ${manifest.count} entries written (${knownFor.size} with knownFor)`)
+    console.log(`  ${bindings.length} rows → ${manifest.count} entries written`)
   }
 
   const index = await rebuildIndex()

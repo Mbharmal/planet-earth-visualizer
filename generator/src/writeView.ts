@@ -12,6 +12,7 @@ export async function writeView(config: ViewConfig, entries: ViewEntry[]): Promi
     description: config.description,
     emoji: config.emoji,
     color: config.color,
+    ...(config.kind ? { kind: config.kind } : {}),
     source: 'wikidata',
     generatedAt: new Date().toISOString(),
     count: entries.length,
@@ -55,7 +56,7 @@ export async function rebuildIndex(): Promise<ViewIndex> {
       journeys.push({
         id: journey.id,
         title: journey.title,
-        person: journey.person.name,
+        subject: journey.subject.name,
         color: journey.color,
         path: `journeys/${file}`,
       })

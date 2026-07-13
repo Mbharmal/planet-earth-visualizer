@@ -24,19 +24,19 @@ await page.waitForFunction(() => window.__map?.getLayer('view-points'), { timeou
 await settle(3_000)
 await page.evaluate(() => {
   const chip = [...document.querySelectorAll('nav[aria-label="Views"] button')].find((b) =>
-    b.textContent.includes('Journeys'),
+    b.textContent.includes('Stories'),
   )
   chip?.click()
 })
 await settle(800)
 const picker = await page.evaluate(
-  () => document.querySelector('[aria-label="Choose a journey"]')?.innerText ?? null,
+  () => document.querySelector('[aria-label="Choose a story"]')?.innerText ?? null,
 )
-check('journeys chip opens picker with Euler', !!picker?.includes('Leonhard Euler'), (picker ?? '').slice(0, 60).replaceAll('\n', ' | '))
+check('stories chip opens picker with Euler', !!picker?.includes('Leonhard Euler'), (picker ?? '').slice(0, 60).replaceAll('\n', ' | '))
 
 // 2. Picking Euler starts the player at Basel; view dots are gone
 await page.evaluate(() => {
-  const item = [...document.querySelectorAll('[aria-label="Choose a journey"] button')].find((b) =>
+  const item = [...document.querySelectorAll('[aria-label="Choose a story"] button')].find((b) =>
     b.textContent.includes('Euler'),
   )
   item?.click()

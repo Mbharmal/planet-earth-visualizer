@@ -1,0 +1,5004 @@
+[
+  {
+    "id": "Q38789",
+    "name": "Battle of Stalingrad",
+    "lat": 48.715,
+    "lng": 44.5325,
+    "fame": 108,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liberation%20of%20Stalingrad%20by%20Abram%20Krichevsky%20%28ID%2032407906%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Liberation%20of%20Stalingrad%20by%20Abram%20Krichevsky%20%28ID%2032407906%29.jpg?width=400"
+      },
+      "summary": "1942 major battle of World War II",
+      "birth": {
+        "date": "1942-08-23"
+      },
+      "death": {
+        "date": "1943-02-02"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+        "wikidata": "https://www.wikidata.org/wiki/Q38789"
+      }
+    }
+  },
+  {
+    "id": "Q488",
+    "name": "atomic bombings of Hiroshima and Nagasaki",
+    "lat": 32.749638888,
+    "lng": 129.87625,
+    "fame": 101,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atomic%20bombing%20of%20Japan.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atomic%20bombing%20of%20Japan.jpg?width=400"
+      },
+      "summary": "1945 use of nuclear weapons against Japan in World War II",
+      "birth": {
+        "date": "1945-08-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+        "wikidata": "https://www.wikidata.org/wiki/Q488"
+      }
+    }
+  },
+  {
+    "id": "Q52418",
+    "name": "Attack on Pearl Harbor",
+    "lat": 21.365,
+    "lng": -157.95,
+    "fame": 88,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20SHAW%20exploding%20Pearl%20Harbor%20Nara%2080-G-16871%202.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20SHAW%20exploding%20Pearl%20Harbor%20Nara%2080-G-16871%202.jpg?width=400"
+      },
+      "summary": "1941 Japanese surprise attack on the U.S",
+      "birth": {
+        "date": "1941-12-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+        "wikidata": "https://www.wikidata.org/wiki/Q52418"
+      }
+    }
+  },
+  {
+    "id": "Q154720",
+    "name": "Battle of Britain",
+    "lat": 54,
+    "lng": -2,
+    "fame": 77,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinkel%20He%20111%20over%20Wapping%2C%20East%20London.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinkel%20He%20111%20over%20Wapping%2C%20East%20London.jpg?width=400"
+      },
+      "summary": "air battle waged between German and British air forces in 1940",
+      "birth": {
+        "date": "1940-07-10"
+      },
+      "death": {
+        "date": "1940-10-31"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Britain",
+        "wikidata": "https://www.wikidata.org/wiki/Q154720"
+      }
+    }
+  },
+  {
+    "id": "Q16470",
+    "name": "Normandy landings",
+    "lat": 49.34,
+    "lng": -0.6,
+    "fame": 75,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Into%20the%20Jaws%20of%20Death%2023-0455M%20edit.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Into%20the%20Jaws%20of%20Death%2023-0455M%20edit.jpg?width=400"
+      },
+      "summary": "1944 landing operations of the Allied invasion of Normandy",
+      "birth": {
+        "date": "1944-06-06"
+      },
+      "death": {
+        "date": "1944-08-29"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Normandy_landings",
+        "wikidata": "https://www.wikidata.org/wiki/Q16470"
+      }
+    }
+  },
+  {
+    "id": "Q154182",
+    "name": "Battle of Berlin",
+    "lat": 52.518611111,
+    "lng": 13.376111111,
+    "fame": 74,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20B%20145%20Bild-P054320%2C%20Berlin%2C%20Brandenburger%20Tor%20und%20Pariser%20Platz.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20B%20145%20Bild-P054320%2C%20Berlin%2C%20Brandenburger%20Tor%20und%20Pariser%20Platz.jpg?width=400"
+      },
+      "summary": "1945 last major offensive of the European theatre of World War Il",
+      "birth": {
+        "date": "1945-04-16"
+      },
+      "death": {
+        "date": "1945-05-02"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Berlin",
+        "wikidata": "https://www.wikidata.org/wiki/Q154182"
+      }
+    }
+  },
+  {
+    "id": "Q130861",
+    "name": "Battle of Kursk",
+    "lat": 51.7,
+    "lng": 36.1,
+    "fame": 74,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soviet%20troops%20and%20T-34%20tanks%20counterattacking%20Kursk%20Voronezh%20Front%20July%201943.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soviet%20troops%20and%20T-34%20tanks%20counterattacking%20Kursk%20Voronezh%20Front%20July%201943.jpg?width=400"
+      },
+      "summary": "World War II battle that took place in 1943",
+      "birth": {
+        "date": "1943-07-05"
+      },
+      "death": {
+        "date": "1943-08-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kursk",
+        "wikidata": "https://www.wikidata.org/wiki/Q130861"
+      }
+    }
+  },
+  {
+    "id": "Q173034",
+    "name": "Battle of Midway",
+    "lat": 30,
+    "lng": -178,
+    "fame": 67,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Midway%20Atoll%20on%2024%20November%201941%20%2880-G-451086%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Midway%20Atoll%20on%2024%20November%201941%20%2880-G-451086%29.jpg?width=400"
+      },
+      "summary": "1942 World War II naval battle",
+      "birth": {
+        "date": "1942-06-04"
+      },
+      "death": {
+        "date": "1942-06-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Midway",
+        "wikidata": "https://www.wikidata.org/wiki/Q173034"
+      }
+    }
+  },
+  {
+    "id": "Q151290",
+    "name": "Battle of Moscow",
+    "lat": 55.752222222,
+    "lng": 37.632222222,
+    "fame": 65,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%20887721%20Defense%20of%20Moscow.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%20887721%20Defense%20of%20Moscow.jpg?width=400"
+      },
+      "summary": "1941 World War II campaign in Russia",
+      "birth": {
+        "date": "1941-09-30"
+      },
+      "death": {
+        "date": "1942-04-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Moscow",
+        "wikidata": "https://www.wikidata.org/wiki/Q151290"
+      }
+    }
+  },
+  {
+    "id": "Q180182",
+    "name": "Battle of Iwo Jima",
+    "lat": 24.78,
+    "lng": 141.32,
+    "fame": 65,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20the%20Flag%20on%20Iwo%20Jima%20by%20Joe%20Rosenthal.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raising%20the%20Flag%20on%20Iwo%20Jima%20by%20Joe%20Rosenthal.jpg?width=400"
+      },
+      "summary": "1945 major battle in which US Forces captured the island of Iwo Jima from Japan during World War II",
+      "birth": {
+        "date": "1945-02-08"
+      },
+      "death": {
+        "date": "1945-03-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima",
+        "wikidata": "https://www.wikidata.org/wiki/Q180182"
+      }
+    }
+  },
+  {
+    "id": "Q151018",
+    "name": "Battle of the Bulge",
+    "lat": 50.6243,
+    "lng": 6.13724,
+    "fame": 64,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoeve%20Mottet%20in%20Marenne%20na%20doorgang%20van%20116%20Panzer%20Divisie%201945%20Ardennenoffensief.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoeve%20Mottet%20in%20Marenne%20na%20doorgang%20van%20116%20Panzer%20Divisie%201945%20Ardennenoffensief.jpg?width=400"
+      },
+      "summary": "1944-1945 World War II battle",
+      "birth": {
+        "date": "1944-12-16"
+      },
+      "death": {
+        "date": "1945-01-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge",
+        "wikidata": "https://www.wikidata.org/wiki/Q151018"
+      }
+    }
+  },
+  {
+    "id": "Q192660",
+    "name": "Battle of Okinawa",
+    "lat": 26.5,
+    "lng": 128,
+    "fame": 58,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Okinawa%2001.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Okinawa%2001.jpg?width=400"
+      },
+      "summary": "1945 major battle of the Pacific War",
+      "birth": {
+        "date": "1945-04-01"
+      },
+      "death": {
+        "date": "1945-06-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Okinawa",
+        "wikidata": "https://www.wikidata.org/wiki/Q192660"
+      }
+    }
+  },
+  {
+    "id": "Q105570",
+    "name": "20 July plot",
+    "lat": 54.080555555,
+    "lng": 21.496388888,
+    "fame": 57,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1972-025-10%2C%20Hitler-Attentat%2C%2020.%20Juli%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1972-025-10%2C%20Hitler-Attentat%2C%2020.%20Juli%201944.jpg?width=400"
+      },
+      "summary": "attempt to assassinate Adolf Hitler, 1944",
+      "birth": {
+        "date": "1944-07-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/20_July_plot",
+        "wikidata": "https://www.wikidata.org/wiki/Q105570"
+      }
+    }
+  },
+  {
+    "id": "Q911972",
+    "name": "Dunkirk evacuation",
+    "lat": 51.0575,
+    "lng": 2.3575,
+    "fame": 56,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20troops%20lifeboat%20dunkerque.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20troops%20lifeboat%20dunkerque.png?width=400"
+      },
+      "summary": "evacuation of Allied soldiers from the beaches and harbour of Dunkirk, France, between 27 May and 4 June 1940",
+      "birth": {
+        "date": "1940-05-26"
+      },
+      "death": {
+        "date": "1940-06-04"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dunkirk_evacuation",
+        "wikidata": "https://www.wikidata.org/wiki/Q911972"
+      }
+    }
+  },
+  {
+    "id": "Q2305266",
+    "name": "Soviet invasion of Poland",
+    "lat": 52,
+    "lng": 23.8,
+    "fame": 54,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lviv%201939%20Sov%20Cavalry.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lviv%201939%20Sov%20Cavalry.jpg?width=400"
+      },
+      "summary": "large-scale military attack performed by the USSR on the Second Polish Republic year 1939",
+      "birth": {
+        "date": "1939-09-17"
+      },
+      "death": {
+        "date": "1939-10-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+        "wikidata": "https://www.wikidata.org/wiki/Q2305266"
+      }
+    }
+  },
+  {
+    "id": "Q208529",
+    "name": "Battle of Dunkirk",
+    "lat": 51.048388888,
+    "lng": 2.380888888,
+    "fame": 51,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20gunner%20beach%20dunkirk.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20gunner%20beach%20dunkirk.png?width=400"
+      },
+      "summary": "1940 battle in the Second World War between the Allies and Germany",
+      "birth": {
+        "date": "1940-05-26"
+      },
+      "death": {
+        "date": "1940-06-04"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Dunkirk",
+        "wikidata": "https://www.wikidata.org/wiki/Q208529"
+      }
+    }
+  },
+  {
+    "id": "Q152142",
+    "name": "Bombing of Dresden",
+    "lat": 51.05,
+    "lng": 13.74,
+    "fame": 49,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1994-041-07%2C%20Dresden%2C%20zerst%C3%B6rtes%20Stadtzentrum.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1994-041-07%2C%20Dresden%2C%20zerst%C3%B6rtes%20Stadtzentrum.jpg?width=400"
+      },
+      "summary": "1945 British/American aerial bombing attack on the city of Dresden",
+      "birth": {
+        "date": "1945-02-13"
+      },
+      "death": {
+        "date": "1945-02-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Dresden",
+        "wikidata": "https://www.wikidata.org/wiki/Q152142"
+      }
+    }
+  },
+  {
+    "id": "Q335288",
+    "name": "Battle of Monte Cassino",
+    "lat": 41.49,
+    "lng": 13.813888888,
+    "fame": 49,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20Cassino%2C%20May%201944-%20a%20wrecked%20Sherman%20tank%20and%20Bailey%20bridge%20in%20the%20foreground%2C%20with%20Monastery%20Ridge%20and%20Castle%20Hill%20in%20the%20background.%20TR1799.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20Cassino%2C%20May%201944-%20a%20wrecked%20Sherman%20tank%20and%20Bailey%20bridge%20in%20the%20foreground%2C%20with%20Monastery%20Ridge%20and%20Castle%20Hill%20in%20the%20background.%20TR1799.jpg?width=400"
+      },
+      "summary": "1944 assaults by the Allies against the Winter Line in Italy held by Axis forces during the Italian Campaign of World War II",
+      "birth": {
+        "date": "1944-01-17"
+      },
+      "death": {
+        "date": "1944-05-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Monte_Cassino",
+        "wikidata": "https://www.wikidata.org/wiki/Q335288"
+      }
+    }
+  },
+  {
+    "id": "Q207165",
+    "name": "Battle of the Coral Sea",
+    "lat": -16.266666666,
+    "lng": 162.333333333,
+    "fame": 49,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20heavy%20explosion%20on%20board%20USS%20Lexington%20%28CV-2%29%20blows%20an%20aircraft%20over%20her%20side%2C%208%20May%201942%20%2880-G-7413%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20heavy%20explosion%20on%20board%20USS%20Lexington%20%28CV-2%29%20blows%20an%20aircraft%20over%20her%20side%2C%208%20May%201942%20%2880-G-7413%29.jpg?width=400"
+      },
+      "summary": "1942 major naval battle in the Pacific Theater of World War II",
+      "birth": {
+        "date": "1942-05-04"
+      },
+      "death": {
+        "date": "1942-05-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Coral_Sea",
+        "wikidata": "https://www.wikidata.org/wiki/Q207165"
+      }
+    }
+  },
+  {
+    "id": "Q153376",
+    "name": "Second Battle of El Alamein",
+    "lat": 30.841388888,
+    "lng": 28.943055555,
+    "fame": 47,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lieutenant%20General%20Bernard%20Montgomery%2C%20commanding%20the%20British%20Eighth%20Army%20in%20North%20Africa%2C%20in%20the%20turret%20of%20his%20Grant%20command%20tank%20at%20El%20Alamein%2C%205%20November%201942.%20E18980.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lieutenant%20General%20Bernard%20Montgomery%2C%20commanding%20the%20British%20Eighth%20Army%20in%20North%20Africa%2C%20in%20the%20turret%20of%20his%20Grant%20command%20tank%20at%20El%20Alamein%2C%205%20November%201942.%20E18980.jpg?width=400"
+      },
+      "summary": "1942 major turning point in the Western Desert Campaign of the Second World War",
+      "birth": {
+        "date": "1942-10-23"
+      },
+      "death": {
+        "date": "1942-11-11"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein",
+        "wikidata": "https://www.wikidata.org/wiki/Q153376"
+      }
+    }
+  },
+  {
+    "id": "Q696835",
+    "name": "Liberation of Paris",
+    "lat": 48.8735,
+    "lng": 2.29642,
+    "fame": 47,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris1944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris1944.jpg?width=400"
+      },
+      "summary": "1944 military action that took place during World War II",
+      "birth": {
+        "date": "1944-08-19"
+      },
+      "death": {
+        "date": "1944-08-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Liberation_of_Paris",
+        "wikidata": "https://www.wikidata.org/wiki/Q696835"
+      }
+    }
+  },
+  {
+    "id": "Q308999",
+    "name": "Battle of Leyte Gulf",
+    "lat": 10.37,
+    "lng": 125.355,
+    "fame": 46,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Princeton%20%28CVL-23%29%20burning%20on%2024%20October%201944%20%2880-G-287970%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Princeton%20%28CVL-23%29%20burning%20on%2024%20October%201944%20%2880-G-287970%29.jpg?width=400"
+      },
+      "summary": "1944 the largest naval battle of World War II",
+      "birth": {
+        "date": "1944-10-23"
+      },
+      "death": {
+        "date": "1944-10-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf",
+        "wikidata": "https://www.wikidata.org/wiki/Q308999"
+      }
+    }
+  },
+  {
+    "id": "Q153316",
+    "name": "Battle of Crete",
+    "lat": 35.5,
+    "lng": 24.061111111,
+    "fame": 45,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/German%20assault%20on%20Crete.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/German%20assault%20on%20Crete.jpg?width=400"
+      },
+      "summary": "1941 battle during WWII on the Greek island of Crete",
+      "birth": {
+        "date": "1941-05-20"
+      },
+      "death": {
+        "date": "1941-06-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Crete",
+        "wikidata": "https://www.wikidata.org/wiki/Q153316"
+      }
+    }
+  },
+  {
+    "id": "Q162250",
+    "name": "First Battle of El Alamein",
+    "lat": 30.841388888,
+    "lng": 28.942777777,
+    "fame": 45,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1stAlameinBritDefense.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1stAlameinBritDefense.jpg?width=400"
+      },
+      "summary": "1942 battle of the Western Desert Campaign of the Second World War",
+      "birth": {
+        "date": "1942-07-01"
+      },
+      "death": {
+        "date": "1942-07-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/First_Battle_of_El_Alamein",
+        "wikidata": "https://www.wikidata.org/wiki/Q162250"
+      }
+    }
+  },
+  {
+    "id": "Q6900329",
+    "name": "the Blitz",
+    "lat": 51.50694444,
+    "lng": -0.1275,
+    "fame": 45,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Paul%20destroyed.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Paul%20destroyed.jpg?width=400"
+      },
+      "summary": "1940 German bombing of Britain during WWII",
+      "birth": {
+        "date": "1940-09-07"
+      },
+      "death": {
+        "date": "1941-05-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Blitz",
+        "wikidata": "https://www.wikidata.org/wiki/Q6900329"
+      }
+    }
+  },
+  {
+    "id": "Q296754",
+    "name": "Battle of Singapore",
+    "lat": 1.3525,
+    "lng": 103.768888888,
+    "fame": 44,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Singaporesurrender.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Singaporesurrender.jpg?width=400"
+      },
+      "summary": "1942 World War II battle",
+      "birth": {
+        "date": "1942-02-08"
+      },
+      "death": {
+        "date": "1942-02-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Fall_of_Singapore",
+        "wikidata": "https://www.wikidata.org/wiki/Q296754"
+      }
+    }
+  },
+  {
+    "id": "Q541369",
+    "name": "Anglo-Soviet invasion of Iran",
+    "lat": 32,
+    "lng": 53,
+    "fame": 44,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soviet%20tankmen%20of%20the%206th%20Armoured%20Division%20drive%20through%20the%20streets%20of%20Tabriz%20%282%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soviet%20tankmen%20of%20the%206th%20Armoured%20Division%20drive%20through%20the%20streets%20of%20Tabriz%20%282%29.jpg?width=400"
+      },
+      "summary": "1941 invasion during World War II",
+      "birth": {
+        "date": "1941-08-25"
+      },
+      "death": {
+        "date": "1941-09-17"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran",
+        "wikidata": "https://www.wikidata.org/wiki/Q541369"
+      }
+    }
+  },
+  {
+    "id": "Q270517",
+    "name": "Dieppe Raid",
+    "lat": 49.933333333,
+    "lng": 1.083333333,
+    "fame": 44,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-362-2211-04%2C%20Dieppe%2C%20Landungsversuch%2C%20englischer%20Sp%C3%A4hpanzer.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-362-2211-04%2C%20Dieppe%2C%20Landungsversuch%2C%20englischer%20Sp%C3%A4hpanzer.jpg?width=400"
+      },
+      "summary": "1942 landing operation in World War II",
+      "birth": {
+        "date": "1942-08-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dieppe_Raid",
+        "wikidata": "https://www.wikidata.org/wiki/Q270517"
+      }
+    }
+  },
+  {
+    "id": "Q155620",
+    "name": "Second Battle of Kharkov",
+    "lat": 49.229992,
+    "lng": 37.128121,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-12%20to%201942-05.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-12%20to%201942-05.png?width=400"
+      },
+      "summary": "May 1942 battle during World War II",
+      "birth": {
+        "date": "1942-05-12"
+      },
+      "death": {
+        "date": "1942-05-29"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov",
+        "wikidata": "https://www.wikidata.org/wiki/Q155620"
+      }
+    }
+  },
+  {
+    "id": "Q157873",
+    "name": "Third Battle of Kharkov",
+    "lat": 49.966666666,
+    "lng": 36.316666666,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Situation%20third%20battle%20of%20Kharkov.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Situation%20third%20battle%20of%20Kharkov.png?width=400"
+      },
+      "summary": "1943 series of battles on the Eastern Front of World War II",
+      "birth": {
+        "date": "1943-02-19"
+      },
+      "death": {
+        "date": "1943-03-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Third_Battle_of_Kharkov",
+        "wikidata": "https://www.wikidata.org/wiki/Q157873"
+      }
+    }
+  },
+  {
+    "id": "Q162284",
+    "name": "Battle of Kiev",
+    "lat": 50.4536,
+    "lng": 30.5164,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png?width=400"
+      },
+      "summary": "1941 battle resulting in a large encirclement of Soviet troops in the vicinity of Kiev during World War II",
+      "birth": {
+        "date": "1941-08-07"
+      },
+      "death": {
+        "date": "1941-09-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q162284"
+      }
+    }
+  },
+  {
+    "id": "Q221111",
+    "name": "Operation Dragoon",
+    "lat": 43.2275,
+    "lng": 6.6625,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Dragoon%20invasion%20fleet%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Dragoon%20invasion%20fleet%201944.jpg?width=400"
+      },
+      "summary": "Allied invasion of southern France on 15 August 1944",
+      "birth": {
+        "date": "1944-08-15"
+      },
+      "death": {
+        "date": "1944-09-14"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Dragoon",
+        "wikidata": "https://www.wikidata.org/wiki/Q221111"
+      }
+    }
+  },
+  {
+    "id": "Q2888837",
+    "name": "Battle of Greece",
+    "lat": 38.5,
+    "lng": 23,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Greece%20WWII%201941%20map-en.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Greece%20WWII%201941%20map-en.svg?width=400"
+      },
+      "summary": "WWII German invasion of Greece and Allied resistance, April 1941",
+      "birth": {
+        "date": "1941-04-06"
+      },
+      "death": {
+        "date": "1941-04-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/German_invasion_of_Greece",
+        "wikidata": "https://www.wikidata.org/wiki/Q2888837"
+      }
+    }
+  },
+  {
+    "id": "Q6165880",
+    "name": "Soviet invasion of Manchuria",
+    "lat": 49,
+    "lng": 125,
+    "fame": 42,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manchuria%20Operation%20map.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Manchuria%20Operation%20map.svg?width=400"
+      },
+      "summary": "1945 invasion; part of the Soviet–Japanese War of World War II",
+      "birth": {
+        "date": "1945-08-09"
+      },
+      "death": {
+        "date": "1945-08-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria",
+        "wikidata": "https://www.wikidata.org/wiki/Q6165880"
+      }
+    }
+  },
+  {
+    "id": "Q327052",
+    "name": "Battle of Aachen",
+    "lat": 50.776388888,
+    "lng": 6.083333333,
+    "fame": 41,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GI%20machine%20gun%20crew%20in%20Aachen%20%28Correct%20orientation%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GI%20machine%20gun%20crew%20in%20Aachen%20%28Correct%20orientation%29.jpg?width=400"
+      },
+      "summary": "1944 major conflict of World War II",
+      "birth": {
+        "date": "1944-10-02"
+      },
+      "death": {
+        "date": "1944-10-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Aachen",
+        "wikidata": "https://www.wikidata.org/wiki/Q327052"
+      }
+    }
+  },
+  {
+    "id": "Q713516",
+    "name": "Doolittle Raid",
+    "lat": 35,
+    "lng": 154,
+    "fame": 41,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo-DoolittleRaid-1942-4-18-Oku-Remains-6.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo-DoolittleRaid-1942-4-18-Oku-Remains-6.png?width=400"
+      },
+      "summary": "first air raid on the Japanese mainland conducted by the U.S. military on April 18, 1942",
+      "birth": {
+        "date": "1942-04-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Doolittle_Raid",
+        "wikidata": "https://www.wikidata.org/wiki/Q713516"
+      }
+    }
+  },
+  {
+    "id": "Q713529",
+    "name": "Battle of the River Plate",
+    "lat": -34,
+    "lng": -49,
+    "fame": 41,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DKM%20Admiral%20Graf%20Spee.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DKM%20Admiral%20Graf%20Spee.jpg?width=400"
+      },
+      "summary": "1939 first naval battle of the Second World War",
+      "birth": {
+        "date": "1939-12-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_River_Plate",
+        "wikidata": "https://www.wikidata.org/wiki/Q713529"
+      }
+    }
+  },
+  {
+    "id": "Q379433",
+    "name": "Operation Ten-Go",
+    "lat": 30.36666667,
+    "lng": 128.06666667,
+    "fame": 40,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Explosion%20of%20the%20Japanese%20battleship%20Yamato%2C%20on%207%20April%201945%20%28NH%2062582%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Explosion%20of%20the%20Japanese%20battleship%20Yamato%2C%20on%207%20April%201945%20%28NH%2062582%29.jpg?width=400"
+      },
+      "summary": "1945 Japanese naval operation in World War II",
+      "birth": {
+        "date": "1945-04-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Kikusui_I",
+        "wikidata": "https://www.wikidata.org/wiki/Q379433"
+      }
+    }
+  },
+  {
+    "id": "Q504347",
+    "name": "Battle of the Philippine Sea",
+    "lat": 20,
+    "lng": 130,
+    "fame": 40,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20aircraft%20carrier%20Zuikaku%20and%20two%20destroyers%20under%20attack%20on%2020%20June%201944%20%2880-G-238025%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20aircraft%20carrier%20Zuikaku%20and%20two%20destroyers%20under%20attack%20on%2020%20June%201944%20%2880-G-238025%29.jpg?width=400"
+      },
+      "summary": "1944 World War II Pacific naval battle",
+      "birth": {
+        "date": "1944-06-19"
+      },
+      "death": {
+        "date": "1944-06-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Philippine_Sea",
+        "wikidata": "https://www.wikidata.org/wiki/Q504347"
+      }
+    }
+  },
+  {
+    "id": "Q155103",
+    "name": "Siege of Budapest",
+    "lat": 47.498333333,
+    "lng": 19.040833333,
+    "fame": 39,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/UNGHERIA.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/UNGHERIA.jpg?width=400"
+      },
+      "summary": "Soviet siege of Budapest 1944-1945",
+      "birth": {
+        "date": "1944-12-29"
+      },
+      "death": {
+        "date": "1945-02-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+        "wikidata": "https://www.wikidata.org/wiki/Q155103"
+      }
+    }
+  },
+  {
+    "id": "Q162357",
+    "name": "Battle of Smolensk",
+    "lat": 54.782778,
+    "lng": 32.045278,
+    "fame": 39,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png?width=400"
+      },
+      "summary": "1941 battle during the second phase of Operation Barbarossa",
+      "birth": {
+        "date": "1941-07-10"
+      },
+      "death": {
+        "date": "1941-09-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q162357"
+      }
+    }
+  },
+  {
+    "id": "Q327035",
+    "name": "Battle of Gazala",
+    "lat": 31.95,
+    "lng": 23.45,
+    "fame": 37,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-784-0246-22A%2C%20Nordafrika%2C%20Rommel%20im%20Befehlsfahrzeug%20%22Greif%22.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-784-0246-22A%2C%20Nordafrika%2C%20Rommel%20im%20Befehlsfahrzeug%20%22Greif%22.jpg?width=400"
+      },
+      "summary": "battle of the Western Desert Campaign of World War II, fought around the port of Tobruk in Libya",
+      "birth": {
+        "date": "1942-05-26"
+      },
+      "death": {
+        "date": "1942-06-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gazala",
+        "wikidata": "https://www.wikidata.org/wiki/Q327035"
+      }
+    }
+  },
+  {
+    "id": "Q533034",
+    "name": "Battle of Westerplatte",
+    "lat": 54.4075,
+    "lng": 18.671388888,
+    "fame": 37,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-2008-0513-500%2C%20Danzig%2C%20Westerplatte%2C%20Wald.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-2008-0513-500%2C%20Danzig%2C%20Westerplatte%2C%20Wald.jpg?width=400"
+      },
+      "summary": "first battle in the invasion of Poland, the beginning of the Second World War",
+      "birth": {
+        "date": "1939-09-01"
+      },
+      "death": {
+        "date": "1939-09-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Westerplatte",
+        "wikidata": "https://www.wikidata.org/wiki/Q533034"
+      }
+    }
+  },
+  {
+    "id": "Q158287",
+    "name": "Case Blue",
+    "lat": 47.2225,
+    "lng": 39.71,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-218-0503-19%2C%20Russland-S%C3%BCd%2C%20zerst%C3%B6rter%20russischer%20Panzer.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-218-0503-19%2C%20Russland-S%C3%BCd%2C%20zerst%C3%B6rter%20russischer%20Panzer.jpg?width=400"
+      },
+      "summary": "German summer offensive of 1942 in southern Russia",
+      "birth": {
+        "date": "1942-06-01"
+      },
+      "death": {
+        "date": "1942-11-24"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Case_Blue",
+        "wikidata": "https://www.wikidata.org/wiki/Q158287"
+      }
+    }
+  },
+  {
+    "id": "Q543255",
+    "name": "Battle of Taranto",
+    "lat": 40.451111111,
+    "lng": 17.2075,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarantoharb1921.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarantoharb1921.jpg?width=400"
+      },
+      "summary": "1940 battle",
+      "birth": {
+        "date": "1940-11-11"
+      },
+      "death": {
+        "date": "1940-11-12"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Taranto",
+        "wikidata": "https://www.wikidata.org/wiki/Q543255"
+      }
+    }
+  },
+  {
+    "id": "Q609030",
+    "name": "Battle of Peleliu",
+    "lat": 7.01666667,
+    "lng": 134.25,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20wave%20of%20LVTs%20moves%20toward%20the%20invasion%20beaches%20-%20Peleliu.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20wave%20of%20LVTs%20moves%20toward%20the%20invasion%20beaches%20-%20Peleliu.jpg?width=400"
+      },
+      "summary": "1944 battle between the United States and the Empire of Japan in the Pacific Theater of World War II",
+      "birth": {
+        "date": "1944-09-15"
+      },
+      "death": {
+        "date": "1944-11-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Peleliu",
+        "wikidata": "https://www.wikidata.org/wiki/Q609030"
+      }
+    }
+  },
+  {
+    "id": "Q713519",
+    "name": "Saar Offensive",
+    "lat": 49.16666667,
+    "lng": 7.25,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soldat%20Franc%C3%A8s%20al%20Saar.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soldat%20Franc%C3%A8s%20al%20Saar.jpg?width=400"
+      },
+      "summary": "French ground operation into Saarland from 7 to 16 September 1939",
+      "birth": {
+        "date": "1939-09-07"
+      },
+      "death": {
+        "date": "1939-09-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Saar_Offensive",
+        "wikidata": "https://www.wikidata.org/wiki/Q713519"
+      }
+    }
+  },
+  {
+    "id": "Q250309",
+    "name": "Battle of Tarawa",
+    "lat": 1.426944444,
+    "lng": 172.975555555,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarawa.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarawa.jpg?width=400"
+      },
+      "summary": "battle in the Pacific Theater of World War II, at the Tarawa Atoll in the Gilbert Islands",
+      "birth": {
+        "date": "1943-11-20"
+      },
+      "death": {
+        "date": "1943-11-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tarawa",
+        "wikidata": "https://www.wikidata.org/wiki/Q250309"
+      }
+    }
+  },
+  {
+    "id": "Q696844",
+    "name": "Battle of Anzio",
+    "lat": 41.443022,
+    "lng": 12.624979,
+    "fame": 36,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing%20at%20Anzio.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing%20at%20Anzio.jpg?width=400"
+      },
+      "summary": "1944 battle in Italy",
+      "birth": {
+        "date": "1944-01-22"
+      },
+      "death": {
+        "date": "1944-06-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Anzio",
+        "wikidata": "https://www.wikidata.org/wiki/Q696844"
+      }
+    }
+  },
+  {
+    "id": "Q327099",
+    "name": "Battle of Kasserine Passe",
+    "lat": 35.2596,
+    "lng": 8.7424,
+    "fame": 35,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasserine%20Pass.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasserine%20Pass.jpg?width=400"
+      },
+      "summary": "1943 battle in Tunisia",
+      "birth": {
+        "date": "1943-02-19"
+      },
+      "death": {
+        "date": "1943-02-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kasserine_Pass",
+        "wikidata": "https://www.wikidata.org/wiki/Q327099"
+      }
+    }
+  },
+  {
+    "id": "Q59886",
+    "name": "Bombing of Tokyo",
+    "lat": 35.65,
+    "lng": 139.8,
+    "fame": 34,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Firebombing%20of%20Tokyo.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Firebombing%20of%20Tokyo.jpg?width=400"
+      },
+      "summary": "1940s air raids by the United States Air Force in WWII",
+      "birth": {
+        "date": "1942-04-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo",
+        "wikidata": "https://www.wikidata.org/wiki/Q59886"
+      }
+    }
+  },
+  {
+    "id": "Q714349",
+    "name": "Rotterdam Blitz",
+    "lat": 51.96443056,
+    "lng": 4.45123611,
+    "fame": 34,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotterdam%2C%20Laurenskerk%2C%20na%20bombardement%20van%20mei%201940.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotterdam%2C%20Laurenskerk%2C%20na%20bombardement%20van%20mei%201940.jpg?width=400"
+      },
+      "summary": "aerial bombardment of Rotterdam by the Luftwaffe (German air force) on 14 May 1940, during the German invasion of the Netherlands in World War II",
+      "birth": {
+        "date": "1940-05-14"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/German_bombing_of_Rotterdam",
+        "wikidata": "https://www.wikidata.org/wiki/Q714349"
+      }
+    }
+  },
+  {
+    "id": "Q682409",
+    "name": "Siege of Odesa 1941",
+    "lat": 46.47747,
+    "lng": 30.73262,
+    "fame": 34,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roemeense%20soldaten%20marcheren%20de%20zojuist%20door%20de%20Duitsers%20en%20Roemenen%20veroverde%20havenstad%20Odessa%20in%20Oekra%C3%AFne%20binnen%20108005.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roemeense%20soldaten%20marcheren%20de%20zojuist%20door%20de%20Duitsers%20en%20Roemenen%20veroverde%20havenstad%20Odessa%20in%20Oekra%C3%AFne%20binnen%20108005.jpg?width=400"
+      },
+      "summary": "1941 siege",
+      "birth": {
+        "date": "1941-08-08"
+      },
+      "death": {
+        "date": "1941-10-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Siege_of_Odessa",
+        "wikidata": "https://www.wikidata.org/wiki/Q682409"
+      }
+    }
+  },
+  {
+    "id": "Q477095",
+    "name": "Battle of Suomussalmi",
+    "lat": 64.888333333,
+    "lng": 28.888888888,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schlacht%20von%20Suomussalmi.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Schlacht%20von%20Suomussalmi.svg?width=400"
+      },
+      "summary": "1939 battle fought between Finnish and Soviet forces in the Winter War",
+      "birth": {
+        "date": "1939-12-07"
+      },
+      "death": {
+        "date": "1940-01-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Suomussalmi",
+        "wikidata": "https://www.wikidata.org/wiki/Q477095"
+      }
+    }
+  },
+  {
+    "id": "Q162287",
+    "name": "Battle of Hürtgen Forest",
+    "lat": 50.708611111,
+    "lng": 6.362777777,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HurtgenForest.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HurtgenForest.jpg?width=400"
+      },
+      "summary": "1944 series of battles fought between US and German forces during World War II in the Hürtgen Forest of Germany",
+      "birth": {
+        "date": "1944-10-06"
+      },
+      "death": {
+        "date": "1945-02-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_H%C3%BCrtgen_Forest",
+        "wikidata": "https://www.wikidata.org/wiki/Q162287"
+      }
+    }
+  },
+  {
+    "id": "Q165549",
+    "name": "Battle of the Bzura",
+    "lat": 52.2333,
+    "lng": 19.3667,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Polish%20artillery%20Battle%20of%20Bzura%201939.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Polish%20artillery%20Battle%20of%20Bzura%201939.jpg?width=400"
+      },
+      "summary": "battle in the opening campaign of World War II during the 1939 German invasion of Poland",
+      "birth": {
+        "date": "1939-09-09"
+      },
+      "death": {
+        "date": "1939-09-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Bzura",
+        "wikidata": "https://www.wikidata.org/wiki/Q165549"
+      }
+    }
+  },
+  {
+    "id": "Q182240",
+    "name": "Siege of Warsaw",
+    "lat": 52.23,
+    "lng": 21.01083333,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Royal%20Castle%20in%20Warsaw%20-%20burning%2017.09.1939.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Royal%20Castle%20in%20Warsaw%20-%20burning%2017.09.1939.jpg?width=400"
+      },
+      "summary": "1939 battle during WWII",
+      "birth": {
+        "date": "1939-09-08"
+      },
+      "death": {
+        "date": "1939-09-28"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Siege_of_Warsaw_(1939)",
+        "wikidata": "https://www.wikidata.org/wiki/Q182240"
+      }
+    }
+  },
+  {
+    "id": "Q714777",
+    "name": "Allied invasion of Italy",
+    "lat": 40.679,
+    "lng": 14.7566,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ItalySalernoInvasion1943.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ItalySalernoInvasion1943.jpg?width=400"
+      },
+      "summary": "1943 battle",
+      "birth": {
+        "date": "1943-09-03"
+      },
+      "death": {
+        "date": "1943-09-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Allied_invasion_of_Italy",
+        "wikidata": "https://www.wikidata.org/wiki/Q714777"
+      }
+    }
+  },
+  {
+    "id": "Q700705",
+    "name": "Battle of Saipan",
+    "lat": 15.18333333,
+    "lng": 145.75,
+    "fame": 33,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WorldWarII%20SaipanandTinian1.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/WorldWarII%20SaipanandTinian1.jpg?width=400"
+      },
+      "summary": "1944 battle of the Pacific campaign of World War II on the island of Saipan in the Mariana Islands",
+      "birth": {
+        "date": "1944-06-15"
+      },
+      "death": {
+        "date": "1944-07-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Saipan",
+        "wikidata": "https://www.wikidata.org/wiki/Q700705"
+      }
+    }
+  },
+  {
+    "id": "Q316868",
+    "name": "Bombing of Hamburg in World War II",
+    "lat": 53.5506,
+    "lng": 9.99333,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Attack%20on%20Hamburg.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Attack%20on%20Hamburg.jpg?width=400"
+      },
+      "summary": "allied aerial bombing raids in Germany",
+      "birth": {
+        "date": "1943-07-24"
+      },
+      "death": {
+        "date": "1943-08-03"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Hamburg_in_World_War_II",
+        "wikidata": "https://www.wikidata.org/wiki/Q316868"
+      }
+    }
+  },
+  {
+    "id": "Q503347",
+    "name": "Attack on Mers-El-Kebir",
+    "lat": 35.719494444,
+    "lng": -0.688888888,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuirass%C3%A9%20Bretagne%2003-07-1940.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuirass%C3%A9%20Bretagne%2003-07-1940.jpg?width=400"
+      },
+      "summary": "1940 battle",
+      "birth": {
+        "date": "1940-07-03"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Attack_on_Mers-el-K%C3%A9bir",
+        "wikidata": "https://www.wikidata.org/wiki/Q503347"
+      }
+    }
+  },
+  {
+    "id": "Q1052651",
+    "name": "Battle of Madagascar",
+    "lat": -12.266666666,
+    "lng": 49.283333333,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9barquement%20%C3%A0%20Tamatave.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9barquement%20%C3%A0%20Tamatave.jpg?width=400"
+      },
+      "summary": "1942 battle during WWII",
+      "birth": {
+        "date": "1942-05-05"
+      },
+      "death": {
+        "date": "1942-11-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Madagascar",
+        "wikidata": "https://www.wikidata.org/wiki/Q1052651"
+      }
+    }
+  },
+  {
+    "id": "Q541506",
+    "name": "Battle of Prokhorovka",
+    "lat": 51.017,
+    "lng": 36.675,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-022-2950-15A%2C%20Russland%2C%20Panzer%20im%20Einsatz.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-022-2950-15A%2C%20Russland%2C%20Panzer%20im%20Einsatz.jpg?width=400"
+      },
+      "summary": "1943 battle during World War II",
+      "birth": {
+        "date": "1943-07-12"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Prokhorovka",
+        "wikidata": "https://www.wikidata.org/wiki/Q541506"
+      }
+    }
+  },
+  {
+    "id": "Q275019",
+    "name": "Battle of Smolensk",
+    "lat": 54.7833,
+    "lng": 32.05,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-686-0080-21%2C%20Russland%2C%20Halbkettenfahrzeug%20mit%20Nebelwerfer.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-686-0080-21%2C%20Russland%2C%20Halbkettenfahrzeug%20mit%20Nebelwerfer.jpg?width=400"
+      },
+      "summary": "recapture of the city by the Soviet 39th, 43rd and 10th Guards armies",
+      "birth": {
+        "date": "1943-08-07"
+      },
+      "death": {
+        "date": "1943-10-02"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Smolensk_operation",
+        "wikidata": "https://www.wikidata.org/wiki/Q275019"
+      }
+    }
+  },
+  {
+    "id": "Q698421",
+    "name": "Italian invasion of Egypt",
+    "lat": 26,
+    "lng": 30,
+    "fame": 32,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt%20Sept%201940.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt%20Sept%201940.jpg?width=400"
+      },
+      "summary": "Italian offensive during the Western Desert Campaign (1940–1943) of the Second World War",
+      "birth": {
+        "date": "1940-09-09"
+      },
+      "death": {
+        "date": "1940-09-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Italian_invasion_of_Egypt",
+        "wikidata": "https://www.wikidata.org/wiki/Q698421"
+      }
+    }
+  },
+  {
+    "id": "Q544090",
+    "name": "Battle of Cape Matapan",
+    "lat": 35.35,
+    "lng": 22,
+    "fame": 31,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Veneto%20guns%20at%20Gaudos.PNG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Veneto%20guns%20at%20Gaudos.PNG?width=400"
+      },
+      "summary": "1941 naval engagement of World War II",
+      "birth": {
+        "date": "1941-03-27"
+      },
+      "death": {
+        "date": "1941-03-29"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cape_Matapan",
+        "wikidata": "https://www.wikidata.org/wiki/Q544090"
+      }
+    }
+  },
+  {
+    "id": "Q602744",
+    "name": "Falaise Pocket",
+    "lat": 48.892777777,
+    "lng": -0.191944444,
+    "fame": 31,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20armoured%20forces%20race%20through%20Ballon.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20armoured%20forces%20race%20through%20Ballon.jpg?width=400"
+      },
+      "summary": "1944 engagement of the Battle of Normandy in the Second World War",
+      "birth": {
+        "date": "1944-08-12"
+      },
+      "death": {
+        "date": "1944-08-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Falaise_pocket",
+        "wikidata": "https://www.wikidata.org/wiki/Q602744"
+      }
+    }
+  },
+  {
+    "id": "Q263142",
+    "name": "Battle of the Java Sea",
+    "lat": -5,
+    "lng": 111,
+    "fame": 31,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20cruiser%20Haguro.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20cruiser%20Haguro.jpg?width=400"
+      },
+      "summary": "1942 naval battle on the Pacific campaign of WWII, in present-day western Indonesia",
+      "birth": {
+        "date": "1942-02-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Java_Sea",
+        "wikidata": "https://www.wikidata.org/wiki/Q263142"
+      }
+    }
+  },
+  {
+    "id": "Q696900",
+    "name": "Battle of Guam",
+    "lat": 13.402777777,
+    "lng": 144.663055555,
+    "fame": 31,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Guam%20map.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Guam%20map.jpg?width=400"
+      },
+      "summary": "1944 World War II battle",
+      "birth": {
+        "date": "1944-08-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Guam_(1944)",
+        "wikidata": "https://www.wikidata.org/wiki/Q696900"
+      }
+    }
+  },
+  {
+    "id": "Q161033",
+    "name": "Demyansk Pocket",
+    "lat": 57.65,
+    "lng": 32.466666666,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1972-042-42%2C%20Russland%2C%20Kesselschlacht%20von%20Demjansk.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1972-042-42%2C%20Russland%2C%20Kesselschlacht%20von%20Demjansk.jpg?width=400"
+      },
+      "summary": "military operation from 8 February – 20 May 1942",
+      "birth": {
+        "date": "1942-01-07"
+      },
+      "death": {
+        "date": "1942-05-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Demyansk_Pocket",
+        "wikidata": "https://www.wikidata.org/wiki/Q161033"
+      }
+    }
+  },
+  {
+    "id": "Q383614",
+    "name": "Battle of Kohima",
+    "lat": 25.668,
+    "lng": 94.103,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IND%20003698%20Garrison%20Hill%20Kohima.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IND%20003698%20Garrison%20Hill%20Kohima.jpg?width=400"
+      },
+      "summary": "1944 battle around Kohima, Nagaland, India",
+      "birth": {
+        "date": "1944-04-04"
+      },
+      "death": {
+        "date": "1944-06-22"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kohima",
+        "wikidata": "https://www.wikidata.org/wiki/Q383614"
+      }
+    }
+  },
+  {
+    "id": "Q836128",
+    "name": "Battle of Bir Hakeim",
+    "lat": 31.593869444,
+    "lng": 23.479766666,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Free%20French%20Foreign%20Legionnairs.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Free%20French%20Foreign%20Legionnairs.jpg?width=400"
+      },
+      "summary": "1942 part of the battle of Gazala in the Western Desert Campaign of World War II",
+      "birth": {
+        "date": "1942-05-26"
+      },
+      "death": {
+        "date": "1942-06-11"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Bir_Hakeim",
+        "wikidata": "https://www.wikidata.org/wiki/Q836128"
+      }
+    }
+  },
+  {
+    "id": "Q696607",
+    "name": "Battle of the Denmark Strait",
+    "lat": 67.766667,
+    "lng": -31,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1998-035-05%2C%20Schlachtschiff%20Bismarck%2C%20Seegefecht.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1998-035-05%2C%20Schlachtschiff%20Bismarck%2C%20Seegefecht.jpg?width=400"
+      },
+      "summary": "1941 naval battle between ships of the Royal Navy and the German Kriegsmarine",
+      "birth": {
+        "date": "1941-05-24"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Denmark_Strait",
+        "wikidata": "https://www.wikidata.org/wiki/Q696607"
+      }
+    }
+  },
+  {
+    "id": "Q696931",
+    "name": "Battle of Manila",
+    "lat": 14.58333333,
+    "lng": 120.96666667,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manila%20Walled%20City%20Destruction%20May%201945.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Manila%20Walled%20City%20Destruction%20May%201945.jpg?width=400"
+      },
+      "summary": "battle in 1945 during World War II fought between Japan and the United States with the Commonwealth of the Philippines",
+      "birth": {
+        "date": "1945-02-03"
+      },
+      "death": {
+        "date": "1945-03-03"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Manila_(1945)",
+        "wikidata": "https://www.wikidata.org/wiki/Q696931"
+      }
+    }
+  },
+  {
+    "id": "Q697022",
+    "name": "Battle of the Scheldt",
+    "lat": 51.552313,
+    "lng": 4.65271,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walcheren%20Island%2002.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Walcheren%20Island%2002.jpg?width=400"
+      },
+      "summary": "1944 battle in northern Belgium and southwestern Netherlands during World War II",
+      "birth": {
+        "date": "1944-10-02"
+      },
+      "death": {
+        "date": "1944-11-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Scheldt",
+        "wikidata": "https://www.wikidata.org/wiki/Q697022"
+      }
+    }
+  },
+  {
+    "id": "Q697059",
+    "name": "Battle of Hong Kong",
+    "lat": 22.2825,
+    "lng": 114.161111111,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20HK%2006.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20HK%2006.jpg?width=400"
+      },
+      "summary": "1941 battle, one of the first of the Pacific campaign of World War II",
+      "birth": {
+        "date": "1941-12-08"
+      },
+      "death": {
+        "date": "1941-12-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Hong_Kong",
+        "wikidata": "https://www.wikidata.org/wiki/Q697059"
+      }
+    }
+  },
+  {
+    "id": "Q14303815",
+    "name": "Battle of Castle Itter",
+    "lat": 47.470555555,
+    "lng": 12.139722222,
+    "fame": 30,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Itter%20-%20Schloss%20%28a%29.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Itter%20-%20Schloss%20%28a%29.JPG?width=400"
+      },
+      "summary": "battle year 1945 in which U.S. infantry and armour, Wehrmacht Heer, French prisoners and Austrian partisans took Castle Itter from the occupying Waffen SS",
+      "birth": {
+        "date": "1945-05-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Castle_Itter",
+        "wikidata": "https://www.wikidata.org/wiki/Q14303815"
+      }
+    }
+  },
+  {
+    "id": "Q327078",
+    "name": "Battle of Uman",
+    "lat": 48.583333333,
+    "lng": 30.666666666,
+    "fame": 29,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-06%20to%201941-09.png?width=400"
+      },
+      "summary": "encirclement of the 6th and 12th Soviet armies during 1941 German offensive on the Eastern Front",
+      "birth": {
+        "date": "1941-07-15"
+      },
+      "death": {
+        "date": "1941-08-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Uman",
+        "wikidata": "https://www.wikidata.org/wiki/Q327078"
+      }
+    }
+  },
+  {
+    "id": "Q387093",
+    "name": "Battle of Arnhem",
+    "lat": 51.980227777,
+    "lng": 5.900344444,
+    "fame": 29,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/82nd%20Grave.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/82nd%20Grave.jpg?width=400"
+      },
+      "summary": "battle of World War II",
+      "birth": {
+        "date": "1944-09-17"
+      },
+      "death": {
+        "date": "1944-09-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Arnhem",
+        "wikidata": "https://www.wikidata.org/wiki/Q387093"
+      }
+    }
+  },
+  {
+    "id": "Q1753578",
+    "name": "Battle of the Bismarck Sea",
+    "lat": -7.25,
+    "lng": 148.25,
+    "fame": 29,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20A-20%20Havoc%20attacks%20a%20Japanese%20merchant%20ship%20off%20Wewak%2C%20Papua%20New%20Guinea%2C%2019%20March%201944%20%28342-FH-3A33323-50758AC%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20A-20%20Havoc%20attacks%20a%20Japanese%20merchant%20ship%20off%20Wewak%2C%20Papua%20New%20Guinea%2C%2019%20March%201944%20%28342-FH-3A33323-50758AC%29.jpg?width=400"
+      },
+      "summary": "1943 Allied attack on a Japanese convoy",
+      "birth": {
+        "date": "1943-03-02"
+      },
+      "death": {
+        "date": "1943-03-04"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Bismarck_Sea",
+        "wikidata": "https://www.wikidata.org/wiki/Q1753578"
+      }
+    }
+  },
+  {
+    "id": "Q233278",
+    "name": "Operation Spark",
+    "lat": 59.9,
+    "lng": 31.0675,
+    "fame": 29,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Iskra%20January%201943.%2001.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Iskra%20January%201943.%2001.jpg?width=400"
+      },
+      "summary": "1943 military operation",
+      "birth": {
+        "date": "1943-01-12"
+      },
+      "death": {
+        "date": "1943-01-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Iskra",
+        "wikidata": "https://www.wikidata.org/wiki/Q233278"
+      }
+    }
+  },
+  {
+    "id": "Q700032",
+    "name": "Battle of Savo Island",
+    "lat": -9.133333333,
+    "lng": 159.816666666,
+    "fame": 29,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Quincy%20%28CA-39%29%20under%20fire%20during%20the%20Battle%20of%20Savo%20Island%20on%209%20August%201942%20%28NH%2050346%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Quincy%20%28CA-39%29%20under%20fire%20during%20the%20Battle%20of%20Savo%20Island%20on%209%20August%201942%20%28NH%2050346%29.jpg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-08-08"
+      },
+      "death": {
+        "date": "1942-08-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Savo_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q700032"
+      }
+    }
+  },
+  {
+    "id": "Q700960",
+    "name": "Battle of Kiev",
+    "lat": 50.45,
+    "lng": 30.523333333,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dayosh%20Kiev.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dayosh%20Kiev.jpg?width=400"
+      },
+      "summary": "1943 battle, part of the Eastern Front of World War II",
+      "birth": {
+        "date": "1943-11-03"
+      },
+      "death": {
+        "date": "1943-12-22"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kiev_(1943)",
+        "wikidata": "https://www.wikidata.org/wiki/Q700960"
+      }
+    }
+  },
+  {
+    "id": "Q859612",
+    "name": "Channel Dash",
+    "lat": 50.979166666,
+    "lng": 1.735833333,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Cerberus-fr.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Cerberus-fr.svg?width=400"
+      },
+      "summary": "1942 German naval operation during the Second World War",
+      "birth": {
+        "date": "1942-02-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Channel_Dash",
+        "wikidata": "https://www.wikidata.org/wiki/Q859612"
+      }
+    }
+  },
+  {
+    "id": "Q1141380",
+    "name": "Battle of Wake Island",
+    "lat": 19.29,
+    "lng": 166.601,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20Japanese%20patrol%20boat%20wake.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20Japanese%20patrol%20boat%20wake.jpg?width=400"
+      },
+      "summary": "1941 battle of World War II",
+      "birth": {
+        "date": "1941-12-08"
+      },
+      "death": {
+        "date": "1941-12-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Wake_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q1141380"
+      }
+    }
+  },
+  {
+    "id": "Q509417",
+    "name": "Battle of the Korsun–Cherkassy Pocket",
+    "lat": 49.4194,
+    "lng": 31.2772,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-277-0846-13%2C%20Russland%2C%20Panzer%20VI%20%28Tiger%20I%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-277-0846-13%2C%20Russland%2C%20Panzer%20VI%20%28Tiger%20I%29.jpg?width=400"
+      },
+      "summary": "1944 battle of the Dnieper–Carpathian Offensive in World War II",
+      "birth": {
+        "date": "1944-01-24"
+      },
+      "death": {
+        "date": "1944-02-17"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Korsun%E2%80%93Cherkassy",
+        "wikidata": "https://www.wikidata.org/wiki/Q509417"
+      }
+    }
+  },
+  {
+    "id": "Q541997",
+    "name": "Battle of Alam el Halfa",
+    "lat": 30.66666667,
+    "lng": 29.16666667,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Italian%20column%20moving%20towards%20Alam%20el%20Halfa.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Italian%20column%20moving%20towards%20Alam%20el%20Halfa.jpg?width=400"
+      },
+      "summary": "1942 battle of the Western Desert Campaign of the Second World War",
+      "birth": {
+        "date": "1942-08-30"
+      },
+      "death": {
+        "date": "1942-09-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Alam_el_Halfa",
+        "wikidata": "https://www.wikidata.org/wiki/Q541997"
+      }
+    }
+  },
+  {
+    "id": "Q708213",
+    "name": "Battle of Brody",
+    "lat": 50.08314,
+    "lng": 25.147651,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Dubno.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Dubno.svg?width=400"
+      },
+      "summary": "tank battle between 23 and 30 June 1941",
+      "birth": {
+        "date": "1941-06-23"
+      },
+      "death": {
+        "date": "1941-06-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Brody_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q708213"
+      }
+    }
+  },
+  {
+    "id": "Q708217",
+    "name": "Battles of Narvik",
+    "lat": 68.420555555,
+    "lng": 17.56,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narvik.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Narvik.jpg?width=400"
+      },
+      "summary": "battles fought from 9 April to 8 June 1940",
+      "birth": {
+        "date": "1940-04-09"
+      },
+      "death": {
+        "date": "1940-06-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battles_of_Narvik",
+        "wikidata": "https://www.wikidata.org/wiki/Q708217"
+      }
+    }
+  },
+  {
+    "id": "Q696438",
+    "name": "Naval Battle of Guadalcanal",
+    "lat": -9.186111111,
+    "lng": 159.895,
+    "fame": 28,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naval%20Battle%20of%20Guadalcanal.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naval%20Battle%20of%20Guadalcanal.jpg?width=400"
+      },
+      "summary": "1942 naval battle",
+      "birth": {
+        "date": "1942-11-13"
+      },
+      "death": {
+        "date": "1942-11-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Naval_Battle_of_Guadalcanal",
+        "wikidata": "https://www.wikidata.org/wiki/Q696438"
+      }
+    }
+  },
+  {
+    "id": "Q757871",
+    "name": "Indian Ocean raid",
+    "lat": -20,
+    "lng": 80,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pacific%20War%20-%20Southern%20Asia%201942%20-%20Map.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pacific%20War%20-%20Southern%20Asia%201942%20-%20Map.jpg?width=400"
+      },
+      "summary": "1942 raid of Allied shipping by the Imperial Japanese Navy",
+      "birth": {
+        "date": "1942-03-31"
+      },
+      "death": {
+        "date": "1942-04-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Indian_Ocean_raid",
+        "wikidata": "https://www.wikidata.org/wiki/Q757871"
+      }
+    }
+  },
+  {
+    "id": "Q707238",
+    "name": "Battle of Imphal",
+    "lat": 24.816666666,
+    "lng": 93.95,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gurkhas%20advancing%20with%20Lee%20tanks%20to%20clear%20the%20Japanese%20from%20Imphal-Kohima%20road.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gurkhas%20advancing%20with%20Lee%20tanks%20to%20clear%20the%20Japanese%20from%20Imphal-Kohima%20road.jpg?width=400"
+      },
+      "summary": "battle fought in 1944",
+      "birth": {
+        "date": "1944-03-08"
+      },
+      "death": {
+        "date": "1944-07-03"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Imphal",
+        "wikidata": "https://www.wikidata.org/wiki/Q707238"
+      }
+    }
+  },
+  {
+    "id": "Q176915",
+    "name": "Battle of Tinian",
+    "lat": 15,
+    "lng": 145.63333333,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marines%20wading%20ashore%20on%20Tinian.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marines%20wading%20ashore%20on%20Tinian.jpg?width=400"
+      },
+      "summary": "1944 battle of the Pacific campaign of World War II on the island of Tinian in the Mariana Islands",
+      "birth": {
+        "date": "1944-07-24"
+      },
+      "death": {
+        "date": "1944-08-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tinian",
+        "wikidata": "https://www.wikidata.org/wiki/Q176915"
+      }
+    }
+  },
+  {
+    "id": "Q699669",
+    "name": "Battle of the Santa Cruz Islands",
+    "lat": -8.63333333,
+    "lng": 166.71666667,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Enterprise%20%28CV-6%29%20under%20attack%20by%20dive%20bombers%20during%20the%20Battle%20of%20Santa%20Cruz%20Islands%20on%2026%20October%201942%20%2880-G-20989%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Enterprise%20%28CV-6%29%20under%20attack%20by%20dive%20bombers%20during%20the%20Battle%20of%20Santa%20Cruz%20Islands%20on%2026%20October%201942%20%2880-G-20989%29.jpg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-10-25"
+      },
+      "death": {
+        "date": "1942-10-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Santa_Cruz_Islands",
+        "wikidata": "https://www.wikidata.org/wiki/Q699669"
+      }
+    }
+  },
+  {
+    "id": "Q671528",
+    "name": "Battle of Königsberg",
+    "lat": 54.716666666,
+    "lng": 20.516666666,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-R98401%2C%20K%C3%B6nigsberg%2C%20Volkssturm.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-R98401%2C%20K%C3%B6nigsberg%2C%20Volkssturm.jpg?width=400"
+      },
+      "summary": "1945 battle of the East Prussian Offensive in World War II",
+      "birth": {
+        "date": "1945-04-06"
+      },
+      "death": {
+        "date": "1945-04-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_K%C3%B6nigsberg",
+        "wikidata": "https://www.wikidata.org/wiki/Q671528"
+      }
+    }
+  },
+  {
+    "id": "Q696823",
+    "name": "Battle for Caen",
+    "lat": 49.186111111,
+    "lng": -0.3625,
+    "fame": 27,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Sherman%20tanks%20and%20a%206-pdr%20anti-tank%20gun%20in%20the%20centre%20of%20Caen%2C%20Normandy%2C%2010%20July%201944.%20B6924.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Sherman%20tanks%20and%20a%206-pdr%20anti-tank%20gun%20in%20the%20centre%20of%20Caen%2C%20Normandy%2C%2010%20July%201944.%20B6924.jpg?width=400"
+      },
+      "summary": "1944 part of the Battle of Normandy in WWII",
+      "birth": {
+        "date": "1944-06-06"
+      },
+      "death": {
+        "date": "1944-08-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_for_Caen",
+        "wikidata": "https://www.wikidata.org/wiki/Q696823"
+      }
+    }
+  },
+  {
+    "id": "Q700710",
+    "name": "Battle of Villers-Bocage",
+    "lat": 49.080555555,
+    "lng": -0.656111111,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-738-0276-25A%2C%20Villers-Bocage%2C%20zerst%C3%B6rter%20Cromwell-Panzer.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-738-0276-25A%2C%20Villers-Bocage%2C%20zerst%C3%B6rter%20Cromwell-Panzer.jpg?width=400"
+      },
+      "summary": "1944 battle in occupied France",
+      "birth": {
+        "date": "1944-06-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Villers-Bocage",
+        "wikidata": "https://www.wikidata.org/wiki/Q700710"
+      }
+    }
+  },
+  {
+    "id": "Q717004",
+    "name": "Battle of Leyte",
+    "lat": 11.172222222,
+    "lng": 125.012222222,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20MacArthur%20lands%20Leyte1.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20MacArthur%20lands%20Leyte1.jpg?width=400"
+      },
+      "summary": "1944 amphibious invasion of Leyte in the Philippines by American and Filipino guerrilla forces during WWII",
+      "birth": {
+        "date": "1944-10-17"
+      },
+      "death": {
+        "date": "1944-12-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Leyte",
+        "wikidata": "https://www.wikidata.org/wiki/Q717004"
+      }
+    }
+  },
+  {
+    "id": "Q699093",
+    "name": "Ruhr Pocket",
+    "lat": 51.466666666,
+    "lng": 7.55,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Remagen%20enclosure.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Remagen%20enclosure.jpg?width=400"
+      },
+      "summary": "battle of encirclement that took place in April 1945, on the Western Front near the end of the second World War, in the Ruhr Area of Germany",
+      "birth": {
+        "date": "1945-04-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ruhr_pocket",
+        "wikidata": "https://www.wikidata.org/wiki/Q699093"
+      }
+    }
+  },
+  {
+    "id": "Q696479",
+    "name": "Battle of the Eastern Solomons",
+    "lat": -8.385227,
+    "lng": 162.734871,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Enterprise%20%28CV-6%29%20under%20attack%20and%20burning%20during%20the%20Battle%20of%20the%20Eastern%20Solomons%20on%2024%20August%201942%20%28NH%2097778%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Enterprise%20%28CV-6%29%20under%20attack%20and%20burning%20during%20the%20Battle%20of%20the%20Eastern%20Solomons%20on%2024%20August%201942%20%28NH%2097778%29.jpg?width=400"
+      },
+      "summary": "1942 WWII carrier battle",
+      "birth": {
+        "date": "1942-08-24"
+      },
+      "death": {
+        "date": "1942-08-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Eastern_Solomons",
+        "wikidata": "https://www.wikidata.org/wiki/Q696479"
+      }
+    }
+  },
+  {
+    "id": "Q696557",
+    "name": "Bombing of Darwin",
+    "lat": -12.475,
+    "lng": 130.85,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Darwin%2042.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Darwin%2042.jpg?width=400"
+      },
+      "summary": "Japanese attack on Darwin, Australia during World War II",
+      "birth": {
+        "date": "1942-02-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Darwin",
+        "wikidata": "https://www.wikidata.org/wiki/Q696557"
+      }
+    }
+  },
+  {
+    "id": "Q7879625",
+    "name": "Battle of the Seelow Heights",
+    "lat": 52.5347,
+    "lng": 14.3959,
+    "fame": 26,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gedenkst%C3%A4tte%20Seelower%20H%C3%B6hen%20Blick%20ins%20Oderbruch.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gedenkst%C3%A4tte%20Seelower%20H%C3%B6hen%20Blick%20ins%20Oderbruch.JPG?width=400"
+      },
+      "summary": "1945 engagement between German and Soviet forces during World War Two",
+      "birth": {
+        "date": "1945-04-16"
+      },
+      "death": {
+        "date": "1945-04-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Seelow_Heights",
+        "wikidata": "https://www.wikidata.org/wiki/Q7879625"
+      }
+    }
+  },
+  {
+    "id": "Q1538855",
+    "name": "Battle of Angaur",
+    "lat": 6.9,
+    "lng": 134.133,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombardment%20of%20Anguar.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombardment%20of%20Anguar.jpg?width=400"
+      },
+      "summary": "1944 battle of the Pacific campaign in World War II on the island of Angaur in the Palau Islands",
+      "birth": {
+        "date": "1944-09-15"
+      },
+      "death": {
+        "date": "1944-10-22"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Angaur",
+        "wikidata": "https://www.wikidata.org/wiki/Q1538855"
+      }
+    }
+  },
+  {
+    "id": "Q708223",
+    "name": "Operation Sonnenblume",
+    "lat": 27,
+    "lng": 17,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-783-0150-28%2C%20Nordafrika%2C%20Panzer%20III.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-783-0150-28%2C%20Nordafrika%2C%20Panzer%20III.jpg?width=400"
+      },
+      "summary": "1941 battle",
+      "birth": {
+        "date": "1941-02-06"
+      },
+      "death": {
+        "date": "1941-05-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Sonnenblume",
+        "wikidata": "https://www.wikidata.org/wiki/Q708223"
+      }
+    }
+  },
+  {
+    "id": "Q709333",
+    "name": "Battle of Changsha",
+    "lat": 28.2,
+    "lng": 112.967,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJA%2C%20Battle%20of%20Changsha%2C%20China%2C%20September%201939.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IJA%2C%20Battle%20of%20Changsha%2C%20China%2C%20September%201939.jpg?width=400"
+      },
+      "summary": "1939 first of four attempts by Japan to take the city of Changsha during the second Sino-Japanese War",
+      "birth": {
+        "date": "1939-09-17"
+      },
+      "death": {
+        "date": "1939-10-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1939)",
+        "wikidata": "https://www.wikidata.org/wiki/Q709333"
+      }
+    }
+  },
+  {
+    "id": "Q714288",
+    "name": "Battle of Fort Eben-Emael",
+    "lat": 50.79722222,
+    "lng": 5.68083333,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eben-Emael.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eben-Emael.png?width=400"
+      },
+      "summary": "1940 battle (World War II)",
+      "birth": {
+        "date": "1940-05-10"
+      },
+      "death": {
+        "date": "1940-05-11"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Fort_%C3%89ben-%C3%89mael",
+        "wikidata": "https://www.wikidata.org/wiki/Q714288"
+      }
+    }
+  },
+  {
+    "id": "Q715886",
+    "name": "Battle of the North Cape",
+    "lat": 72.5167,
+    "lng": 28.25,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Duke%20of%20York%20gunners%20A%20021168.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Duke%20of%20York%20gunners%20A%20021168.jpg?width=400"
+      },
+      "summary": "1943 arctic naval battle of World War II",
+      "birth": {
+        "date": "1943-12-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_North_Cape",
+        "wikidata": "https://www.wikidata.org/wiki/Q715886"
+      }
+    }
+  },
+  {
+    "id": "Q700569",
+    "name": "Sinking of Prince of Wales and Repulse",
+    "lat": 3.56,
+    "lng": 104.478333333,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Prince%20of%20Wales%20and%20HMS%20Repulse%20underway%20with%20a%20destroyer%20on%2010%20December%201941%20%2880-G-413520%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Prince%20of%20Wales%20and%20HMS%20Repulse%20underway%20with%20a%20destroyer%20on%2010%20December%201941%20%2880-G-413520%29.jpg?width=400"
+      },
+      "summary": "naval engagement in World War II, part of the war in the Pacific",
+      "birth": {
+        "date": "1941-12-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Sinking_of_Prince_of_Wales_and_Repulse",
+        "wikidata": "https://www.wikidata.org/wiki/Q700569"
+      }
+    }
+  },
+  {
+    "id": "Q690197",
+    "name": "Scuttling of the French fleet in Toulon",
+    "lat": 43.1125,
+    "lng": 5.90694444,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toulon%201942.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Toulon%201942.jpg?width=400"
+      },
+      "summary": "1942 destruction of the French naval fleet by Vichy France",
+      "birth": {
+        "date": "1942-11-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Scuttling_of_the_French_fleet_at_Toulon",
+        "wikidata": "https://www.wikidata.org/wiki/Q690197"
+      }
+    }
+  },
+  {
+    "id": "Q127872674",
+    "name": "Battle of Neretva",
+    "lat": 43.6542,
+    "lng": 17.7625,
+    "fame": 25,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20Italian%20collumn%20on%20Neretva%201943.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Destroyed%20Italian%20collumn%20on%20Neretva%201943.jpg?width=400"
+      },
+      "summary": "final phase of the Axis operation Weiss and the Partisan counter-offensive.",
+      "birth": {
+        "date": "1943-02-01"
+      },
+      "death": {
+        "date": "1943-04-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Weiss",
+        "wikidata": "https://www.wikidata.org/wiki/Q127872674"
+      }
+    }
+  },
+  {
+    "id": "Q1475243",
+    "name": "Battle of Cape Esperance",
+    "lat": -9.1,
+    "lng": 159.65,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AobaEsperance.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AobaEsperance.jpg?width=400"
+      },
+      "summary": "1942 battle in the Pacific theatre of World War II",
+      "birth": {
+        "date": "1942-10-11"
+      },
+      "death": {
+        "date": "1942-10-12"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cape_Esperance",
+        "wikidata": "https://www.wikidata.org/wiki/Q1475243"
+      }
+    }
+  },
+  {
+    "id": "Q1475679",
+    "name": "Battle of Tassafaronga",
+    "lat": -9.2,
+    "lng": 159.83333333,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20USS%20Minneapolis%20%28CA-36%29%20at%20Tulagi%20on%201%20December%201942%2C%20after%20the%20Battle%20of%20Tassafaronga%20%2880-G-211215%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Damaged%20USS%20Minneapolis%20%28CA-36%29%20at%20Tulagi%20on%201%20December%201942%2C%20after%20the%20Battle%20of%20Tassafaronga%20%2880-G-211215%29.jpg?width=400"
+      },
+      "summary": "1942 naval battle between US Navy and Imperial Japanese Navy warships during the Guadalcanal campaign",
+      "birth": {
+        "date": "1942-11-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tassafaronga",
+        "wikidata": "https://www.wikidata.org/wiki/Q1475679"
+      }
+    }
+  },
+  {
+    "id": "Q1528565",
+    "name": "Battle of Raseiniai",
+    "lat": 55.35,
+    "lng": 23.2833,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Raseiniai%20Battle%20Map.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Raseiniai%20Battle%20Map.jpg?width=400"
+      },
+      "summary": "1941 battle on the Eastern Front of World War II",
+      "birth": {
+        "date": "1941-06-23"
+      },
+      "death": {
+        "date": "1941-06-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Raseiniai",
+        "wikidata": "https://www.wikidata.org/wiki/Q1528565"
+      }
+    }
+  },
+  {
+    "id": "Q177283",
+    "name": "Altmark Incident",
+    "lat": 58.316944444,
+    "lng": 6.336388888,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Altmark%20in%20J%C3%B8ssingfjord.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Altmark%20in%20J%C3%B8ssingfjord.jpg?width=400"
+      },
+      "summary": "1940 WW II naval incident between British and German ships",
+      "birth": {
+        "date": "1940-02-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Altmark_incident",
+        "wikidata": "https://www.wikidata.org/wiki/Q177283"
+      }
+    }
+  },
+  {
+    "id": "Q714684",
+    "name": "Battle of Gabon",
+    "lat": 0.39,
+    "lng": 9.45166667,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabon%20campaign%20%271e%20Compagnie%20de%20Chars%20de%20Combat%20de%20la%20France%20Libre%27.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabon%20campaign%20%271e%20Compagnie%20de%20Chars%20de%20Combat%20de%20la%20France%20Libre%27.jpg?width=400"
+      },
+      "summary": "1940 battle of WW2",
+      "birth": {
+        "date": "1940-11-07"
+      },
+      "death": {
+        "date": "1940-11-12"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gabon",
+        "wikidata": "https://www.wikidata.org/wiki/Q714684"
+      }
+    }
+  },
+  {
+    "id": "Q696829",
+    "name": "Battle of Dakar",
+    "lat": 14.67862,
+    "lng": -17.420724,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GoreeGun.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GoreeGun.jpg?width=400"
+      },
+      "summary": "1940 WWII battle",
+      "birth": {
+        "date": "1940-09-23"
+      },
+      "death": {
+        "date": "1940-09-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Dakar",
+        "wikidata": "https://www.wikidata.org/wiki/Q696829"
+      }
+    }
+  },
+  {
+    "id": "Q696839",
+    "name": "Battle of Arras",
+    "lat": 50.25,
+    "lng": 2.7,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/16May-21May%20Battle%20of%20Belgium.PNG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/16May-21May%20Battle%20of%20Belgium.PNG?width=400"
+      },
+      "summary": "1940 World War II event",
+      "birth": {
+        "date": "1940-05-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Arras_(1940)",
+        "wikidata": "https://www.wikidata.org/wiki/Q696839"
+      }
+    }
+  },
+  {
+    "id": "Q7885422",
+    "name": "Battle for Narva",
+    "lat": 59.38333333,
+    "lng": 28.2,
+    "fame": 24,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narva%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Narva%201944.jpg?width=400"
+      },
+      "summary": "1944 battle of World War II",
+      "birth": {
+        "date": "1944-02-02"
+      },
+      "death": {
+        "date": "1944-08-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Narva_(1944)",
+        "wikidata": "https://www.wikidata.org/wiki/Q7885422"
+      }
+    }
+  },
+  {
+    "id": "Q472100",
+    "name": "Bombing of Belgrade in 1941",
+    "lat": 44.817777777,
+    "lng": 20.456944444,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20141-1005%2C%20Belgrad%2C%20Zerst%C3%B6rungen.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20141-1005%2C%20Belgrad%2C%20Zerst%C3%B6rungen.jpg?width=400"
+      },
+      "summary": "German bombing of Belgrade, Yugoslavia during World War 2",
+      "birth": {
+        "date": "1941-04-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/German_bombing_of_Belgrade",
+        "wikidata": "https://www.wikidata.org/wiki/Q472100"
+      }
+    }
+  },
+  {
+    "id": "Q610242",
+    "name": "Battle of Rennell Island",
+    "lat": -11.416666666,
+    "lng": 160.933333333,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Torpedoed%20cruiser%20USS%20Chicago%20%28CA-29%29%20low%20in%20the%20water%20on%2030%20January%201943.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Torpedoed%20cruiser%20USS%20Chicago%20%28CA-29%29%20low%20in%20the%20water%20on%2030%20January%201943.jpg?width=400"
+      },
+      "summary": "1943 last major naval engagement between the US Navy and the Imperial Japanese Navy during the Guadalcanal campaign of World War II",
+      "birth": {
+        "date": "1943-01-29"
+      },
+      "death": {
+        "date": "1943-01-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Rennell_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q610242"
+      }
+    }
+  },
+  {
+    "id": "Q1927362",
+    "name": "Operation Pedestal",
+    "lat": 36.171272,
+    "lng": -5.412476,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Pedestal%20Carriers.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Pedestal%20Carriers.jpg?width=400"
+      },
+      "summary": "battle in the Mediterranean Sea in 1942 during WWII",
+      "birth": {
+        "date": "1942-08-03"
+      },
+      "death": {
+        "date": "1942-08-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Pedestal",
+        "wikidata": "https://www.wikidata.org/wiki/Q1927362"
+      }
+    }
+  },
+  {
+    "id": "Q705222",
+    "name": "Petsamo–Kirkenes Offensive",
+    "lat": 69.42777778,
+    "lng": 31.22805556,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Petsamo%2002.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Petsamo%2002.jpg?width=400"
+      },
+      "summary": "military offensive during World War II, mounted by the Red Army against the Wehrmacht in 1944 in the Petsamo region",
+      "birth": {
+        "date": "1944-10-07"
+      },
+      "death": {
+        "date": "1944-10-31"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Petsamo%E2%80%93Kirkenes_offensive",
+        "wikidata": "https://www.wikidata.org/wiki/Q705222"
+      }
+    }
+  },
+  {
+    "id": "Q269207",
+    "name": "Battle of Sedan",
+    "lat": 49.7025,
+    "lng": 4.9425,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1978-062-24%2C%20Floing%2C%20Pontonbr%C3%BCcke%20%C3%BCber%20die%20Maas.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1978-062-24%2C%20Floing%2C%20Pontonbr%C3%BCcke%20%C3%BCber%20die%20Maas.jpg?width=400"
+      },
+      "summary": "battle which took place in the Second World War during the Battle of France in 1940.",
+      "birth": {
+        "date": "1940-05-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Sedan_(1940)",
+        "wikidata": "https://www.wikidata.org/wiki/Q269207"
+      }
+    }
+  },
+  {
+    "id": "Q635150",
+    "name": "Action off Calabria",
+    "lat": 37.666666666,
+    "lng": 17.333333333,
+    "fame": 23,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20calabria%201940%20ja.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20calabria%201940%20ja.png?width=400"
+      },
+      "summary": "1940 naval battle",
+      "birth": {
+        "date": "1940-07-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Calabria",
+        "wikidata": "https://www.wikidata.org/wiki/Q635150"
+      }
+    }
+  },
+  {
+    "id": "Q703962",
+    "name": "Battle of Luzon",
+    "lat": 16,
+    "lng": 121,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baleta%20Pass%2C%20near%20Baugio%2C%20Luzon.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Baleta%20Pass%2C%20near%20Baugio%2C%20Luzon.jpg?width=400"
+      },
+      "summary": "major battle in the Philippines Campaign (1944–1945) against Empire of Japan",
+      "birth": {
+        "date": "1945-01-09"
+      },
+      "death": {
+        "date": "1945-08-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Luzon",
+        "wikidata": "https://www.wikidata.org/wiki/Q703962"
+      }
+    }
+  },
+  {
+    "id": "Q60270",
+    "name": "Battle of the Dukla Pass",
+    "lat": 49.417618,
+    "lng": 21.699371,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Czechoslovak%20mortar%20unit%20at%20the%20battle%20of%20Dukla%20Pass%2C%20autumn%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Czechoslovak%20mortar%20unit%20at%20the%20battle%20of%20Dukla%20Pass%2C%20autumn%201944.jpg?width=400"
+      },
+      "summary": "1944 conflict",
+      "birth": {
+        "date": "1944-09-08"
+      },
+      "death": {
+        "date": "1944-10-28"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Dukla_Pass",
+        "wikidata": "https://www.wikidata.org/wiki/Q60270"
+      }
+    }
+  },
+  {
+    "id": "Q1414998",
+    "name": "Battle of the Tenaru",
+    "lat": -9.422168,
+    "lng": 160.066803,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deceased%20Japanese%20soldiers%20after%20Battle%20of%20the%20Tenaru%2C%20Guadalcanal%2C%201942.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deceased%20Japanese%20soldiers%20after%20Battle%20of%20the%20Tenaru%2C%20Guadalcanal%2C%201942.jpg?width=400"
+      },
+      "summary": "1942 battle of World War II",
+      "birth": {
+        "date": "1942-08-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Tenaru",
+        "wikidata": "https://www.wikidata.org/wiki/Q1414998"
+      }
+    }
+  },
+  {
+    "id": "Q516202",
+    "name": "Battle of Cherbourg",
+    "lat": 49.638888888,
+    "lng": -1.625,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Map10.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Map10.jpg?width=400"
+      },
+      "summary": "1944 part of the Battle of Normandy during World War II",
+      "birth": {
+        "date": "1944-06-06"
+      },
+      "death": {
+        "date": "1944-06-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cherbourg",
+        "wikidata": "https://www.wikidata.org/wiki/Q516202"
+      }
+    }
+  },
+  {
+    "id": "Q709261",
+    "name": "Hundred Regiments Offensive",
+    "lat": 37.45,
+    "lng": 116.3,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hundred%20Regiments%20Offensive%201940.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hundred%20Regiments%20Offensive%201940.jpg?width=400"
+      },
+      "summary": "1940 military offensive",
+      "birth": {
+        "date": "1940-08-20"
+      },
+      "death": {
+        "date": "1940-12-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Hundred_Regiments_Offensive",
+        "wikidata": "https://www.wikidata.org/wiki/Q709261"
+      }
+    }
+  },
+  {
+    "id": "Q639989",
+    "name": "Battle of Tolvajärvi",
+    "lat": 62.287976,
+    "lng": 31.488455,
+    "fame": 22,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Talvisota%20Tolvajarvi%201.PNG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Talvisota%20Tolvajarvi%201.PNG?width=400"
+      },
+      "summary": "1939 first large offensive victory for the Finns in the Winter War",
+      "birth": {
+        "date": "1939-12-12"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tolvaj%C3%A4rvi",
+        "wikidata": "https://www.wikidata.org/wiki/Q639989"
+      }
+    }
+  },
+  {
+    "id": "Q564388",
+    "name": "Defense of the Polish Post Office in Danzig",
+    "lat": 54.355,
+    "lng": 18.65694444,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Defenders%20of%20the%20Polish%20Post%20Office%2C%20Gdansk%2C%201939.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Defenders%20of%20the%20Polish%20Post%20Office%2C%20Gdansk%2C%201939.jpg?width=400"
+      },
+      "summary": "1939 battle",
+      "birth": {
+        "date": "1939-09-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Defence_of_the_Polish_Post_Office_in_Danzig",
+        "wikidata": "https://www.wikidata.org/wiki/Q564388"
+      }
+    }
+  },
+  {
+    "id": "Q569689",
+    "name": "Bombing of Singapore",
+    "lat": 1.36666667,
+    "lng": 103.8,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Admiralty%20IX%20Floating%20Dry%20Dock%20March%201941.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Admiralty%20IX%20Floating%20Dry%20Dock%20March%201941.jpg?width=400"
+      },
+      "summary": "1944 military campaign conducted by the Allied air forces during World War II",
+      "birth": {
+        "date": "1944-11-05"
+      },
+      "death": {
+        "date": "1945-05-24"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Singapore_(1944%E2%80%931945)",
+        "wikidata": "https://www.wikidata.org/wiki/Q569689"
+      }
+    }
+  },
+  {
+    "id": "Q1935947",
+    "name": "Battle of Eniwetok",
+    "lat": 11.465,
+    "lng": 162.189,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing%20craft%20approaching%20Eniwetok%20on%2019%20February%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing%20craft%20approaching%20Eniwetok%20on%2019%20February%201944.jpg?width=400"
+      },
+      "summary": "1944 World War II battle",
+      "birth": {
+        "date": "1944-02-17"
+      },
+      "death": {
+        "date": "1944-02-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Eniwetok",
+        "wikidata": "https://www.wikidata.org/wiki/Q1935947"
+      }
+    }
+  },
+  {
+    "id": "Q2032618",
+    "name": "Battle of Hannut",
+    "lat": 50.6667,
+    "lng": 5.0833,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20121-0412%2C%20Frankreich%2C%20Panzer%20Somua%20S35%2C%20Gesch%C3%BCtz.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20121-0412%2C%20Frankreich%2C%20Panzer%20Somua%20S35%2C%20Gesch%C3%BCtz.jpg?width=400"
+      },
+      "summary": "1940 WWII battle in Belgium",
+      "birth": {
+        "date": "1940-05-12"
+      },
+      "death": {
+        "date": "1940-05-14"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Hannut",
+        "wikidata": "https://www.wikidata.org/wiki/Q2032618"
+      }
+    }
+  },
+  {
+    "id": "Q710000",
+    "name": "Battle of Ramree Island",
+    "lat": 19.430472222,
+    "lng": 93.545836111,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SE%20002256%20landings%20on%20Ramree%20island.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SE%20002256%20landings%20on%20Ramree%20island.jpg?width=400"
+      },
+      "summary": "1945 battle",
+      "birth": {
+        "date": "1945-01-14"
+      },
+      "death": {
+        "date": "1945-02-22"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Ramree_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q710000"
+      }
+    }
+  },
+  {
+    "id": "Q699411",
+    "name": "Battle of the Barents Sea",
+    "lat": 73.25,
+    "lng": 29,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1973-077-63%2C%20Panzerschiff%20%22L%C3%BCtzow%22.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1973-077-63%2C%20Panzerschiff%20%22L%C3%BCtzow%22.jpg?width=400"
+      },
+      "summary": "1942 battle between warships of Nazi Germany's Kriegsmarine and British ships escorting convoy JW 51B to Kola Inlet in the USSR",
+      "birth": {
+        "date": "1942-12-31"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Barents_Sea",
+        "wikidata": "https://www.wikidata.org/wiki/Q699411"
+      }
+    }
+  },
+  {
+    "id": "Q694500",
+    "name": "Battle of Wizna",
+    "lat": 53.2124837,
+    "lng": 22.4896574,
+    "fame": 21,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitwa%20wizna%201939.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitwa%20wizna%201939.png?width=400"
+      },
+      "summary": "1939 early battle of World War II",
+      "birth": {
+        "date": "1939-09-07"
+      },
+      "death": {
+        "date": "1939-09-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Wizna",
+        "wikidata": "https://www.wikidata.org/wiki/Q694500"
+      }
+    }
+  },
+  {
+    "id": "Q703482",
+    "name": "Battle of Bataan",
+    "lat": 14.6667,
+    "lng": 120.417,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JapaneseTroopsBataan1942.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JapaneseTroopsBataan1942.jpg?width=400"
+      },
+      "summary": "1942 intense phase of Imperial Japan's invasion of the Philippines during World War II",
+      "birth": {
+        "date": "1942-01-07"
+      },
+      "death": {
+        "date": "1942-04-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Bataan",
+        "wikidata": "https://www.wikidata.org/wiki/Q703482"
+      }
+    }
+  },
+  {
+    "id": "Q1419973",
+    "name": "Battle of the Sutjeska",
+    "lat": 43.346111111,
+    "lng": 18.687777777,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Druga%20proleterska%20divizija%20na%20Sutjesci.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Druga%20proleterska%20divizija%20na%20Sutjesci.jpg?width=400"
+      },
+      "summary": "1943 battle during World War II, major part of Operation Schwarz.",
+      "birth": {
+        "date": "1943-05-15"
+      },
+      "death": {
+        "date": "1943-06-16"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Schwarz",
+        "wikidata": "https://www.wikidata.org/wiki/Q1419973"
+      }
+    }
+  },
+  {
+    "id": "Q1440764",
+    "name": "Battle of Timor",
+    "lat": -10.38333333,
+    "lng": 123.63333333,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Native%20village%20burning.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Native%20village%20burning.jpg?width=400"
+      },
+      "summary": "1942 WWII battle in the Pacific Theatre",
+      "birth": {
+        "date": "1942-02-19"
+      },
+      "death": {
+        "date": "1943-02-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Timor",
+        "wikidata": "https://www.wikidata.org/wiki/Q1440764"
+      }
+    }
+  },
+  {
+    "id": "Q1541340",
+    "name": "Battle of Cape Spartivento",
+    "lat": 38.4275,
+    "lng": 8.865833333,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Ark%20Royal%20planes%20landing.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Ark%20Royal%20planes%20landing.jpg?width=400"
+      },
+      "summary": "1940 naval battle during the battle of the Mediterranean",
+      "birth": {
+        "date": "1940-11-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cape_Spartivento",
+        "wikidata": "https://www.wikidata.org/wiki/Q1541340"
+      }
+    }
+  },
+  {
+    "id": "Q1759660",
+    "name": "Battle of Changsha",
+    "lat": 28.2,
+    "lng": 112.967,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Type%2092%20Heavy%20Machine%20Gun2.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Type%2092%20Heavy%20Machine%20Gun2.jpg?width=400"
+      },
+      "summary": "Japan's second attempt at taking the city of Changsha, China",
+      "birth": {
+        "date": "1941-09-06"
+      },
+      "death": {
+        "date": "1941-10-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q1759660"
+      }
+    }
+  },
+  {
+    "id": "Q704785",
+    "name": "Bougainville Campaign",
+    "lat": -6.02,
+    "lng": 155.1,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Soldiers%20at%20Bougainville%20%28Solomon%20Islands%29%20March%201944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Soldiers%20at%20Bougainville%20%28Solomon%20Islands%29%20March%201944.jpg?width=400"
+      },
+      "summary": "allied reconquest of the island of Bougainville in the South Pacific from the Japanese forces who occupied it in 1942",
+      "birth": {
+        "date": "1943-11-01"
+      },
+      "death": {
+        "date": "1945-08-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bougainville_campaign",
+        "wikidata": "https://www.wikidata.org/wiki/Q704785"
+      }
+    }
+  },
+  {
+    "id": "Q282438",
+    "name": "Battle of Halbe",
+    "lat": 52.106666666,
+    "lng": 13.700833333,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waldfriedhof%20Halbe%20Denkmal.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Waldfriedhof%20Halbe%20Denkmal.jpg?width=400"
+      },
+      "summary": "1945 battle",
+      "birth": {
+        "date": "1945-04-24"
+      },
+      "death": {
+        "date": "1945-05-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Halbe",
+        "wikidata": "https://www.wikidata.org/wiki/Q282438"
+      }
+    }
+  },
+  {
+    "id": "Q700572",
+    "name": "Battle of Attu",
+    "lat": 52.879075,
+    "lng": 173.15688889,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20troops%20at%20the%20Battle%20of%20Attu.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20troops%20at%20the%20Battle%20of%20Attu.jpg?width=400"
+      },
+      "summary": "1943 battle in the Pacific theatre of World War II",
+      "birth": {
+        "date": "1943-05-11"
+      },
+      "death": {
+        "date": "1943-05-30"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Attu",
+        "wikidata": "https://www.wikidata.org/wiki/Q700572"
+      }
+    }
+  },
+  {
+    "id": "Q697680",
+    "name": "Battle of Tali-Ihantala",
+    "lat": 60.7681,
+    "lng": 28.8786,
+    "fame": 20,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tali-Ihantala.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tali-Ihantala.jpg?width=400"
+      },
+      "summary": "1944 battle",
+      "birth": {
+        "date": "1944-06-25"
+      },
+      "death": {
+        "date": "1944-07-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tali%E2%80%93Ihantala",
+        "wikidata": "https://www.wikidata.org/wiki/Q697680"
+      }
+    }
+  },
+  {
+    "id": "Q702096",
+    "name": "Battle of Kula Gulf",
+    "lat": -7.966666666,
+    "lng": 157.066666666,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Helena%20%28CL-50%29%20firing%20during%20the%20Battle%20of%20Kula%20Gulf%2C%206%20July%201943%20%2880-G-54553%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Helena%20%28CL-50%29%20firing%20during%20the%20Battle%20of%20Kula%20Gulf%2C%206%20July%201943%20%2880-G-54553%29.jpg?width=400"
+      },
+      "summary": "1943 battle of the Pacific Theater of World War II",
+      "birth": {
+        "date": "1943-07-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kula_Gulf",
+        "wikidata": "https://www.wikidata.org/wiki/Q702096"
+      }
+    }
+  },
+  {
+    "id": "Q934266",
+    "name": "Battle of Kollaa",
+    "lat": 62.02777778,
+    "lng": 32.25555556,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kollaan-taistelut-maalis-1940.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kollaan-taistelut-maalis-1940.png?width=400"
+      },
+      "summary": "1939 battle of the Winter War",
+      "birth": {
+        "date": "1939-12-07"
+      },
+      "death": {
+        "date": "1940-03-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kollaa",
+        "wikidata": "https://www.wikidata.org/wiki/Q934266"
+      }
+    }
+  },
+  {
+    "id": "Q548819",
+    "name": "Battle of the Komandorski Islands",
+    "lat": 53.098611111,
+    "lng": 168.212777777,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Salt%20Lake%20City%20%28CA-25%29%20in%20action%20during%20the%20Battle%20of%20the%20Komandorski%20Islands%20on%2026%20March%201943%20%2880-G-73827%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Salt%20Lake%20City%20%28CA-25%29%20in%20action%20during%20the%20Battle%20of%20the%20Komandorski%20Islands%20on%2026%20March%201943%20%2880-G-73827%29.jpg?width=400"
+      },
+      "summary": "1943 naval battle between American and Japanese forces in the North Pacific area",
+      "birth": {
+        "date": "1943-03-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Komandorski_Islands",
+        "wikidata": "https://www.wikidata.org/wiki/Q548819"
+      }
+    }
+  },
+  {
+    "id": "Q1754443",
+    "name": "Battle of Edson's Ridge",
+    "lat": -9.446944444,
+    "lng": 160.0475,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EdsonsRidge.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/EdsonsRidge.jpg?width=400"
+      },
+      "summary": "1942 WW2 battle in the Solomon Islands",
+      "birth": {
+        "date": "1942-09-12"
+      },
+      "death": {
+        "date": "1942-09-14"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Edson%27s_Ridge",
+        "wikidata": "https://www.wikidata.org/wiki/Q1754443"
+      }
+    }
+  },
+  {
+    "id": "Q113621",
+    "name": "Battle of Milne Bay",
+    "lat": -10.32,
+    "lng": 150.48,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Australian%20troops%20at%20Milne%20Bay.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Australian%20troops%20at%20Milne%20Bay.jpg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-08-25"
+      },
+      "death": {
+        "date": "1942-09-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Milne_Bay",
+        "wikidata": "https://www.wikidata.org/wiki/Q113621"
+      }
+    }
+  },
+  {
+    "id": "Q713006",
+    "name": "Battle of Corregidor",
+    "lat": 14.6667,
+    "lng": 120.417,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corregidor%20gun.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Corregidor%20gun.jpg?width=400"
+      },
+      "summary": "1942 culmination of the Japanese invasion of the Philippines during World War II",
+      "birth": {
+        "date": "1941-12-29"
+      },
+      "death": {
+        "date": "1942-05-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Corregidor",
+        "wikidata": "https://www.wikidata.org/wiki/Q713006"
+      }
+    }
+  },
+  {
+    "id": "Q708253",
+    "name": "Colmar Pocket",
+    "lat": 48.0806,
+    "lng": 7.36,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colmar%20Pocket%20monument.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Colmar%20Pocket%20monument.jpg?width=400"
+      },
+      "summary": "battle in Alsace, France (1945)",
+      "birth": {
+        "date": "1944-11-01"
+      },
+      "death": {
+        "date": "1945-02-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Colmar_Pocket",
+        "wikidata": "https://www.wikidata.org/wiki/Q708253"
+      }
+    }
+  },
+  {
+    "id": "Q714211",
+    "name": "Yelnya Offensive",
+    "lat": 54.5667,
+    "lng": 33.1667,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mass%20grave%20in%20Yelnya.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mass%20grave%20in%20Yelnya.jpg?width=400"
+      },
+      "summary": "1941 military offensive",
+      "birth": {
+        "date": "1941-08-30"
+      },
+      "death": {
+        "date": "1941-09-08"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Yelnya_offensive",
+        "wikidata": "https://www.wikidata.org/wiki/Q714211"
+      }
+    }
+  },
+  {
+    "id": "Q714253",
+    "name": "Air Raid on Bari",
+    "lat": 41.11666667,
+    "lng": 16.86666667,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncle%20Sam%20at%20your%20service%20%28IA%20unclesamatyourse1934unit%29.pdf",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncle%20Sam%20at%20your%20service%20%28IA%20unclesamatyourse1934unit%29.pdf?width=400"
+      },
+      "summary": "attack by German bombers on Allied forces in Bari, Italy in WW II",
+      "birth": {
+        "date": "1943-12-02"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Air_raid_on_Bari",
+        "wikidata": "https://www.wikidata.org/wiki/Q714253"
+      }
+    }
+  },
+  {
+    "id": "Q3620958",
+    "name": "Battle of Memel",
+    "lat": 55.6667,
+    "lng": 21.5,
+    "fame": 19,
+    "card": {
+      "summary": "1945 battle that took place during world war 2 on the Eastern Front",
+      "birth": {
+        "date": "1944-10-05"
+      },
+      "death": {
+        "date": "1945-01-28"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Memel",
+        "wikidata": "https://www.wikidata.org/wiki/Q3620958"
+      }
+    }
+  },
+  {
+    "id": "Q51881408",
+    "name": "Bombing of Tokyo (10 March 1945)",
+    "lat": 35.699444444,
+    "lng": 139.796388888,
+    "fame": 19,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20kushu%201945-3.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20kushu%201945-3.jpg?width=400"
+      },
+      "summary": "1945 Firebombing raid on Tokyo (WWII)",
+      "birth": {
+        "date": "1945-03-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)",
+        "wikidata": "https://www.wikidata.org/wiki/Q51881408"
+      }
+    }
+  },
+  {
+    "id": "Q1361210",
+    "name": "Battle of Christmas Island",
+    "lat": -10.49,
+    "lng": 105.63,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20Island%20in%20its%20region.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20Island%20in%20its%20region.svg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-03-31"
+      },
+      "death": {
+        "date": "1942-04-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Christmas_Island",
+        "wikidata": "https://www.wikidata.org/wiki/Q1361210"
+      }
+    }
+  },
+  {
+    "id": "Q1497996",
+    "name": "Battle of Tulagi and Gavutu–Tanambogo",
+    "lat": -9.10722,
+    "lng": 160.14889,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TulagiBeachBlue.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TulagiBeachBlue.jpg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-08-07"
+      },
+      "death": {
+        "date": "1942-08-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tulagi_and_Gavutu%E2%80%93Tanambogo",
+        "wikidata": "https://www.wikidata.org/wiki/Q1497996"
+      }
+    }
+  },
+  {
+    "id": "Q1572785",
+    "name": "Battle of Rabaul",
+    "lat": -4.198056,
+    "lng": 152.168056,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Awm%20P02395.012.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Awm%20P02395.012.jpg?width=400"
+      },
+      "summary": "1942 battle",
+      "birth": {
+        "date": "1942-01-23"
+      },
+      "death": {
+        "date": "1942-02-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Rabaul_(1942)",
+        "wikidata": "https://www.wikidata.org/wiki/Q1572785"
+      }
+    }
+  },
+  {
+    "id": "Q1789376",
+    "name": "Battle of Kwajalein",
+    "lat": 8.71666667,
+    "lng": 167.73333333,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Men%20of%20the%207th%20Div%20HD-SN-99-02846.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Men%20of%20the%207th%20Div%20HD-SN-99-02846.jpg?width=400"
+      },
+      "summary": "1944 battle of the Pacific War",
+      "birth": {
+        "date": "1944-01-31"
+      },
+      "death": {
+        "date": "1944-02-03"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kwajalein",
+        "wikidata": "https://www.wikidata.org/wiki/Q1789376"
+      }
+    }
+  },
+  {
+    "id": "Q1810832",
+    "name": "Operation Carthage",
+    "lat": 55.6778,
+    "lng": 12.5617,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shellhuset%20210345.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shellhuset%20210345.jpg?width=400"
+      },
+      "summary": "air raid on Gestapo Copenhagen 1945",
+      "birth": {
+        "date": "1945-03-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Carthage",
+        "wikidata": "https://www.wikidata.org/wiki/Q1810832"
+      }
+    }
+  },
+  {
+    "id": "Q1891631",
+    "name": "Battle for The Hague",
+    "lat": 52.083333333,
+    "lng": 4.316666666,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/German%20PLane%20Destroyed.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/German%20PLane%20Destroyed.jpg?width=400"
+      },
+      "summary": "1940 battle in the Second World War",
+      "birth": {
+        "date": "1940-05-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Hague_(1940)",
+        "wikidata": "https://www.wikidata.org/wiki/Q1891631"
+      }
+    }
+  },
+  {
+    "id": "Q2446643",
+    "name": "Battle of Raate Road",
+    "lat": 64.848055555,
+    "lng": 29.326388888,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raate%20road.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raate%20road.jpg?width=400"
+      },
+      "summary": "1940 battle during the Winter War between Soviet Union and Finland",
+      "birth": {
+        "date": "1940-01-01"
+      },
+      "death": {
+        "date": "1940-01-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Raate_Road",
+        "wikidata": "https://www.wikidata.org/wiki/Q2446643"
+      }
+    }
+  },
+  {
+    "id": "Q28703",
+    "name": "Brécourt Manor Assault",
+    "lat": 49.38805556,
+    "lng": -1.22611111,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Winters.jpeg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Winters.jpeg?width=400"
+      },
+      "summary": "1944 U.S. parachute assault of the Normandy Invasion",
+      "birth": {
+        "date": "1944-06-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Br%C3%A9court_Manor_Assault",
+        "wikidata": "https://www.wikidata.org/wiki/Q28703"
+      }
+    }
+  },
+  {
+    "id": "Q712505",
+    "name": "Battle of Changde",
+    "lat": 29.0333,
+    "lng": 111.683,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Changde%20battle.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Changde%20battle.jpg?width=400"
+      },
+      "summary": "1943 battle",
+      "birth": {
+        "date": "1943-11-02"
+      },
+      "death": {
+        "date": "1943-12-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Changde",
+        "wikidata": "https://www.wikidata.org/wiki/Q712505"
+      }
+    }
+  },
+  {
+    "id": "Q691968",
+    "name": "Kamenets-Podolsky Pocket",
+    "lat": 49,
+    "lng": 26.5,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/April1944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/April1944.jpg?width=400"
+      },
+      "summary": "1944 World War II battle",
+      "birth": {
+        "date": "1944-03-25"
+      },
+      "death": {
+        "date": "1944-04-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Kamenets%E2%80%93Podolsky_pocket",
+        "wikidata": "https://www.wikidata.org/wiki/Q691968"
+      }
+    }
+  },
+  {
+    "id": "Q6497833",
+    "name": "Last battle of the battleship Bismarck",
+    "lat": 48.166666666,
+    "lng": -16.2,
+    "fame": 18,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battleship%20Bismarck%20burning%20and%20sinking%201941.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battleship%20Bismarck%20burning%20and%20sinking%201941.jpg?width=400"
+      },
+      "summary": "sinking of the battleship Bismarck",
+      "birth": {
+        "date": "1941-05-26"
+      },
+      "death": {
+        "date": "1941-05-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Last_battle_of_Bismarck",
+        "wikidata": "https://www.wikidata.org/wiki/Q6497833"
+      }
+    }
+  },
+  {
+    "id": "Q701908",
+    "name": "Naval Battle of Vella Lavella",
+    "lat": -7.5,
+    "lng": 156.23333333,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Selfridge%20and%20OBannon%20damaged%20Oct%201943.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Selfridge%20and%20OBannon%20damaged%20Oct%201943.JPG?width=400"
+      },
+      "summary": "1943 naval battle of the Pacific campaign of World War II",
+      "birth": {
+        "date": "1943-10-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Vella_Lavella_(naval)",
+        "wikidata": "https://www.wikidata.org/wiki/Q701908"
+      }
+    }
+  },
+  {
+    "id": "Q702142",
+    "name": "Battle of Vella Gulf",
+    "lat": -7.9,
+    "lng": 156.82,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Sterett%20%28DD-407%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20Sterett%20%28DD-407%29.jpg?width=400"
+      },
+      "summary": "1943 battle",
+      "birth": {
+        "date": "1943-08-06"
+      },
+      "death": {
+        "date": "1943-08-07"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Vella_Gulf",
+        "wikidata": "https://www.wikidata.org/wiki/Q702142"
+      }
+    }
+  },
+  {
+    "id": "Q576774",
+    "name": "Battle of Carentan",
+    "lat": 49.305,
+    "lng": -1.24944,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20for%20Carentan%20-%20Map.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20for%20Carentan%20-%20Map.jpg?width=400"
+      },
+      "summary": "1944 battle in France during World War II",
+      "birth": {
+        "date": "1944-06-10"
+      },
+      "death": {
+        "date": "1944-06-14"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Carentan",
+        "wikidata": "https://www.wikidata.org/wiki/Q576774"
+      }
+    }
+  },
+  {
+    "id": "Q1636800",
+    "name": "Battle of Cape Spada",
+    "lat": 35.692777777,
+    "lng": 23.720555555,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bartolomeo%20Colleoni%20under%20attack.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bartolomeo%20Colleoni%20under%20attack.JPG?width=400"
+      },
+      "summary": "1940 naval battle during the battle of the Mediterranean in Second World War",
+      "birth": {
+        "date": "1940-07-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cape_Spada",
+        "wikidata": "https://www.wikidata.org/wiki/Q1636800"
+      }
+    }
+  },
+  {
+    "id": "Q1970005",
+    "name": "Battle of Keren",
+    "lat": 15.77666667,
+    "lng": 38.45111111,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Keren%20Battlefield%20023.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keren%20Battlefield%20023.jpg?width=400"
+      },
+      "summary": "1941 battle in Africa",
+      "birth": {
+        "date": "1941-02-05"
+      },
+      "death": {
+        "date": "1941-04-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Keren",
+        "wikidata": "https://www.wikidata.org/wiki/Q1970005"
+      }
+    }
+  },
+  {
+    "id": "Q2026016",
+    "name": "Operation Cartwheel",
+    "lat": -4.196130555,
+    "lng": 152.172941666,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Cape%20Gloucester.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Cape%20Gloucester.jpg?width=400"
+      },
+      "summary": "1943 major military strategy for the Allies in the Pacific theater of World War II",
+      "birth": {
+        "date": "1943-06-30"
+      },
+      "death": {
+        "date": "1944-03-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Cartwheel",
+        "wikidata": "https://www.wikidata.org/wiki/Q2026016"
+      }
+    }
+  },
+  {
+    "id": "Q2277035",
+    "name": "Battle for Henderson Field",
+    "lat": -9.42889,
+    "lng": 160.052,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GuadNakagumaMatanikauDeadJapanese.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GuadNakagumaMatanikauDeadJapanese.jpg?width=400"
+      },
+      "summary": "1942 World War II battle",
+      "birth": {
+        "date": "1942-10-23"
+      },
+      "death": {
+        "date": "1942-10-26"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_for_Henderson_Field",
+        "wikidata": "https://www.wikidata.org/wiki/Q2277035"
+      }
+    }
+  },
+  {
+    "id": "Q2606324",
+    "name": "Raid on Alexandria",
+    "lat": 31.17880833,
+    "lng": 29.86246944,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0950%20-%20Taormina%20-%20Sottomarino%20Maiale%20alla%20Villa%20Comunale%20-%20Foto%20G.%20DallOrto%2C%2030%20Sept-2006.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/0950%20-%20Taormina%20-%20Sottomarino%20Maiale%20alla%20Villa%20Comunale%20-%20Foto%20G.%20DallOrto%2C%2030%20Sept-2006.jpg?width=400"
+      },
+      "summary": "Italian frogman raid on British warships in Alexandria in 1941",
+      "birth": {
+        "date": "1941-12-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Raid_on_Alexandria_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q2606324"
+      }
+    }
+  },
+  {
+    "id": "Q2638412",
+    "name": "Italian bombing of Mandatory Palestine in World War II",
+    "lat": 31.78,
+    "lng": 35.22,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombing%20of%20tel%20aviv%201.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombing%20of%20tel%20aviv%201.jpg?width=400"
+      },
+      "summary": "1940 bombing campaign on British-controlled mandatory Palestine in World War Two by Fascist Italy",
+      "birth": {
+        "date": "1940-09-09"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Italian_bombing_of_Mandatory_Palestine_in_World_War_II",
+        "wikidata": "https://www.wikidata.org/wiki/Q2638412"
+      }
+    }
+  },
+  {
+    "id": "Q2670873",
+    "name": "Battle of Makin",
+    "lat": 3.07,
+    "lng": 172.789,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/165th%20Infantry%20assault%20wave%20attacking%20Butaritari%20-%20NARA%20-%20531172%20-%20restored.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/165th%20Infantry%20assault%20wave%20attacking%20Butaritari%20-%20NARA%20-%20531172%20-%20restored.png?width=400"
+      },
+      "summary": "engagement of the Pacific Campaign of World War II from 20 to 23 November 1943",
+      "birth": {
+        "date": "1943-11-21"
+      },
+      "death": {
+        "date": "1943-11-23"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Makin",
+        "wikidata": "https://www.wikidata.org/wiki/Q2670873"
+      }
+    }
+  },
+  {
+    "id": "Q709303",
+    "name": "Battle of Changsha",
+    "lat": 28.2,
+    "lng": 112.967,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Changsha.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Changsha.jpg?width=400"
+      },
+      "summary": "1942 battle of World War II",
+      "birth": {
+        "date": "1942-01-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Changsha_(1941%E2%80%931942)",
+        "wikidata": "https://www.wikidata.org/wiki/Q709303"
+      }
+    }
+  },
+  {
+    "id": "Q714265",
+    "name": "Battle of Gembloux",
+    "lat": 50.6,
+    "lng": 4.666,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GEMBLOUXmay1940.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GEMBLOUXmay1940.jpg?width=400"
+      },
+      "summary": "1940 battle",
+      "birth": {
+        "date": "1940-05-14"
+      },
+      "death": {
+        "date": "1940-05-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gembloux_(1940)",
+        "wikidata": "https://www.wikidata.org/wiki/Q714265"
+      }
+    }
+  },
+  {
+    "id": "Q664581",
+    "name": "Siege of Breslau",
+    "lat": 51.10773,
+    "lng": 17.03533,
+    "fame": 17,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FestungBreslau6V1945.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/FestungBreslau6V1945.jpg?width=400"
+      },
+      "summary": "1945 siege of the German city of Breslau during World War II",
+      "birth": {
+        "date": "1945-01-23"
+      },
+      "death": {
+        "date": "1945-05-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Siege_of_Breslau",
+        "wikidata": "https://www.wikidata.org/wiki/Q664581"
+      }
+    }
+  },
+  {
+    "id": "Q702579",
+    "name": "Battle of Ko Chang",
+    "lat": 12.001,
+    "lng": 102.451,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Koh%20Chang%2017%20january%201941%20%28English%20version%29.svg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Koh%20Chang%2017%20january%201941%20%28English%20version%29.svg?width=400"
+      },
+      "summary": "1941 battle",
+      "birth": {
+        "date": "1941-01-16"
+      },
+      "death": {
+        "date": "1941-01-17"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Ko_Chang",
+        "wikidata": "https://www.wikidata.org/wiki/Q702579"
+      }
+    }
+  },
+  {
+    "id": "Q704550",
+    "name": "Battle of Hel",
+    "lat": 54.641666666,
+    "lng": 18.781388888,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20196-01378%2C%20Hela.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20196-01378%2C%20Hela.jpg?width=400"
+      },
+      "summary": "1939 battle during WWII",
+      "birth": {
+        "date": "1939-09-09"
+      },
+      "death": {
+        "date": "1939-10-02"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Hel",
+        "wikidata": "https://www.wikidata.org/wiki/Q704550"
+      }
+    }
+  },
+  {
+    "id": "Q515168",
+    "name": "Battle off Horaniu",
+    "lat": -7.7,
+    "lng": 156.716666666,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20O%27Bannon%20%28DD-450%29%2C%20USS%20Chevalier%20%28DD-451%29%20and%20USS%20Taylor%20%28DD-468%29%20underway%20on%2015%20August%201943%20%2880-G-58803%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USS%20O%27Bannon%20%28DD-450%29%2C%20USS%20Chevalier%20%28DD-451%29%20and%20USS%20Taylor%20%28DD-468%29%20underway%20on%2015%20August%201943%20%2880-G-58803%29.jpg?width=400"
+      },
+      "summary": "1943 minor naval battle of the Pacific campaign of World War II",
+      "birth": {
+        "date": "1943-08-17"
+      },
+      "death": {
+        "date": "1943-08-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_off_Horaniu",
+        "wikidata": "https://www.wikidata.org/wiki/Q515168"
+      }
+    }
+  },
+  {
+    "id": "Q1970141",
+    "name": "Battle of Gondar",
+    "lat": 12.6,
+    "lng": 37.466666666,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gonder%20from%20the%20Goha%20hotel.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gonder%20from%20the%20Goha%20hotel.jpg?width=400"
+      },
+      "summary": "1941 battle in WWII",
+      "birth": {
+        "date": "1941-11-13"
+      },
+      "death": {
+        "date": "1941-11-27"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Gondar",
+        "wikidata": "https://www.wikidata.org/wiki/Q1970141"
+      }
+    }
+  },
+  {
+    "id": "Q2026904",
+    "name": "Battle of Tannenberg Line",
+    "lat": 59.37555556,
+    "lng": 27.85472222,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tannenberg1944.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tannenberg1944.jpg?width=400"
+      },
+      "summary": "1944 battle of World War II",
+      "birth": {
+        "date": "1944-07-25"
+      },
+      "death": {
+        "date": "1944-08-10"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Tannenberg_Line",
+        "wikidata": "https://www.wikidata.org/wiki/Q2026904"
+      }
+    }
+  },
+  {
+    "id": "Q2117492",
+    "name": "Battle of Badung Strait",
+    "lat": -8.630555555,
+    "lng": 115.388055555,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HNLMS%20Piet%20Hein%20%28full%20speed%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HNLMS%20Piet%20Hein%20%28full%20speed%29.jpg?width=400"
+      },
+      "summary": "1942 navel battle",
+      "birth": {
+        "date": "1942-02-18"
+      },
+      "death": {
+        "date": "1942-02-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Badung_Strait",
+        "wikidata": "https://www.wikidata.org/wiki/Q2117492"
+      }
+    }
+  },
+  {
+    "id": "Q714223",
+    "name": "Battle for Brest",
+    "lat": 48.38994307,
+    "lng": -4.486262423,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20advance%20into%20Brittany.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20advance%20into%20Brittany.jpg?width=400"
+      },
+      "summary": "1944 battle fought on the Western Front during World War II",
+      "birth": {
+        "date": "1944-08-07"
+      },
+      "death": {
+        "date": "1944-09-19"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_for_Brest",
+        "wikidata": "https://www.wikidata.org/wiki/Q714223"
+      }
+    }
+  },
+  {
+    "id": "Q714242",
+    "name": "Battle of Cape Bon",
+    "lat": 36.75,
+    "lng": 10.75,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HNLMS%20Isaac%20Sweers.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HNLMS%20Isaac%20Sweers.jpg?width=400"
+      },
+      "summary": "1941 naval battle",
+      "birth": {
+        "date": "1941-12-13"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Cape_Bon_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q714242"
+      }
+    }
+  },
+  {
+    "id": "Q715182",
+    "name": "Battle of Salla",
+    "lat": 66.83333333,
+    "lng": 28.66666667,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Finnish%20guard%20during%20the%20Battle%20of%20Salla.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Finnish%20guard%20during%20the%20Battle%20of%20Salla.jpg?width=400"
+      },
+      "summary": "1939 battle of the Winter War",
+      "birth": {
+        "date": "1939-11-30"
+      },
+      "death": {
+        "date": "1940-02-28"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Salla_(1939)",
+        "wikidata": "https://www.wikidata.org/wiki/Q715182"
+      }
+    }
+  },
+  {
+    "id": "Q641183",
+    "name": "Battle of Kock",
+    "lat": 51.63333333,
+    "lng": 22.43333333,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitwa%20pod%20Kockiem.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitwa%20pod%20Kockiem.jpg?width=400"
+      },
+      "summary": "final battle in the Invasion of Poland (1939)",
+      "birth": {
+        "date": "1939-10-02"
+      },
+      "death": {
+        "date": "1939-10-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Kock_(1939)",
+        "wikidata": "https://www.wikidata.org/wiki/Q641183"
+      }
+    }
+  },
+  {
+    "id": "Q2917077",
+    "name": "Battle of Buna–Gona",
+    "lat": -8.65,
+    "lng": 148.35,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wounded%20Australian%20soldier%20led%20by%20a%20Papuan%20orderly%20at%20Buna.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wounded%20Australian%20soldier%20led%20by%20a%20Papuan%20orderly%20at%20Buna.jpg?width=400"
+      },
+      "summary": "1942 World War II battle in the Pacific Theatre",
+      "birth": {
+        "date": "1942-11-16"
+      },
+      "death": {
+        "date": "1943-01-22"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Buna%E2%80%93Gona",
+        "wikidata": "https://www.wikidata.org/wiki/Q2917077"
+      }
+    }
+  },
+  {
+    "id": "Q3846240",
+    "name": "Bombing of Wieluń",
+    "lat": 51.22,
+    "lng": 18.569,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wielun%20zniszczenia3.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wielun%20zniszczenia3.jpg?width=400"
+      },
+      "summary": "Luftwaffe air strikes on Wieluń on 1st September 1939, starting World War II",
+      "birth": {
+        "date": "1939-09-01"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Wielu%C5%84",
+        "wikidata": "https://www.wikidata.org/wiki/Q3846240"
+      }
+    }
+  },
+  {
+    "id": "Q23965844",
+    "name": "Toropets–Kholm Offensive",
+    "lat": 57.15,
+    "lng": 31.1833,
+    "fame": 16,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-12%20to%201942-05.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20Front%201941-12%20to%201942-05.png?width=400"
+      },
+      "summary": "1942 world War II Red Army military operation",
+      "birth": {
+        "date": "1942-02-06"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Toropets%E2%80%93Kholm_offensive",
+        "wikidata": "https://www.wikidata.org/wiki/Q23965844"
+      }
+    }
+  },
+  {
+    "id": "Q704248",
+    "name": "Battle of Thermopylae",
+    "lat": 38.79638889,
+    "lng": 22.53666667,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1989-023-12%2C%20Griechenland%2C%20Bau%20einer%20Behelfsbr%C3%BCcke.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-1989-023-12%2C%20Griechenland%2C%20Bau%20einer%20Behelfsbr%C3%BCcke.jpg?width=400"
+      },
+      "summary": "1941 World War II battle during the German invasion of Greece",
+      "birth": {
+        "date": "1941-04-24"
+      },
+      "death": {
+        "date": "1941-04-25"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae_(1941)",
+        "wikidata": "https://www.wikidata.org/wiki/Q704248"
+      }
+    }
+  },
+  {
+    "id": "Q10130",
+    "name": "Operation Harpoon",
+    "lat": 36.2,
+    "lng": 11.63333333,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KentuckyInFlames.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KentuckyInFlames.jpg?width=400"
+      },
+      "summary": "1942 british operation during the second world war",
+      "birth": {
+        "date": "1942-06-12"
+      },
+      "death": {
+        "date": "1942-06-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Operation_Harpoon_(1942)",
+        "wikidata": "https://www.wikidata.org/wiki/Q10130"
+      }
+    }
+  },
+  {
+    "id": "Q718805",
+    "name": "Battle of Ormoc Bay",
+    "lat": 10.982,
+    "lng": 124.581,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Leyte%20map%203.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Leyte%20map%203.jpg?width=400"
+      },
+      "summary": "1944 battle in the Philippines during World War II",
+      "birth": {
+        "date": "1944-11-11"
+      },
+      "death": {
+        "date": "1944-12-21"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Ormoc_Bay",
+        "wikidata": "https://www.wikidata.org/wiki/Q718805"
+      }
+    }
+  },
+  {
+    "id": "Q1154689",
+    "name": "Battle of the Mareth Line",
+    "lat": 33.6333,
+    "lng": 10.3,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20British%20Army%20in%20Tunisia%201943%20NA1397.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20British%20Army%20in%20Tunisia%201943%20NA1397.jpg?width=400"
+      },
+      "summary": "1943 battle in Tunisia",
+      "birth": {
+        "date": "1943-03-16"
+      },
+      "death": {
+        "date": "1943-03-31"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_the_Mareth_Line",
+        "wikidata": "https://www.wikidata.org/wiki/Q1154689"
+      }
+    }
+  },
+  {
+    "id": "Q610048",
+    "name": "Battle of Balikpapan",
+    "lat": -1.24611111,
+    "lng": 116.82166667,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ShojiNishimura.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ShojiNishimura.jpg?width=400"
+      },
+      "summary": "1942 battle of World War II",
+      "birth": {
+        "date": "1942-01-23"
+      },
+      "death": {
+        "date": "1942-01-24"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Balikpapan_(1942)",
+        "wikidata": "https://www.wikidata.org/wiki/Q610048"
+      }
+    }
+  },
+  {
+    "id": "Q1983926",
+    "name": "Battle of Sidi Bou Zid",
+    "lat": 34.86666667,
+    "lng": 9.48333333,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Genera%C5%82%20Hans%20Jurgen%20von%20Arnim%20na%20inspekcji%20w%20pobli%C5%BCu%20Tunisu%20%282-2029%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Genera%C5%82%20Hans%20Jurgen%20von%20Arnim%20na%20inspekcji%20w%20pobli%C5%BCu%20Tunisu%20%282-2029%29.jpg?width=400"
+      },
+      "summary": "1943 battle in Tunisia",
+      "birth": {
+        "date": "1943-02-14"
+      },
+      "death": {
+        "date": "1943-02-17"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Sidi_Bou_Zid",
+        "wikidata": "https://www.wikidata.org/wiki/Q1983926"
+      }
+    }
+  },
+  {
+    "id": "Q2089635",
+    "name": "Bombing of Rabaul",
+    "lat": -4.199444444,
+    "lng": 152.167777777,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20cruiser%20Chikuma.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20cruiser%20Chikuma.jpg?width=400"
+      },
+      "summary": "air raid",
+      "birth": {
+        "date": "1943-11-02"
+      },
+      "death": {
+        "date": "1943-11-11"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bombing_of_Rabaul_(November_1943)",
+        "wikidata": "https://www.wikidata.org/wiki/Q2089635"
+      }
+    }
+  },
+  {
+    "id": "Q2426368",
+    "name": "Battle of Bardia",
+    "lat": 31.76,
+    "lng": 25.095,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bardia%20AWM006083.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bardia%20AWM006083.jpg?width=400"
+      },
+      "summary": "1941 battle of World War II",
+      "birth": {
+        "date": "1941-01-03"
+      },
+      "death": {
+        "date": "1941-01-05"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Bardia",
+        "wikidata": "https://www.wikidata.org/wiki/Q2426368"
+      }
+    }
+  },
+  {
+    "id": "Q2673191",
+    "name": "Invasion of Tulagi",
+    "lat": -9.1,
+    "lng": 160.15,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TulagiJapanese1942.gif",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TulagiJapanese1942.gif?width=400"
+      },
+      "summary": "1942 battle during World War II",
+      "birth": {
+        "date": "1942-05-03"
+      },
+      "death": {
+        "date": "1942-05-04"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Invasion_of_Tulagi_(May_1942)",
+        "wikidata": "https://www.wikidata.org/wiki/Q2673191"
+      }
+    }
+  },
+  {
+    "id": "Q710912",
+    "name": "Battle of Mindanao",
+    "lat": 8,
+    "lng": 125,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SC%20207688%20Landing%20craft%20carrying%2024th%20Infantry%20Division%20troops%20up%20Mindanao%20River%20for%20Fort%20Pikit%20attack%20April%201945.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SC%20207688%20Landing%20craft%20carrying%2024th%20Infantry%20Division%20troops%20up%20Mindanao%20River%20for%20Fort%20Pikit%20attack%20April%201945.jpg?width=400"
+      },
+      "summary": "1945 World War II battle",
+      "birth": {
+        "date": "1945-03-10"
+      },
+      "death": {
+        "date": "1945-08-15"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Mindanao",
+        "wikidata": "https://www.wikidata.org/wiki/Q710912"
+      }
+    }
+  },
+  {
+    "id": "Q246553",
+    "name": "Battle of Nuremberg",
+    "lat": 49.46,
+    "lng": 11.08,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/3.%20US%20Inf.-Div.%20in%20N%C3%BCrnberg%2C%2020.04.1945.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3.%20US%20Inf.-Div.%20in%20N%C3%BCrnberg%2C%2020.04.1945.jpg?width=400"
+      },
+      "summary": "1945 battle",
+      "birth": {
+        "date": "1945-04-16"
+      },
+      "death": {
+        "date": "1945-04-20"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Nuremberg_(1945)",
+        "wikidata": "https://www.wikidata.org/wiki/Q246553"
+      }
+    }
+  },
+  {
+    "id": "Q714192",
+    "name": "Battle of Ancona",
+    "lat": 43.61194444,
+    "lng": 13.51444444,
+    "fame": 15,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancona%201944.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancona%201944.png?width=400"
+      },
+      "summary": "1944 battle of the Second World War",
+      "birth": {
+        "date": "1944-06-16"
+      },
+      "death": {
+        "date": "1944-07-18"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Battle_of_Ancona",
+        "wikidata": "https://www.wikidata.org/wiki/Q714192"
+      }
+    }
+  }
+]

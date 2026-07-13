@@ -1,0 +1,88 @@
+{
+  "id": "ww2-stalingrad",
+  "title": "Stalingrad: the turning point in the East",
+  "subject": {
+    "name": "The Eastern Front, 1941–1943",
+    "subtitle": "June 1941 – February 1943",
+    "link": "https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)"
+  },
+  "summary": "The largest invasion in history, checked at the gates of Moscow, then broken in a single city on the Volga. Stalingrad cost more lives than any battle ever fought — and after it, Germany never again won a major offensive in the East.",
+  "color": "#b23a48",
+  "waypoints": [
+    {
+      "id": "barbarossa",
+      "title": "Operation Barbarossa",
+      "place": "The German–Soviet frontier (Brest)",
+      "lat": 52.0976,
+      "lng": 23.7341,
+      "from": 1941,
+      "label": "The invasion",
+      "narrative": "At dawn on 22 June 1941, over three million Axis soldiers crossed the Soviet border along a 2,900-kilometre front — the largest invasion force ever assembled. Stalin had ignored repeated warnings; whole Soviet armies were encircled at Minsk, Smolensk and Kyiv, and by autumn the Wehrmacht had taken more than three million prisoners. Hitler expected the state to collapse in weeks: 'kick in the door,' he said, 'and the whole rotten structure will come crashing down.' It did not.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-209-0090-28%2C%20Russland-Nord%2C%20Infanterie%20und%20Panzer%2035t.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20101I-209-0090-28%2C%20Russland-Nord%2C%20Infanterie%20und%20Panzer%2035t.jpg?width=400",
+          "caption": "German infantry and armour advancing into the Soviet Union, summer 1941 (Bundesarchiv)"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Operation Barbarossa", "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa" }
+      ]
+    },
+    {
+      "id": "moscow",
+      "title": "The gates of Moscow",
+      "place": "Moscow, Soviet Union",
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "from": 1941,
+      "to": 1942,
+      "label": "The first check",
+      "narrative": "By early December 1941, German reconnaissance could see the Kremlin's towers — and the advance froze, literally. Machines and men, equipped for a summer campaign, failed in temperatures below −30°C. On 5 December, Soviet armies reinforced by fresh divisions from Siberia counter-attacked and threw the Wehrmacht back up to 250 kilometres. The myth of the unstoppable blitzkrieg died in the snow outside Moscow; the war in the East would be long.",
+      "resources": [
+        { "label": "Wikipedia: Battle of Moscow", "url": "https://en.wikipedia.org/wiki/Battle_of_Moscow" }
+      ]
+    },
+    {
+      "id": "stalingrad-city",
+      "title": "Rattenkrieg on the Volga",
+      "place": "Stalingrad (Volgograd), Soviet Union",
+      "lat": 48.708,
+      "lng": 44.5133,
+      "from": 1942,
+      "label": "The cauldron",
+      "narrative": "In summer 1942 Hitler split his southern offensive to seize both the Caucasus oil fields and the city bearing Stalin's name. On 23 August, a thousand-bomber raid turned Stalingrad to rubble — rubble that proved the perfect fortress. For three months the fighting was 'Rattenkrieg', rat war: room by room, factory by factory, the grain elevator and the Tractor Works changing hands dozens of times. Soviet general Chuikov's tactic of 'hugging' the enemy — keeping front lines metres apart — cancelled German airpower. By November the attackers held ninety percent of a city that no longer existed.",
+      "media": {
+        "image": {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%2044732%20Soviet%20soldiers%20attack%20house.jpg",
+          "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/RIAN%20archive%2044732%20Soviet%20soldiers%20attack%20house.jpg?width=400",
+          "caption": "Soviet soldiers assault a ruined house in Stalingrad, 1942 (RIA Novosti archive)"
+        }
+      },
+      "resources": [
+        { "label": "Wikipedia: Battle of Stalingrad", "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad" },
+        { "label": "Antony Beevor — Stalingrad (the standard account)", "url": "https://en.wikipedia.org/wiki/Stalingrad_(Beevor_book)" }
+      ]
+    },
+    {
+      "id": "uranus",
+      "title": "Operation Uranus closes the ring",
+      "place": "Kalach-on-Don, Soviet Union",
+      "lat": 48.689,
+      "lng": 43.5308,
+      "from": 1942,
+      "to": 1943,
+      "label": "The encirclement",
+      "narrative": "While the 6th Army bled in the city, the Soviets massed a million men on its flanks — held by weaker Romanian and Hungarian armies. On 19 November 1942 two pincers smashed through and met four days later at Kalach, trapping some 290,000 men. Göring promised to supply the pocket by air and delivered a fraction of the need; Hitler forbade breakout. On 31 January 1943 Field Marshal Paulus surrendered — the first German field marshal ever taken alive — and with him the myth of German invincibility. Perhaps two million people, soldiers and civilians of all nations, had been killed or wounded in the Stalingrad campaign. The road that began at Kalach ended in Berlin.",
+      "resources": [
+        { "label": "Wikipedia: Operation Uranus", "url": "https://en.wikipedia.org/wiki/Operation_Uranus" },
+        { "label": "Wikipedia: Friedrich Paulus", "url": "https://en.wikipedia.org/wiki/Friedrich_Paulus" }
+      ]
+    }
+  ],
+  "resources": [
+    { "label": "Wikipedia: Eastern Front (WW2)", "url": "https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)" },
+    { "label": "Wikipedia: Battle of Stalingrad", "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad" }
+  ],
+  "attribution": "Content compiled from Wikipedia. Images: Wikimedia Commons (Bundesarchiv, RIA Novosti archives)."
+}

@@ -46,7 +46,7 @@ export function ViewSwitcher({
           onClick={onJourneys}
           aria-pressed={journeysActive}
         >
-          <span aria-hidden>🧭</span> Journeys
+          <span aria-hidden>🧭</span> Stories
         </button>
       )}
     </nav>

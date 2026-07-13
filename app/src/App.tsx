@@ -289,13 +289,16 @@ export default function App() {
         onSelect={switchView}
         onJourneys={() => setPickerOpen(true)}
       />
-      {viewState.status === 'ready' && !touring && !journeyActive && (
-        <ArcsToggle
-          active={showArcs}
-          accentColor={viewState.data.manifest.color}
-          onToggle={() => setShowArcs((v) => !v)}
-        />
-      )}
+      {viewState.status === 'ready' &&
+        !touring &&
+        !journeyActive &&
+        entries.some((e) => e.deathLat !== undefined) && (
+          <ArcsToggle
+            active={showArcs}
+            accentColor={viewState.data.manifest.color}
+            onToggle={() => setShowArcs((v) => !v)}
+          />
+        )}
       {yearBounds && viewState.status === 'ready' && !journeyActive && (
         <TimelineBar
           minYear={yearBounds[0]}
@@ -312,6 +315,7 @@ export default function App() {
         <TourCard
           stop={tour.stop}
           playing={tour.status === 'playing'}
+          kind={viewState.status === 'ready' ? (viewState.data.manifest.kind ?? 'people') : 'people'}
           onExpand={tour.pause}
           onCollapse={tour.resume}
         />
@@ -352,7 +356,12 @@ export default function App() {
         />
       )}
       {selected && viewState.status === 'ready' && !touring && !journeyActive && (
-        <InfoCard entry={selected} accentColor={viewState.data.manifest.color} onClose={() => setSelectedId(null)} />
+        <InfoCard
+          entry={selected}
+          accentColor={viewState.data.manifest.color}
+          kind={viewState.data.manifest.kind ?? 'people'}
+          onClose={() => setSelectedId(null)}
+        />
       )}
     </div>
   )

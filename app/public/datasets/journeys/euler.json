@@ -1,15 +1,15 @@
 {
   "id": "euler",
   "title": "Leonhard Euler — the wandering mathematician",
-  "person": {
+  "subject": {
     "name": "Leonhard Euler",
-    "lifespan": "1707 – 1783",
+    "subtitle": "1707 – 1783",
     "image": {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonhard%20Euler.jpg",
       "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonhard%20Euler.jpg?width=400",
       "caption": "Portrait by Jakob Emanuel Handmann, 1753"
     },
-    "wikidata": "https://www.wikidata.org/wiki/Q7604"
+    "link": "https://www.wikidata.org/wiki/Q7604"
   },
   "summary": "The most prolific mathematician in history published over 850 works across four cities and two empires — and produced almost half of them after going blind. His life traces the scientific geography of the 18th century: from a Swiss parsonage to the academies of Russia and Prussia and back.",
   "color": "#4a3aa7",
@@ -22,12 +22,21 @@
       "lng": 7.5886,
       "from": 1707,
       "to": 1727,
-      "role": "birth",
+      "label": "Born here",
       "narrative": "Euler was born on 15 April 1707, the son of a pastor who wanted him to study theology. At the University of Basel — he enrolled at thirteen — his Saturday lessons with Johann Bernoulli, then perhaps the greatest living mathematician, changed everything. Bernoulli told Euler's father plainly that the boy was destined for mathematics, not the church. By nineteen Euler had finished his studies and taken second place in the Paris Academy's annual prize competition — on the optimal placement of ship masts, written by a young man who had scarcely seen a ship.",
-      "works": ["Paris Academy prize essay on ship masts (1727)", "Dissertation on the physics of sound"],
+      "works": [
+        "Paris Academy prize essay on ship masts (1727)",
+        "Dissertation on the physics of sound"
+      ],
       "resources": [
-        { "label": "Wikipedia: Leonhard Euler — early life", "url": "https://en.wikipedia.org/wiki/Leonhard_Euler" },
-        { "label": "MacTutor: Euler biography", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/" }
+        {
+          "label": "Wikipedia: Leonhard Euler — early life",
+          "url": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+        },
+        {
+          "label": "MacTutor: Euler biography",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+        }
       ]
     },
     {
@@ -38,7 +47,7 @@
       "lng": 30.3146,
       "from": 1727,
       "to": 1741,
-      "role": "work",
+      "label": "Worked here",
       "narrative": "With no position available at home, the twenty-year-old Euler followed the Bernoulli sons to the new Imperial Academy of Sciences in St. Petersburg, arriving — by boat, wagon and foot — in 1727. Here he became a mathematician of European fame: in 1735 he solved the 'Basel problem' that had defeated mathematicians for ninety years, showing that the sum of the reciprocals of the squares equals π²/6. In 1736 he settled a puzzle about strolling across the seven bridges of Königsberg — and in proving no such walk exists, invented graph theory. The same year his 'Mechanica' recast Newton's mechanics in the language of calculus. The price of the pace: a near-fatal fever, and by 1738 the sight of his right eye.",
       "media": {
         "image": {
@@ -49,11 +58,24 @@
         "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><munderover><mo>∑</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mi>∞</mi></munderover><mfrac><mn>1</mn><msup><mi>n</mi><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>π</mi><mn>2</mn></msup><mn>6</mn></mfrac></mrow></math>",
         "formulaCaption": "The Basel problem (solved 1735): a sum over all whole numbers, answered by the circle's constant"
       },
-      "works": ["Solution of the Basel problem (1735)", "Seven Bridges of Königsberg — birth of graph theory (1736)", "Mechanica (1736)"],
+      "works": [
+        "Solution of the Basel problem (1735)",
+        "Seven Bridges of Königsberg — birth of graph theory (1736)",
+        "Mechanica (1736)"
+      ],
       "resources": [
-        { "label": "Wikipedia: Basel problem", "url": "https://en.wikipedia.org/wiki/Basel_problem" },
-        { "label": "Wikipedia: Seven Bridges of Königsberg", "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg" },
-        { "label": "The Euler Archive (all his works, digitized)", "url": "http://eulerarchive.maa.org/" }
+        {
+          "label": "Wikipedia: Basel problem",
+          "url": "https://en.wikipedia.org/wiki/Basel_problem"
+        },
+        {
+          "label": "Wikipedia: Seven Bridges of Königsberg",
+          "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg"
+        },
+        {
+          "label": "The Euler Archive (all his works, digitized)",
+          "url": "http://eulerarchive.maa.org/"
+        }
       ]
     },
     {
@@ -64,17 +86,31 @@
       "lng": 13.405,
       "from": 1741,
       "to": 1766,
-      "role": "work",
+      "label": "Worked here",
       "narrative": "Political turmoil in Russia made St. Petersburg uneasy, and in 1741 Frederick the Great lured Euler to the Berlin Academy. In twenty-five years there he wrote around 380 works, including the textbooks that taught Europe analysis: the 'Introductio in analysin infinitorum' (1748), which made functions the central object of mathematics, and the great calculus treatises. From this era comes the identity now voted the most beautiful equation in mathematics, connecting five fundamental constants in seven symbols. He also wrote the 'Letters to a German Princess' — over 200 letters explaining science to a lay reader, one of the first and finest works of popular science. Frederick, who wanted a witty courtier and got a devout workhorse, called him 'my cyclops'; the relationship soured, and Catherine the Great's offer brought him back east.",
       "media": {
         "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msup><mi>e</mi><mrow><mi>i</mi><mi>π</mi></mrow></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>0</mn></mrow></math>",
         "formulaCaption": "Euler's identity — e, i, π, 1 and 0 in a single statement, a special case of his formula e^(iθ) = cos θ + i sin θ"
       },
-      "works": ["Introductio in analysin infinitorum (1748)", "Institutiones calculi differentialis (1755)", "Letters to a German Princess (1760–62)", "Euler's polyhedron formula V − E + F = 2 (1758)"],
+      "works": [
+        "Introductio in analysin infinitorum (1748)",
+        "Institutiones calculi differentialis (1755)",
+        "Letters to a German Princess (1760–62)",
+        "Euler's polyhedron formula V − E + F = 2 (1758)"
+      ],
       "resources": [
-        { "label": "Wikipedia: Euler's identity", "url": "https://en.wikipedia.org/wiki/Euler%27s_identity" },
-        { "label": "Wikipedia: Introductio in analysin infinitorum", "url": "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum" },
-        { "label": "Wikipedia: Letters to a German Princess", "url": "https://en.wikipedia.org/wiki/Letters_to_a_German_Princess" }
+        {
+          "label": "Wikipedia: Euler's identity",
+          "url": "https://en.wikipedia.org/wiki/Euler%27s_identity"
+        },
+        {
+          "label": "Wikipedia: Introductio in analysin infinitorum",
+          "url": "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum"
+        },
+        {
+          "label": "Wikipedia: Letters to a German Princess",
+          "url": "https://en.wikipedia.org/wiki/Letters_to_a_German_Princess"
+        }
       ]
     },
     {
@@ -85,7 +121,7 @@
       "lng": 30.3351,
       "from": 1766,
       "to": 1783,
-      "role": "death",
+      "label": "Died here",
       "narrative": "Euler returned to St. Petersburg in 1766 at Catherine the Great's invitation. Within five years a failed cataract operation left him almost totally blind — and his productivity rose. With a prodigious memory (he knew the Aeneid by heart) and sons and assistants taking dictation, he produced nearly half of his life's work after losing his sight, including a 775-page treatise on the motion of the Moon. He died of a brain hemorrhage on 18 September 1783, working to the last on the orbit of the newly discovered planet Uranus. In Condorcet's words: 'il cessa de calculer et de vivre' — he ceased to calculate and to live. The Academy's journals were still publishing his backlog of papers half a century later.",
       "media": {
         "image": {
@@ -94,18 +130,40 @@
           "caption": "Euler's grave at the Alexander Nevsky Monastery, St. Petersburg"
         }
       },
-      "works": ["Lunar theory (1772)", "Complete theory of ship construction", "~400 papers dictated after blindness"],
+      "works": [
+        "Lunar theory (1772)",
+        "Complete theory of ship construction",
+        "~400 papers dictated after blindness"
+      ],
       "resources": [
-        { "label": "Wikipedia: Leonhard Euler — later life", "url": "https://en.wikipedia.org/wiki/Leonhard_Euler#Return_to_Russia" },
-        { "label": "Euler's 'Opera Omnia' (collected works project)", "url": "https://en.wikipedia.org/wiki/Opera_Omnia_Leonhard_Euler" }
+        {
+          "label": "Wikipedia: Leonhard Euler — later life",
+          "url": "https://en.wikipedia.org/wiki/Leonhard_Euler#Return_to_Russia"
+        },
+        {
+          "label": "Euler's 'Opera Omnia' (collected works project)",
+          "url": "https://en.wikipedia.org/wiki/Opera_Omnia_Leonhard_Euler"
+        }
       ]
     }
   ],
   "resources": [
-    { "label": "Wikipedia: Leonhard Euler", "url": "https://en.wikipedia.org/wiki/Leonhard_Euler" },
-    { "label": "MacTutor History of Mathematics: Euler", "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/" },
-    { "label": "The Euler Archive — his complete works online", "url": "http://eulerarchive.maa.org/" },
-    { "label": "BBC In Our Time: Euler (audio)", "url": "https://www.bbc.co.uk/programmes/m000jbht" }
+    {
+      "label": "Wikipedia: Leonhard Euler",
+      "url": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+    },
+    {
+      "label": "MacTutor History of Mathematics: Euler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+    },
+    {
+      "label": "The Euler Archive — his complete works online",
+      "url": "http://eulerarchive.maa.org/"
+    },
+    {
+      "label": "BBC In Our Time: Euler (audio)",
+      "url": "https://www.bbc.co.uk/programmes/m000jbht"
+    }
   ],
   "attribution": "Content compiled from Wikipedia and MacTutor. Images: Wikimedia Commons."
 }

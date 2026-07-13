@@ -4,19 +4,25 @@ import styles from './InfoCard.module.css'
 interface InfoCardProps {
   entry: ViewEntry
   accentColor: string
+  /** 'events' renders start/end dates instead of birth/death. */
+  kind?: 'people' | 'events'
   onClose: () => void
 }
 
-function formatLifeline(entry: ViewEntry): string | null {
+function formatLifeline(entry: ViewEntry, kind: 'people' | 'events'): string | null {
   const { birth, death } = entry.card
+  if (kind === 'events') {
+    if (!birth?.date) return null
+    return death?.date && death.date !== birth.date ? `${birth.date} – ${death.date}` : birth.date
+  }
   const born = birth?.date ? `${birth.date}${birth.place ? `, ${birth.place}` : ''}` : null
   const died = death?.date ? `${death.date}${death.place ? `, ${death.place}` : ''}` : null
   if (!born && !died) return null
   return [born && `Born ${born}`, died && `Died ${died}`].filter(Boolean).join(' · ')
 }
 
-export function InfoCard({ entry, accentColor, onClose }: InfoCardProps) {
-  const lifeline = formatLifeline(entry)
+export function InfoCard({ entry, accentColor, kind = 'people', onClose }: InfoCardProps) {
+  const lifeline = formatLifeline(entry, kind)
   const { card } = entry
 
   return (

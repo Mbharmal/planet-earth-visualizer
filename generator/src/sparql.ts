@@ -10,8 +10,43 @@ export interface SparqlBinding {
   [variable: string]: { type: string; value: string } | undefined
 }
 
+/** Dated events (battles etc.): class-family members dated within a window.
+ *  Part-of chains (P361) to umbrella events are 4–6 hops deep and irregular in
+ *  Wikidata — Iwo Jima → campaign → Japan Campaign → Pacific War → WW2 — so
+ *  membership is selected by class + date instead. */
+export function buildEventsQuery(config: ViewConfig): string {
+  const classes = (config.eventClasses ?? []).map((qid) => `wd:${qid}`).join(' ')
+  return `
+SELECT ?event ?eventLabel ?eventDescription ?sitelinks
+       (SAMPLE(?coordRaw) AS ?coord)
+       (SAMPLE(?img) AS ?image)
+       (SAMPLE(?startRaw) AS ?start)
+       (SAMPLE(?endRaw) AS ?end)
+       (SAMPLE(?whenRaw) AS ?when)
+       (SAMPLE(?article) AS ?wikipedia)
+WHERE {
+  VALUES ?cls { ${classes} }
+  ?event wdt:P31/wdt:P279* ?cls .
+  ?event wikibase:sitelinks ?sitelinks .
+  FILTER(?sitelinks >= ${config.minSitelinks})
+  ?event wdt:P625 ?coordRaw .
+  ?event (wdt:P585|wdt:P580) ?anchor .
+  FILTER("${config.eventFrom}T00:00:00Z"^^xsd:dateTime <= ?anchor && ?anchor <= "${config.eventTo}T23:59:59Z"^^xsd:dateTime)
+  OPTIONAL { ?event wdt:P580 ?startRaw }
+  OPTIONAL { ?event wdt:P582 ?endRaw }
+  OPTIONAL { ?event wdt:P585 ?whenRaw }
+  OPTIONAL { ?event wdt:P18 ?img }
+  OPTIONAL { ?article schema:about ?event ; schema:isPartOf <https://en.wikipedia.org/> }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?event ?eventLabel ?eventDescription ?sitelinks
+ORDER BY DESC(?sitelinks)
+LIMIT ${config.limit}
+`.trim()
+}
+
 export function buildQuery(config: ViewConfig): string {
-  const occupations = config.occupations.map((qid) => `wd:${qid}`).join(' ')
+  const occupations = (config.occupations ?? []).map((qid) => `wd:${qid}`).join(' ')
   return `
 SELECT ?person ?personLabel ?personDescription ?sitelinks
        (SAMPLE(?coordRaw) AS ?coord)
