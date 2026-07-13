@@ -1,5 +1,5 @@
 import type { ViewEntry, ViewManifest } from '@pev/shared'
-import type { Map as MapLibreMap } from 'maplibre-gl'
+import type { GeoJSONSource, Map as MapLibreMap } from 'maplibre-gl'
 import { entriesToGeoJSON } from '../data/geojson'
 
 export const VIEW_SOURCE = 'view'
@@ -98,6 +98,11 @@ export function setViewOnMap(map: MapLibreMap, manifest: ViewManifest, entries: 
       'text-halo-width': 1.4,
     },
   })
+}
+
+/** Swap the active view's data in place (era filtering, time-lapse). Re-clusters. */
+export function updateViewData(map: MapLibreMap, entries: ViewEntry[]) {
+  map.getSource<GeoJSONSource>(VIEW_SOURCE)?.setData(entriesToGeoJSON(entries))
 }
 
 export function removeViewFromMap(map: MapLibreMap) {
