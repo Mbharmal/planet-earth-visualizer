@@ -70,6 +70,23 @@ export default function App() {
     },
   })
   const touring = tour.status !== 'idle'
+  const touringRef = useRef(touring)
+  touringRef.current = touring
+
+  // Spacebar toggles pause/play while a tour is active (unless a control has focus,
+  // which would double-fire the key).
+  useEffect(() => {
+    if (!touring) return
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.code !== 'Space') return
+      const target = e.target as HTMLElement | null
+      if (target && ['BUTTON', 'INPUT', 'A', 'TEXTAREA', 'SELECT'].includes(target.tagName)) return
+      e.preventDefault()
+      tour.toggle()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [touring, tour])
 
   // Keep the URL hash shareable. Era is suppressed during a tour (transient state).
   useEffect(() => {
@@ -112,11 +129,17 @@ export default function App() {
     if (!map || viewState.status !== 'ready') return
     setViewOnMap(map, viewState.data.manifest, viewState.data.entries)
     const cleanup = wireViewInteractions(map, {
+      // During a tour, canvas clicks belong to pause/play — don't hijack the
+      // camera with select-flyTo or open popovers.
       onSelect: (id) => {
+        if (touringRef.current) return
         setCluster(null)
         setSelectedId(id)
       },
-      onClusterLeaves: setCluster,
+      onClusterLeaves: (selection) => {
+        if (touringRef.current) return
+        setCluster(selection)
+      },
     })
     return () => {
       cleanup()
@@ -156,9 +179,9 @@ export default function App() {
     }
   }, [map, cluster])
 
-  // Fly toward a newly selected entry.
+  // Fly toward a newly selected entry (the tour owns the camera while active).
   useEffect(() => {
-    if (!map || !selected) return
+    if (!map || !selected || touringRef.current) return
     map.flyTo({
       center: [selected.lng, selected.lat],
       zoom: Math.max(map.getZoom(), 6),
@@ -216,7 +239,14 @@ export default function App() {
           onSpeedCycle={cycleSpeed}
         />
       )}
-      {tour.stop && <TourCard stop={tour.stop} onExpand={tour.pause} />}
+      {tour.stop && (
+        <TourCard
+          stop={tour.stop}
+          playing={tour.status === 'playing'}
+          onExpand={tour.pause}
+          onCollapse={tour.resume}
+        />
+      )}
       {(indexState.status === 'error' || viewState.status === 'error') && (
         <div className="error-banner">
           Failed to load {indexState.status === 'error' ? 'view index' : 'view'}:{' '}

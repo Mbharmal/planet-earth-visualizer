@@ -1,5 +1,5 @@
 import type { ViewEntry } from '@pev/shared'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { entryYear } from '../data/geojson'
 import type { TourStop } from '../tour/roster'
 import { formatYear } from './TimelineBar'
@@ -7,8 +7,12 @@ import styles from './TourCard.module.css'
 
 interface TourCardProps {
   stop: TourStop
+  /** True while the tour is actively playing (collapses any expanded card). */
+  playing: boolean
   /** Called when the user expands a card — the tour should pause. */
   onExpand: () => void
+  /** Called when the user collapses the card again — the tour should resume. */
+  onCollapse: () => void
 }
 
 function lifespan(entryBirthYear: number | null, deathDate: string | undefined): string {
@@ -40,13 +44,19 @@ function KnownFor({ entry, compact }: { entry: ViewEntry; compact: boolean }) {
   )
 }
 
-/** Face card(s) for the tour's current stop. Click a card to pause and expand. */
-export function TourCard({ stop, onExpand }: TourCardProps) {
+/** Face card(s) for the tour's current stop. Click to pause + expand; click again to collapse + resume. */
+export function TourCard({ stop, playing, onExpand, onCollapse }: TourCardProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null)
+
+  // If the tour resumes by other means (spacebar, canvas click), fold the card back up.
+  useEffect(() => {
+    if (playing) setExpandedId(null)
+  }, [playing])
 
   const toggle = (entry: ViewEntry) => {
     if (expandedId === entry.id) {
       setExpandedId(null)
+      onCollapse()
     } else {
       setExpandedId(entry.id)
       onExpand()
@@ -85,7 +95,9 @@ export function TourCard({ stop, onExpand }: TourCardProps) {
             </div>
             <KnownFor entry={entry} compact={!expanded} />
             {expanded && (
-              <div className={styles.detail} onClick={(e) => e.stopPropagation()}>
+              // Clicks anywhere on the card collapse it — except on hyperlinks,
+              // which open in a new tab without collapsing.
+              <div className={styles.detail}>
                 {entry.card.summary && <p className={styles.summary}>{entry.card.summary}</p>}
                 {entry.card.facts.length > 0 && (
                   <ul className={styles.facts}>
@@ -96,12 +108,22 @@ export function TourCard({ stop, onExpand }: TourCardProps) {
                 )}
                 <p className={styles.links}>
                   {entry.card.links.wikipedia && (
-                    <a href={entry.card.links.wikipedia} target="_blank" rel="noreferrer">
+                    <a
+                      href={entry.card.links.wikipedia}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       Wikipedia
                     </a>
                   )}
                   {entry.card.links.wikidata && (
-                    <a href={entry.card.links.wikidata} target="_blank" rel="noreferrer">
+                    <a
+                      href={entry.card.links.wikidata}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       Wikidata
                     </a>
                   )}

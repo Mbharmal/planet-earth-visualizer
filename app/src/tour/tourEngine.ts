@@ -75,8 +75,10 @@ export class TourEngine {
     }
     if (this.status === 'playing') return
     addTourLayers(this.map)
-    this.map.on('dragstart', this.onGesture)
+    this.map.on('dragstart', this.onDragStart)
+    this.map.on('dragend', this.onDragEnd)
     this.map.on('wheel', this.onGesture)
+    this.map.on('click', this.onCanvasClick)
     this.setStatus('playing')
     this.lastReal = performance.now()
     this.beginNextStop()
@@ -307,8 +309,10 @@ export class TourEngine {
     if (this.destroyed) return
     this.destroyed = true
     cancelAnimationFrame(this.raf)
-    this.map.off('dragstart', this.onGesture)
+    this.map.off('dragstart', this.onDragStart)
+    this.map.off('dragend', this.onDragEnd)
     this.map.off('wheel', this.onGesture)
+    this.map.off('click', this.onCanvasClick)
     try {
       this.map.stop()
       removeTourLayers(this.map)
@@ -321,7 +325,34 @@ export class TourEngine {
     this.cb.onEnd(reason)
   }
 
+  private dragging = false
+  private swallowClickBefore = 0
+
   private onGesture = () => this.pause()
+
+  private onDragStart = () => {
+    this.dragging = true
+    this.pause()
+  }
+
+  // A drag gesture also emits a trailing 'click' (with environment-dependent
+  // lag, sometimes before 'dragend') — that click must not undo the
+  // drag-pause. Swallow the next click after any dragend, for up to a second.
+  private onDragEnd = () => {
+    this.dragging = false
+    this.swallowClickBefore = performance.now() + 1000
+  }
+
+  /** Any click on the map canvas toggles pause/play (UI overlays don't reach the canvas). */
+  private onCanvasClick = () => {
+    if (this.dragging) return
+    if (performance.now() < this.swallowClickBefore) {
+      this.swallowClickBefore = 0 // one click per drag
+      return
+    }
+    if (this.status === 'playing') this.pause()
+    else this.play()
+  }
 }
 
 /** First `t` fraction of a line, with a fractionally interpolated tip for 60fps smoothness. */

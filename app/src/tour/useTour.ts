@@ -20,6 +20,7 @@ export interface TourHandle {
   start(): void
   toggle(): void
   pause(): void
+  resume(): void
   setSpeed(speed: TourSpeed): void
   cancel(): void
 }
@@ -91,6 +92,11 @@ export function useTour(
     engineRef.current?.pause()
   }, [])
 
+  // Resume-only: never starts a fresh tour (unlike toggle()).
+  const resume = useCallback(() => {
+    engineRef.current?.play()
+  }, [])
+
   const setSpeed = useCallback((s: TourSpeed) => {
     engineRef.current?.setSpeed(s)
     setSpeedState(s)
@@ -101,5 +107,5 @@ export function useTour(
     engineRef.current = null
   }, [])
 
-  return { status, stop, progress, speed, start, toggle, pause, setSpeed, cancel }
+  return { status, stop, progress, speed, start, toggle, pause, resume, setSpeed, cancel }
 }

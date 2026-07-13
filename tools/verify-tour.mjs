@@ -74,12 +74,36 @@ if (hadCard) {
   }))
   check('card click expands and pauses', expandState.expanded && expandState.paused, expandState.detail.replaceAll('\n', ' | ').slice(0, 80))
   await page.screenshot({ path: process.argv[4] ?? 'tour_expanded.png' })
-  await page.click('[aria-expanded="true"]') // collapse
-  await page.click('[aria-label="Resume tour"]')
-  await settle(500)
+  // Clicking the expanded card again collapses it AND resumes the tour.
+  await page.click('[aria-expanded="true"]')
+  await settle(600)
+  const afterCollapse = await page.evaluate(() => ({
+    collapsed: !document.querySelector('[aria-expanded="true"]'),
+    playing: !!document.querySelector('[aria-label="Pause tour"]'),
+  }))
+  check('collapse click resumes the tour', afterCollapse.collapsed && afterCollapse.playing)
 } else {
   check('card click expands and pauses', false, 'no card visible to click (timing)')
+  check('collapse click resumes the tour', false, 'skipped')
 }
+
+// 3c. Canvas click toggles pause/play
+await page.mouse.click(640, 280)
+await settle(600)
+const pausedByClick = await page.evaluate(() => !!document.querySelector('[aria-label="Resume tour"]'))
+await page.mouse.click(640, 280)
+await settle(600)
+const resumedByClick = await page.evaluate(() => !!document.querySelector('[aria-label="Pause tour"]'))
+check('canvas click toggles pause/play', pausedByClick && resumedByClick)
+
+// 3d. Spacebar toggles pause/play
+await page.keyboard.press('Space')
+await settle(600)
+const pausedByKey = await page.evaluate(() => !!document.querySelector('[aria-label="Resume tour"]'))
+await page.keyboard.press('Space')
+await settle(600)
+const resumedByKey = await page.evaluate(() => !!document.querySelector('[aria-label="Pause tour"]'))
+check('spacebar toggles pause/play', pausedByKey && resumedByKey)
 
 // 4. Drag pauses the tour
 await page.mouse.move(640, 400)
