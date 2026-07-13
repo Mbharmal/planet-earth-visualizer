@@ -41,6 +41,39 @@
   color: #b8c0d8;
 }
 
+.pill {
+  flex: none;
+  padding: 4px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #e8eaf2;
+  font-size: 0.75rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.pill:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.progress {
+  flex: none;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  color: #8891ad;
+}
+
+.sliders input:disabled::-webkit-slider-thumb {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.sliders input:disabled::-moz-range-thumb {
+  cursor: default;
+  opacity: 0.6;
+}
+
 .sliders {
   position: relative;
   flex: 1;

@@ -58,18 +58,10 @@ const resetCount = await countVisible()
 const hashAfterReset = await page.evaluate(() => location.hash)
 check('reset restores all points and cleans hash', resetCount === fullCount && !hashAfterReset.includes('era'), `${resetCount}, ${hashAfterReset}`)
 
-// 4. Time-lapse: play sweeps the end year forward and the hash follows
-await page.click('[aria-label="Play time-lapse"]')
-await settle(4_000)
-const during = await page.evaluate(() => ({
-  hash: location.hash,
-  playing: !!document.querySelector('[aria-label="Pause time-lapse"]'),
-  labels: [...document.querySelectorAll('[aria-label="Era filter"] span')].map((e) => e.textContent),
-}))
-await settle(3_000)
-const later = await page.evaluate(() => [...document.querySelectorAll('[aria-label="Era filter"] span')].map((e) => e.textContent))
-check('time-lapse is playing and hash tracks the era', during.playing && during.hash.includes('era='), during.hash)
-check('sweep year advances over time', during.labels[1] !== later[1], `${during.labels[1]} → ${later[1]}`)
+// 4. The play button now belongs to the cinematic tour (covered by verify-tour.mjs);
+//    here we only assert it exists alongside the manual era slider.
+const playBtn = await page.evaluate(() => !!document.querySelector('[aria-label="Play tour"]'))
+check('tour play button present in timeline bar', playBtn)
 await page.screenshot({ path: process.argv[3] ?? 'timeline_play.png' })
 
 await browser.close()

@@ -1,11 +1,12 @@
 import type maplibregl from 'maplibre-gl'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArcsToggle } from './components/ArcsToggle'
 import { ClusterList } from './components/ClusterList'
 import { InfoCard } from './components/InfoCard'
 import { LoadingOverlay } from './components/LoadingOverlay'
 import { TimelineBar } from './components/TimelineBar'
 import { TitleBadge } from './components/TitleBadge'
+import { TourCard } from './components/TourCard'
 import { ViewSwitcher } from './components/ViewSwitcher'
 import { entryYear } from './data/geojson'
 import { useViewData } from './data/useViewData'
@@ -14,11 +15,9 @@ import { parseHash, writeHash } from './hash'
 import { wireViewInteractions, type ClusterSelection } from './map/interactions'
 import { MapView } from './map/MapView'
 import { removeViewFromMap, setArcsVisible, setViewOnMap, updateViewData } from './map/viewLayers'
+import { useTour } from './tour/useTour'
 
 const initialHash = parseHash()
-
-/** Full time-lapse sweep duration (min year → max year) in ms. */
-const TIMELAPSE_DURATION = 25_000
 
 export default function App() {
   const [map, setMap] = useState<maplibregl.Map | null>(null)
@@ -27,7 +26,6 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(initialHash.entry ?? null)
   const [cluster, setCluster] = useState<ClusterSelection | null>(null)
   const [eraRange, setEraRange] = useState<[number, number] | null>(initialHash.era ?? null)
-  const [playing, setPlaying] = useState(false)
   const [showArcs, setShowArcs] = useState(initialHash.arcs ?? false)
 
   const indexState = useViewIndex()
@@ -44,32 +42,6 @@ export default function App() {
 
   const activeView = views.find((v) => v.id === activeViewId) ?? null
   const viewState = useViewData(activeView?.path ?? null)
-
-  // Keep the URL hash shareable. (replaceState doesn't fire hashchange, so no loop below.)
-  useEffect(() => {
-    writeHash({
-      view: activeViewId ?? undefined,
-      entry: selectedId ?? undefined,
-      era: eraRange ?? undefined,
-      arcs: showArcs || undefined,
-    })
-  }, [activeViewId, selectedId, eraRange, showArcs])
-
-  // Support back/forward navigation and externally-set hashes.
-  useEffect(() => {
-    const onHashChange = () => {
-      const hash = parseHash()
-      if (hash.view) setActiveViewId(hash.view)
-      setSelectedId(hash.entry ?? null)
-      setEraRange(hash.era ?? null)
-      setShowArcs(hash.arcs ?? false)
-      setCluster(null)
-      setPlaying(false)
-    }
-    window.addEventListener('hashchange', onHashChange)
-    return () => window.removeEventListener('hashchange', onHashChange)
-  }, [])
-
   const entries = viewState.status === 'ready' ? viewState.data.entries : []
 
   // Year bounds of the active view (null when no entry has a known birth year).
@@ -78,6 +50,52 @@ export default function App() {
     if (years.length === 0) return null
     return [Math.min(...years), Math.max(...years)]
   }, [entries])
+
+  // --- Cinematic tour ---------------------------------------------------
+  const tourSnapshot = useRef<{ era: [number, number] | null; arcs: boolean }>({ era: null, arcs: false })
+  const tour = useTour(map, entries, {
+    onStart: () => {
+      tourSnapshot.current = { era: eraRange, arcs: showArcs }
+      setSelectedId(null)
+      setCluster(null)
+      if (map) setArcsVisible(map, false) // static arcs would compete with traced journeys
+    },
+    onYear: (year) => {
+      if (yearBounds) setEraRange([yearBounds[0], year])
+    },
+    onEnd: () => {
+      setEraRange(tourSnapshot.current.era)
+      setShowArcs(tourSnapshot.current.arcs)
+      if (map) setArcsVisible(map, tourSnapshot.current.arcs)
+    },
+  })
+  const touring = tour.status !== 'idle'
+
+  // Keep the URL hash shareable. Era is suppressed during a tour (transient state).
+  useEffect(() => {
+    writeHash({
+      view: activeViewId ?? undefined,
+      entry: selectedId ?? undefined,
+      era: touring ? undefined : (eraRange ?? undefined),
+      arcs: showArcs || undefined,
+    })
+  }, [activeViewId, selectedId, eraRange, showArcs, touring])
+
+  // Support back/forward navigation and externally-set hashes.
+  useEffect(() => {
+    const onHashChange = () => {
+      tour.cancel()
+      const hash = parseHash()
+      if (hash.view) setActiveViewId(hash.view)
+      setSelectedId(hash.entry ?? null)
+      setEraRange(hash.era ?? null)
+      setShowArcs(hash.arcs ?? false)
+      setCluster(null)
+    }
+    window.addEventListener('hashchange', onHashChange)
+    return () => window.removeEventListener('hashchange', onHashChange)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // Era-filtered entries. Entries without a year are hidden while a filter is active.
   const filteredEntries = useMemo(() => {
@@ -110,47 +128,17 @@ export default function App() {
     }
   }, [map, viewState])
 
-  // Era filter / time-lapse: swap the source data in place (re-clusters correctly).
+  // Era filter / tour year: swap the source data in place (re-clusters correctly).
   useEffect(() => {
     if (!map || viewState.status !== 'ready') return
     updateViewData(map, filteredEntries)
   }, [map, viewState, filteredEntries])
 
-  // Migration arcs visibility (layer is rebuilt on view switch, so re-apply then too).
+  // Static migration-arcs visibility (layer is rebuilt on view switch; hidden while touring).
   useEffect(() => {
     if (!map || viewState.status !== 'ready') return
-    setArcsVisible(map, showArcs)
-  }, [map, viewState, showArcs])
-
-  // Time-lapse: sweep the era window's end year forward until the max year.
-  useEffect(() => {
-    if (!playing || !yearBounds) return
-    const [minYear, maxYear] = yearBounds
-    // Resume from the current window if partially swept; otherwise start fresh.
-    const from = eraRange?.[0] ?? minYear
-    const startTo = eraRange && eraRange[1] < maxYear ? eraRange[1] : from
-    const start = performance.now()
-    let lastEmitted = Number.NaN
-    let raf: number
-    const speed = (maxYear - minYear) / TIMELAPSE_DURATION // years per ms, constant across views
-
-    const tick = (now: number) => {
-      const to = Math.min(maxYear, Math.round(startTo + (now - start) * speed))
-      if (to !== lastEmitted) {
-        lastEmitted = to
-        setEraRange([from, to])
-      }
-      if (to >= maxYear) {
-        setPlaying(false)
-        return
-      }
-      raf = requestAnimationFrame(tick)
-    }
-    raf = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(raf)
-    // eraRange is intentionally read once at play start, not tracked.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [playing, yearBounds])
+    setArcsVisible(map, showArcs && !touring)
+  }, [map, viewState, showArcs, touring])
 
   const selected = useMemo(() => entries.find((entry) => entry.id === selectedId) ?? null, [entries, selectedId])
   const clusterEntries = useMemo(
@@ -180,11 +168,16 @@ export default function App() {
 
   const switchView = (viewId: string) => {
     if (viewId === activeViewId) return
+    tour.cancel() // must run before the view effect re-adds base layers
     setSelectedId(null)
     setCluster(null)
     setEraRange(null)
-    setPlaying(false)
     setActiveViewId(viewId)
+  }
+
+  const cycleSpeed = () => {
+    const next = tour.speed === 0.5 ? 1 : tour.speed === 1 ? 2 : 0.5
+    tour.setSpeed(next)
   }
 
   return (
@@ -204,7 +197,7 @@ export default function App() {
         loading={viewState.status === 'loading'}
         onSelect={switchView}
       />
-      {viewState.status === 'ready' && (
+      {viewState.status === 'ready' && !touring && (
         <ArcsToggle
           active={showArcs}
           accentColor={viewState.data.manifest.color}
@@ -216,14 +209,14 @@ export default function App() {
           minYear={yearBounds[0]}
           maxYear={yearBounds[1]}
           range={eraRange}
-          playing={playing}
-          onRangeChange={(range) => {
-            setPlaying(false)
-            setEraRange(range)
-          }}
-          onPlayToggle={() => setPlaying((p) => !p)}
+          tour={{ status: tour.status, speed: tour.speed, progress: tour.progress }}
+          onRangeChange={setEraRange}
+          onTourToggle={tour.toggle}
+          onTourStop={tour.cancel}
+          onSpeedCycle={cycleSpeed}
         />
       )}
+      {tour.stop && <TourCard stop={tour.stop} />}
       {(indexState.status === 'error' || viewState.status === 'error') && (
         <div className="error-banner">
           Failed to load {indexState.status === 'error' ? 'view index' : 'view'}:{' '}
@@ -241,7 +234,7 @@ export default function App() {
           onClose={() => setCluster(null)}
         />
       )}
-      {selected && viewState.status === 'ready' && (
+      {selected && viewState.status === 'ready' && !touring && (
         <InfoCard entry={selected} accentColor={viewState.data.manifest.color} onClose={() => setSelectedId(null)} />
       )}
     </div>
