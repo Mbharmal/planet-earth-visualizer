@@ -434,9 +434,10 @@ Everything else — hand-curated views (write the JSON by hand; `npm test` valid
 
 ### The roadmap (tracked as tasks)
 
+**Shipped since this doc was first written:** *Journeys* — guided multi-waypoint life stories as a second dataset kind (`datasets/journeys/<id>.json`, discovered via the same index). Manual-first player (`app/src/journey/`): Next/Prev/arrow keys, optional autoplay, animated bowed path segments with visited/future styling, numbered waypoint dots, camera padded around a reading panel carrying narratives, Commons images, native-MathML formulas, works chips and further-reading links. Deep links `#journey=euler&wp=3`. Authoring guide: `docs/ADDING_A_JOURNEY.md`. Euler is the flagship/template. Wikidata-drafted journeys (P69/P108/P551) remain future generator-assist work.
+
 | Feature | Design sketch |
 |---|---|
-| **Journeys** (next) | Multi-waypoint life paths — Euler: Basel → St. Petersburg → Berlin → St. Petersburg. New dataset kind with dated waypoints; drafts generated from Wikidata educated-at/employer/residence (P69/P108/P551); rendered with the existing arc machinery; camera play-through reuses the tour engine |
 | **Events views** (WW2 battles) | First non-person view: battles have coordinates (P625), dates (P585), part-of (P361). Combined with the era scrubber, the war unfolds across the globe. Dated points only — no front-line polygons (Wikidata doesn't have them) |
 | **Story mode** | Curated scrollytelling tours ("The Quantum Revolution") — pure data files sequencing camera moves + cards; the tour engine already provides every primitive |
 | **Intellectual lineages** | Advisor→student arcs (P184/P802) — the mathematics genealogy drawn on the globe over time |
