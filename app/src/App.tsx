@@ -1,5 +1,6 @@
 import type maplibregl from 'maplibre-gl'
 import { useEffect, useMemo, useState } from 'react'
+import { ArcsToggle } from './components/ArcsToggle'
 import { ClusterList } from './components/ClusterList'
 import { InfoCard } from './components/InfoCard'
 import { LoadingOverlay } from './components/LoadingOverlay'
@@ -12,7 +13,7 @@ import { useViewIndex } from './data/useViewIndex'
 import { parseHash, writeHash } from './hash'
 import { wireViewInteractions, type ClusterSelection } from './map/interactions'
 import { MapView } from './map/MapView'
-import { removeViewFromMap, setViewOnMap, updateViewData } from './map/viewLayers'
+import { removeViewFromMap, setArcsVisible, setViewOnMap, updateViewData } from './map/viewLayers'
 
 const initialHash = parseHash()
 
@@ -27,6 +28,7 @@ export default function App() {
   const [cluster, setCluster] = useState<ClusterSelection | null>(null)
   const [eraRange, setEraRange] = useState<[number, number] | null>(initialHash.era ?? null)
   const [playing, setPlaying] = useState(false)
+  const [showArcs, setShowArcs] = useState(initialHash.arcs ?? false)
 
   const indexState = useViewIndex()
   const views = indexState.status === 'ready' ? indexState.views : []
@@ -45,8 +47,13 @@ export default function App() {
 
   // Keep the URL hash shareable. (replaceState doesn't fire hashchange, so no loop below.)
   useEffect(() => {
-    writeHash({ view: activeViewId ?? undefined, entry: selectedId ?? undefined, era: eraRange ?? undefined })
-  }, [activeViewId, selectedId, eraRange])
+    writeHash({
+      view: activeViewId ?? undefined,
+      entry: selectedId ?? undefined,
+      era: eraRange ?? undefined,
+      arcs: showArcs || undefined,
+    })
+  }, [activeViewId, selectedId, eraRange, showArcs])
 
   // Support back/forward navigation and externally-set hashes.
   useEffect(() => {
@@ -55,6 +62,7 @@ export default function App() {
       if (hash.view) setActiveViewId(hash.view)
       setSelectedId(hash.entry ?? null)
       setEraRange(hash.era ?? null)
+      setShowArcs(hash.arcs ?? false)
       setCluster(null)
       setPlaying(false)
     }
@@ -107,6 +115,12 @@ export default function App() {
     if (!map || viewState.status !== 'ready') return
     updateViewData(map, filteredEntries)
   }, [map, viewState, filteredEntries])
+
+  // Migration arcs visibility (layer is rebuilt on view switch, so re-apply then too).
+  useEffect(() => {
+    if (!map || viewState.status !== 'ready') return
+    setArcsVisible(map, showArcs)
+  }, [map, viewState, showArcs])
 
   // Time-lapse: sweep the era window's end year forward until the max year.
   useEffect(() => {
@@ -190,6 +204,13 @@ export default function App() {
         loading={viewState.status === 'loading'}
         onSelect={switchView}
       />
+      {viewState.status === 'ready' && (
+        <ArcsToggle
+          active={showArcs}
+          accentColor={viewState.data.manifest.color}
+          onToggle={() => setShowArcs((v) => !v)}
+        />
+      )}
       {yearBounds && viewState.status === 'ready' && (
         <TimelineBar
           minYear={yearBounds[0]}

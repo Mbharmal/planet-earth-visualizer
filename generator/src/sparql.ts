@@ -19,6 +19,8 @@ SELECT ?person ?personLabel ?personDescription ?sitelinks
        (SAMPLE(?birthDate) AS ?birth)
        (SAMPLE(?deathDate) AS ?death)
        (SAMPLE(?birthplaceLabelRaw) AS ?birthplaceLabel)
+       (SAMPLE(?deathCoordRaw) AS ?deathCoord)
+       (SAMPLE(?deathplaceLabelRaw) AS ?deathplaceLabel)
        (SAMPLE(?article) AS ?wikipedia)
        (GROUP_CONCAT(DISTINCT ?workLabel; separator="|") AS ?works)
 WHERE {
@@ -31,6 +33,11 @@ WHERE {
   OPTIONAL { ?person wdt:P18 ?img }
   OPTIONAL { ?person wdt:P569 ?birthDate }
   OPTIONAL { ?person wdt:P570 ?deathDate }
+  OPTIONAL {
+    ?person wdt:P20 ?deathplace .
+    ?deathplace wdt:P625 ?deathCoordRaw .
+    OPTIONAL { ?deathplace rdfs:label ?deathplaceLabelRaw . FILTER(LANG(?deathplaceLabelRaw) = "en") }
+  }
   OPTIONAL { ?person wdt:P800 ?work . ?work rdfs:label ?workLabel . FILTER(LANG(?workLabel) = "en") }
   OPTIONAL { ?article schema:about ?person ; schema:isPartOf <https://en.wikipedia.org/> }
   OPTIONAL { ?birthplace rdfs:label ?birthplaceLabelRaw . FILTER(LANG(?birthplaceLabelRaw) = "en") }

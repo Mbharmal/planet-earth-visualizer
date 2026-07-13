@@ -1,9 +1,10 @@
-/** Shareable deep links: #view=scientists&entry=Q937&era=1600:1750 */
+/** Shareable deep links: #view=scientists&entry=Q937&era=1600:1750&arcs=1 */
 
 export interface HashState {
   view?: string
   entry?: string
   era?: [number, number]
+  arcs?: boolean
 }
 
 function parseEra(raw: string | null): [number, number] | undefined {
@@ -21,6 +22,7 @@ export function parseHash(): HashState {
     view: params.get('view') ?? undefined,
     entry: params.get('entry') ?? undefined,
     era: parseEra(params.get('era')),
+    arcs: params.get('arcs') === '1' || undefined,
   }
 }
 
@@ -29,6 +31,7 @@ export function writeHash(state: HashState) {
   if (state.view) params.set('view', state.view)
   if (state.entry) params.set('entry', state.entry)
   if (state.era) params.set('era', `${state.era[0]}:${state.era[1]}`)
+  if (state.arcs) params.set('arcs', '1')
   const hash = params.toString()
   history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname + window.location.search)
 }

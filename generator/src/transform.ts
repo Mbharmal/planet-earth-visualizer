@@ -47,17 +47,32 @@ export function bindingsToEntries(bindings: SparqlBinding[]): ViewEntry[] {
     const birthDate = parseDate(binding.birth?.value)
     const birthPlace = binding.birthplaceLabel?.value
     const deathDate = parseDate(binding.death?.value)
+    const deathPlace = binding.deathplaceLabel?.value
+
+    // Death place coordinates (optional) — power the migration-arc layer.
+    let deathLat: number | undefined
+    let deathLng: number | undefined
+    const deathCoordMatch = binding.deathCoord?.value?.match(WKT_POINT)
+    if (deathCoordMatch) {
+      const dLng = Number(deathCoordMatch[1])
+      const dLat = Number(deathCoordMatch[2])
+      if (Number.isFinite(dLat) && Number.isFinite(dLng) && Math.abs(dLat) <= 90 && Math.abs(dLng) <= 180) {
+        deathLat = dLat
+        deathLng = dLng
+      }
+    }
 
     const entry: ViewEntry = {
       id: qid,
       name,
       lat,
       lng,
+      ...(deathLat !== undefined && deathLng !== undefined ? { deathLat, deathLng } : {}),
       card: {
         ...(binding.image?.value ? { image: commonsImageUrls(binding.image.value) } : {}),
         summary: binding.personDescription?.value ?? '',
         ...(birthDate || birthPlace ? { birth: { ...(birthDate && { date: birthDate }), ...(birthPlace && { place: birthPlace }) } } : {}),
-        ...(deathDate ? { death: { date: deathDate } } : {}),
+        ...(deathDate || deathPlace ? { death: { ...(deathDate && { date: deathDate }), ...(deathPlace && { place: deathPlace }) } } : {}),
         facts,
         links: {
           ...(binding.wikipedia?.value ? { wikipedia: binding.wikipedia.value } : {}),

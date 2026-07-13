@@ -4,6 +4,8 @@
     "name": "Vladimir Nabokov",
     "lat": 59.95,
     "lng": 30.316666666,
+    "deathLat": 46.435,
+    "deathLng": 6.9125,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir%20Nabokov%201973.jpg",
@@ -15,7 +17,8 @@
         "place": "Saint Petersburg"
       },
       "death": {
-        "date": "1977-07-02"
+        "date": "1977-07-02",
+        "place": "Montreux"
       },
       "facts": [
         "Ada or Ardor: A Family Chronicle",
@@ -59,6 +62,8 @@
     "name": "Bobby Fischer",
     "lat": 41.881944444,
     "lng": -87.627777777,
+    "deathLat": 64.1475,
+    "deathLng": -21.935,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Fischer%201972%20%28cropped%29.jpg",
@@ -70,7 +75,8 @@
         "place": "Chicago"
       },
       "death": {
-        "date": "2008-01-17"
+        "date": "2008-01-17",
+        "place": "Reykjavík"
       },
       "facts": [],
       "links": {
@@ -128,6 +134,8 @@
     "name": "Marcel Duchamp",
     "lat": 49.503333333,
     "lng": 1.300833333,
+    "deathLat": 48.887222222,
+    "deathLng": 2.2675,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Duchamp%2001.jpg",
@@ -139,7 +147,8 @@
         "place": "Blainville-Crevon"
       },
       "death": {
-        "date": "1968-10-02"
+        "date": "1968-10-02",
+        "place": "Neuilly-sur-Seine"
       },
       "facts": [
         "Nude Descending a Staircase, No. 2",
@@ -179,10 +188,12 @@
     "name": "José Raúl Capablanca",
     "lat": 23.136666666,
     "lng": -82.358888888,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CAPABLANCA%2C%20JOSE%20R.%20CUBAN%20CHESS%20PLAYER%3B%20WORLD%20CHAMPION%20LCCN2016866175%20%28cropped%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CAPABLANCA%2C%20JOSE%20R.%20CUBAN%20CHESS%20PLAYER%3B%20WORLD%20CHAMPION%20LCCN2016866175%20%28cropped%29.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Ra%C3%BAl%20Capablanca%201931.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Ra%C3%BAl%20Capablanca%201931.jpg?width=400"
       },
       "summary": "Cuban chess player (1888-1942)",
       "birth": {
@@ -190,7 +201,8 @@
         "place": "Havana"
       },
       "death": {
-        "date": "1942-03-08"
+        "date": "1942-03-08",
+        "place": "New York City"
       },
       "facts": [],
       "links": {
@@ -204,6 +216,8 @@
     "name": "Emanuel Lasker",
     "lat": 53,
     "lng": 15.2,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20102-14194%2C%20Emanuel%20Lasker.jpg",
@@ -215,7 +229,8 @@
         "place": "Barlinek"
       },
       "death": {
-        "date": "1941-01-11"
+        "date": "1941-01-11",
+        "place": "New York City"
       },
       "facts": [],
       "links": {
@@ -229,6 +244,8 @@
     "name": "Alexander Alekhine",
     "lat": 55.750555555,
     "lng": 37.6175,
+    "deathLat": 38.70571,
+    "deathLng": -9.39773,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre%20Alekhine%20Color.jpg",
@@ -240,7 +257,8 @@
         "place": "Moscow"
       },
       "death": {
-        "date": "1946-03-24"
+        "date": "1946-03-24",
+        "place": "Estoril"
       },
       "facts": [],
       "links": {
@@ -254,6 +272,8 @@
     "name": "Boris Spassky",
     "lat": 59.95,
     "lng": 30.316666666,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhr.%20Boris%20Spassky%2C%20Bestanddeelnr%20932-7320.jpg",
@@ -265,7 +285,8 @@
         "place": "Saint Petersburg"
       },
       "death": {
-        "date": "2025-02-27"
+        "date": "2025-02-27",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -279,6 +300,8 @@
     "name": "Mikhail Botvinnik",
     "lat": 60.167917,
     "lng": 29.860979,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20Botvinnik%201962.jpg",
@@ -290,7 +313,8 @@
         "place": "Repino"
       },
       "death": {
-        "date": "1995-05-05"
+        "date": "1995-05-05",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -304,6 +328,8 @@
     "name": "Mikhail Tal",
     "lat": 56.9475,
     "lng": 24.106944444,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20Tal%201982.jpg",
@@ -315,7 +341,8 @@
         "place": "Riga"
       },
       "death": {
-        "date": "1992-06-28"
+        "date": "1992-06-27",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -351,6 +378,8 @@
     "name": "Aleister Crowley",
     "lat": 52.291944444,
     "lng": -1.535833333,
+    "deathLat": 50.855,
+    "deathLng": 0.583333333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleister%20Crowley%2C%20thinker.jpg",
@@ -362,7 +391,8 @@
         "place": "Leamington Spa"
       },
       "death": {
-        "date": "1947-12-01"
+        "date": "1947-12-01",
+        "place": "Hastings"
       },
       "facts": [
         "Abbey of Thelema",
@@ -382,6 +412,8 @@
     "name": "Max Euwe",
     "lat": 52.366666666,
     "lng": 4.883333333,
+    "deathLat": 52.366666666,
+    "deathLng": 4.883333333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Euwe%20%281979%29.jpg",
@@ -393,7 +425,8 @@
         "place": "Amsterdam"
       },
       "death": {
-        "date": "1981-11-26"
+        "date": "1981-11-26",
+        "place": "Amsterdam"
       },
       "facts": [],
       "links": {
@@ -407,10 +440,12 @@
     "name": "Tigran Petrosian",
     "lat": 41.7225,
     "lng": 44.7925,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tigran%20Petrosian%20World%20Chess%20Champion.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tigran%20Petrosian%20World%20Chess%20Champion.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anefo%20910-9356%20Hoogovenschaaktoernooi.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anefo%20910-9356%20Hoogovenschaaktoernooi.jpg?width=400"
       },
       "summary": "Soviet Armenian Grandmaster and World Chess Champion",
       "birth": {
@@ -418,7 +453,8 @@
         "place": "Tbilisi"
       },
       "death": {
-        "date": "1984-08-13"
+        "date": "1984-08-13",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -454,6 +490,8 @@
     "name": "Wilhelm Steinitz",
     "lat": 50.0875,
     "lng": 14.421388888,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steinitz%2C%20William-4%20-%20DPLA%20-%209eeab9ac335135c24b69ab7e36fc5354%20%28cropped%29.jpg",
@@ -465,7 +503,8 @@
         "place": "Prague"
       },
       "death": {
-        "date": "1900-08-12"
+        "date": "1900-08-12",
+        "place": "New York City"
       },
       "facts": [],
       "links": {
@@ -481,8 +520,8 @@
     "lng": 19.040833333,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judit%20polgar%2003.08.2008.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judit%20polgar%2003.08.2008.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Judit%20Polg%C3%A1r%202013.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judit%20Polg%C3%A1r%202013.jpg?width=400"
       },
       "summary": "Hungarian chess player",
       "birth": {
@@ -551,6 +590,8 @@
     "name": "Bonar Law",
     "lat": 46.642777777,
     "lng": -64.871388888,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A.%20Bonar%20Law%20LCCN2014715818%20%28cropped%29.jpg",
@@ -562,7 +603,8 @@
         "place": "Rexton"
       },
       "death": {
-        "date": "1923-10-30"
+        "date": "1923-10-30",
+        "place": "London"
       },
       "facts": [],
       "links": {
@@ -598,6 +640,8 @@
     "name": "Vasily Smyslov",
     "lat": 55.750555555,
     "lng": 37.6175,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Interpolisschaaktoernooi%20Tilburg%201819%20Smyslov%20aan%20zet%2C%20Bestanddeelnr%20929-3630.jpg",
@@ -609,7 +653,8 @@
         "place": "Moscow"
       },
       "death": {
-        "date": "2010-03-27"
+        "date": "2010-03-27",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -641,31 +686,6 @@
     }
   },
   {
-    "id": "Q105589",
-    "name": "Paul Morphy",
-    "lat": 29.976111111,
-    "lng": -90.078333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PaulmorphyHair.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PaulmorphyHair.jpg?width=400"
-      },
-      "summary": "US chess player (1837–1884)",
-      "birth": {
-        "date": "1837-06-22",
-        "place": "New Orleans"
-      },
-      "death": {
-        "date": "1884-07-10"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Paul_Morphy",
-        "wikidata": "https://www.wikidata.org/wiki/Q105589"
-      }
-    }
-  },
-  {
     "id": "Q1191198",
     "name": "Ding Liren",
     "lat": 27.999128,
@@ -688,10 +708,40 @@
     }
   },
   {
+    "id": "Q105589",
+    "name": "Paul Morphy",
+    "lat": 29.976111111,
+    "lng": -90.078333333,
+    "deathLat": 29.976111111,
+    "deathLng": -90.078333333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PaulmorphyHair.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PaulmorphyHair.jpg?width=400"
+      },
+      "summary": "US chess player (1837–1884)",
+      "birth": {
+        "date": "1837-06-22",
+        "place": "New Orleans"
+      },
+      "death": {
+        "date": "1884-07-10",
+        "place": "New Orleans"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Paul_Morphy",
+        "wikidata": "https://www.wikidata.org/wiki/Q105589"
+      }
+    }
+  },
+  {
     "id": "Q76558",
     "name": "Siegbert Tarrasch",
     "lat": 51.11,
     "lng": 17.0325,
+    "deathLat": 48.1375,
+    "deathLng": 11.575,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarrasch%2C%20Siegbert-2%20-%20DPLA%20-%20224f35dc323734bf355cc7c94d0ded68%20%28cropped%29.jpg",
@@ -703,7 +753,8 @@
         "place": "Wrocław"
       },
       "death": {
-        "date": "1934-02-17"
+        "date": "1934-02-17",
+        "place": "Munich"
       },
       "facts": [],
       "links": {
@@ -801,6 +852,34 @@
     }
   },
   {
+    "id": "Q212889",
+    "name": "Viktor Korchnoi",
+    "lat": 59.95,
+    "lng": 30.316666666,
+    "deathLat": 47.350555555,
+    "deathLng": 8.277777777,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Euwe%20Schaakvierkamp%20in%20Amsterdam%20Kortsjnoj%20%28close%29%2C%20Bestanddeelnr%20933-9735%20%28cropped%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Euwe%20Schaakvierkamp%20in%20Amsterdam%20Kortsjnoj%20%28close%29%2C%20Bestanddeelnr%20933-9735%20%28cropped%29.jpg?width=400"
+      },
+      "summary": "Soviet-Swiss chess grandmaster",
+      "birth": {
+        "date": "1931-03-23",
+        "place": "Saint Petersburg"
+      },
+      "death": {
+        "date": "2016-06-06",
+        "place": "Wohlen"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Viktor_Korchnoi",
+        "wikidata": "https://www.wikidata.org/wiki/Q212889"
+      }
+    }
+  },
+  {
     "id": "Q12823",
     "name": "Susan Polgar",
     "lat": 47.498333333,
@@ -819,31 +898,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Susan_Polgar",
         "wikidata": "https://www.wikidata.org/wiki/Q12823"
-      }
-    }
-  },
-  {
-    "id": "Q212889",
-    "name": "Viktor Korchnoi",
-    "lat": 59.95,
-    "lng": 30.316666666,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Euwe%20Schaakvierkamp%20in%20Amsterdam%20Kortsjnoj%20%28close%29%2C%20Bestanddeelnr%20933-9735%20%28cropped%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Euwe%20Schaakvierkamp%20in%20Amsterdam%20Kortsjnoj%20%28close%29%2C%20Bestanddeelnr%20933-9735%20%28cropped%29.jpg?width=400"
-      },
-      "summary": "Soviet-Swiss chess grandmaster",
-      "birth": {
-        "date": "1931-03-23",
-        "place": "Saint Petersburg"
-      },
-      "death": {
-        "date": "2016-06-06"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Viktor_Korchnoi",
-        "wikidata": "https://www.wikidata.org/wiki/Q212889"
       }
     }
   },
@@ -874,10 +928,12 @@
     "name": "Paul Keres",
     "lat": 59.379166666,
     "lng": 28.200555555,
+    "deathLat": 60.170833333,
+    "deathLng": 24.9375,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Keres.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Keres.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven%20Schaaktoernooi%20Keres%2C%20Bestanddeelnr%20922-0145.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven%20Schaaktoernooi%20Keres%2C%20Bestanddeelnr%20922-0145.jpg?width=400"
       },
       "summary": "Estonian chess player and sportsperson (1916–1975)",
       "birth": {
@@ -885,7 +941,8 @@
         "place": "Narva"
       },
       "death": {
-        "date": "1975-06-05"
+        "date": "1975-06-05",
+        "place": "Helsinki"
       },
       "facts": [],
       "links": {
@@ -921,6 +978,8 @@
     "name": "François-André Danican Philidor",
     "lat": 48.736388888,
     "lng": 1.365555555,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9%20Danicant%20Philidor.jpg",
@@ -932,7 +991,8 @@
         "place": "Dreux"
       },
       "death": {
-        "date": "1795-08-31"
+        "date": "1795-08-31",
+        "place": "London"
       },
       "facts": [
         "Tom Jones",
@@ -967,28 +1027,6 @@
     }
   },
   {
-    "id": "Q620950",
-    "name": "Alexandra Kosteniuk",
-    "lat": 58.013888888,
-    "lng": 56.248888888,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexandraKosteniuk23a.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexandraKosteniuk23a.jpg?width=400"
-      },
-      "summary": "Russian and Swiss chess player",
-      "birth": {
-        "date": "1984-04-23",
-        "place": "Perm"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Alexandra_Kosteniuk",
-        "wikidata": "https://www.wikidata.org/wiki/Q620950"
-      }
-    }
-  },
-  {
     "id": "Q106374",
     "name": "Alexander Khalifman",
     "lat": 59.95,
@@ -1011,10 +1049,34 @@
     }
   },
   {
+    "id": "Q620950",
+    "name": "Alexandra Kosteniuk",
+    "lat": 58.013888888,
+    "lng": 56.248888888,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexandraKosteniuk23a.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexandraKosteniuk23a.jpg?width=400"
+      },
+      "summary": "Russian and Swiss chess player",
+      "birth": {
+        "date": "1984-04-23",
+        "place": "Perm"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alexandra_Kosteniuk",
+        "wikidata": "https://www.wikidata.org/wiki/Q620950"
+      }
+    }
+  },
+  {
     "id": "Q57155",
     "name": "Adolf Anderssen",
     "lat": 51.11,
     "lng": 17.0325,
+    "deathLat": 51.11,
+    "deathLng": 17.0325,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anderssen%2C%20Adolf%20%22-5%22%20-%20DPLA%20-%209ca464339f18b3d8be87fccc68c3ee73%20%28cropped%29.jpg",
@@ -1026,7 +1088,8 @@
         "place": "Wrocław"
       },
       "death": {
-        "date": "1879-03-13"
+        "date": "1879-03-13",
+        "place": "Wrocław"
       },
       "facts": [],
       "links": {
@@ -1102,6 +1165,34 @@
     }
   },
   {
+    "id": "Q295114",
+    "name": "Aaron Nimzovich",
+    "lat": 56.9475,
+    "lng": 24.106944444,
+    "deathLat": 55.676111111,
+    "deathLng": 12.568888888,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aron%20Nimzowitsch.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aron%20Nimzowitsch.jpg?width=400"
+      },
+      "summary": "Latvian-born Danish chess player and theoretician (1886-1935)",
+      "birth": {
+        "date": "1886-11-07",
+        "place": "Riga"
+      },
+      "death": {
+        "date": "1935-03-16",
+        "place": "Copenhagen"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Aron_Nimzowitsch",
+        "wikidata": "https://www.wikidata.org/wiki/Q295114"
+      }
+    }
+  },
+  {
     "id": "Q705525",
     "name": "Peter Thiel",
     "lat": 50.110555555,
@@ -1126,27 +1217,24 @@
     }
   },
   {
-    "id": "Q295114",
-    "name": "Aaron Nimzovich",
-    "lat": 56.9475,
-    "lng": 24.106944444,
+    "id": "Q312267",
+    "name": "Shakhriyar Mamedyarov",
+    "lat": 40.596111111,
+    "lng": 49.67,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aron%20Nimzowitsch.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aron%20Nimzowitsch.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C9%99hriyar%20M%C9%99mm%C9%99dyarov%202018%20%28crop%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C9%99hriyar%20M%C9%99mm%C9%99dyarov%202018%20%28crop%29.jpg?width=400"
       },
-      "summary": "Latvian-born Danish chess player and theoretician (1886-1935)",
+      "summary": "Azerbaijani chess player",
       "birth": {
-        "date": "1886-11-07",
-        "place": "Riga"
-      },
-      "death": {
-        "date": "1935-03-16"
+        "date": "1985-04-12",
+        "place": "Sumgait"
       },
       "facts": [],
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Aron_Nimzowitsch",
-        "wikidata": "https://www.wikidata.org/wiki/Q295114"
+        "wikipedia": "https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov",
+        "wikidata": "https://www.wikidata.org/wiki/Q312267"
       }
     }
   },
@@ -1191,28 +1279,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Anna_Muzychuk",
         "wikidata": "https://www.wikidata.org/wiki/Q241258"
-      }
-    }
-  },
-  {
-    "id": "Q312267",
-    "name": "Shakhriyar Mamedyarov",
-    "lat": 40.596111111,
-    "lng": 49.67,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C9%99hriyar%20M%C9%99mm%C9%99dyarov%202018%20%28crop%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C9%99hriyar%20M%C9%99mm%C9%99dyarov%202018%20%28crop%29.jpg?width=400"
-      },
-      "summary": "Azerbaijani chess player",
-      "birth": {
-        "date": "1985-04-12",
-        "place": "Sumgait"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov",
-        "wikidata": "https://www.wikidata.org/wiki/Q312267"
       }
     }
   },
@@ -1267,8 +1333,8 @@
     "lng": 80.616666666,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koneru%20Humpy.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Koneru%20Humpy.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HumpyKoneru.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HumpyKoneru.jpg?width=400"
       },
       "summary": "Indian chess player",
       "birth": {
@@ -1287,6 +1353,8 @@
     "name": "David Bronstein",
     "lat": 49.795555555,
     "lng": 30.116666666,
+    "deathLat": 53.902246,
+    "deathLng": 27.561837,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Bronstein%20in%201954.jpg",
@@ -1298,7 +1366,8 @@
         "place": "Bila Tserkva"
       },
       "death": {
-        "date": "2006-12-05"
+        "date": "2006-12-05",
+        "place": "Minsk"
       },
       "facts": [],
       "links": {
@@ -1312,6 +1381,8 @@
     "name": "Viktor Dyk",
     "lat": 50.3628,
     "lng": 14.4677,
+    "deathLat": 42.6834,
+    "deathLng": 17.949,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viktor%20Dyk.jpg",
@@ -1323,7 +1394,8 @@
         "place": "Pšovka"
       },
       "death": {
-        "date": "1931-05-14"
+        "date": "1931-05-14",
+        "place": "Lopud"
       },
       "facts": [],
       "links": {
@@ -1381,6 +1453,8 @@
     "name": "Vera Menchik",
     "lat": 55.750555555,
     "lng": 37.6175,
+    "deathLat": 51.463230555,
+    "deathLng": -0.133938888,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vera%20Menchik%201933.jpg",
@@ -1392,7 +1466,8 @@
         "place": "Moscow"
       },
       "death": {
-        "date": "1944-06-26"
+        "date": "1944-06-26",
+        "place": "Clapham"
       },
       "facts": [],
       "links": {
@@ -1406,6 +1481,8 @@
     "name": "Mikhail Chigorin",
     "lat": 59.56841,
     "lng": 30.122892,
+    "deathLat": 51.25,
+    "deathLng": 22.566666666,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail%20Chigorin%20%28cropped%29.jpg",
@@ -1417,7 +1494,8 @@
         "place": "Gatchina"
       },
       "death": {
-        "date": "1908-01-25"
+        "date": "1908-01-25",
+        "place": "Lublin"
       },
       "facts": [],
       "links": {
@@ -1449,28 +1527,6 @@
     }
   },
   {
-    "id": "Q164582",
-    "name": "Vytautas Landsbergis",
-    "lat": 54.9,
-    "lng": 23.933333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landsbergis%2C%20Vytautas-0085.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landsbergis%2C%20Vytautas-0085.jpg?width=400"
-      },
-      "summary": "Lithuanian politician and musicologist (born 1932)",
-      "birth": {
-        "date": "1932-10-18",
-        "place": "Kaunas"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Vytautas_Landsbergis",
-        "wikidata": "https://www.wikidata.org/wiki/Q164582"
-      }
-    }
-  },
-  {
     "id": "Q313778",
     "name": "Nigel Short",
     "lat": 53.4975,
@@ -1493,14 +1549,36 @@
     }
   },
   {
+    "id": "Q164582",
+    "name": "Vytautas Landsbergis",
+    "lat": 54.9,
+    "lng": 23.933333333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landsbergis%2C%20Vytautas-0085.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landsbergis%2C%20Vytautas-0085.jpg?width=400"
+      },
+      "summary": "Lithuanian politician and musicologist (born 1932)",
+      "birth": {
+        "date": "1932-10-18",
+        "place": "Kaunas"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Vytautas_Landsbergis",
+        "wikidata": "https://www.wikidata.org/wiki/Q164582"
+      }
+    }
+  },
+  {
     "id": "Q238810",
     "name": "Antoaneta Stefanova",
     "lat": 42.697886,
     "lng": 23.321726,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoaneta%20Stefanova%20%2845NS%29.png",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoaneta%20Stefanova%20%2845NS%29.png?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-Antoaneta-Stefanova.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-Antoaneta-Stefanova.JPG?width=400"
       },
       "summary": "Bulgarian chess player",
       "birth": {
@@ -1519,6 +1597,8 @@
     "name": "Bent Larsen",
     "lat": 56.947777777,
     "lng": 8.642777777,
+    "deathLat": -34.599722222,
+    "deathLng": -58.381944444,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Deen%20Larsen%2C%20Bestanddeelnr%20929-0503.jpg",
@@ -1530,39 +1610,13 @@
         "place": "Tilsted Parish"
       },
       "death": {
-        "date": "2010-09-09"
+        "date": "2010-09-09",
+        "place": "Buenos Aires"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Bent_Larsen",
         "wikidata": "https://www.wikidata.org/wiki/Q108807"
-      }
-    }
-  },
-  {
-    "id": "Q161135",
-    "name": "Savielly Tartakower",
-    "lat": 47.2225,
-    "lng": 39.71,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg?width=400"
-      },
-      "summary": "Polish and French chess player (1887–1956)",
-      "birth": {
-        "date": "1887-02-22",
-        "place": "Rostov-on-Don"
-      },
-      "death": {
-        "date": "1956-02-05"
-      },
-      "facts": [
-        "A Breviary of Chess"
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Savielly_Tartakower",
-        "wikidata": "https://www.wikidata.org/wiki/Q161135"
       }
     }
   },
@@ -1589,52 +1643,32 @@
     }
   },
   {
-    "id": "Q57310",
-    "name": "Efim Bogoljubov",
-    "lat": 49.095,
-    "lng": 31.547777777,
+    "id": "Q161135",
+    "name": "Savielly Tartakower",
+    "lat": 47.2225,
+    "lng": 39.71,
+    "deathLat": 48.875508333,
+    "deathLng": 2.357852777,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Efim%20Bogoljubov.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Efim%20Bogoljubov.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ksawery%20Tartakower.jpg?width=400"
       },
-      "summary": "Russian chess player (1889–1952)",
+      "summary": "Polish and French chess player (1887–1956)",
       "birth": {
-        "date": "1889-04-13",
-        "place": "Stanislavchyk"
+        "date": "1887-02-22",
+        "place": "Rostov-on-Don"
       },
       "death": {
-        "date": "1952-06-18"
+        "date": "1956-02-05",
+        "place": "10ᵗʰ arrondissement of Paris"
       },
-      "facts": [],
+      "facts": [
+        "A Breviary of Chess"
+      ],
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Efim_Bogoljubow",
-        "wikidata": "https://www.wikidata.org/wiki/Q57310"
-      }
-    }
-  },
-  {
-    "id": "Q435699",
-    "name": "Henry Thomas Buckle",
-    "lat": 51.461455555,
-    "lng": -0.005369444,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Thomas%20Buckle%20%281857%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Thomas%20Buckle%20%281857%29.jpg?width=400"
-      },
-      "summary": "English historian (1821–1862)",
-      "birth": {
-        "date": "1821-11-24",
-        "place": "Lewisham"
-      },
-      "death": {
-        "date": "1862-05-29"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Henry_Thomas_Buckle",
-        "wikidata": "https://www.wikidata.org/wiki/Q435699"
+        "wikipedia": "https://en.wikipedia.org/wiki/Savielly_Tartakower",
+        "wikidata": "https://www.wikidata.org/wiki/Q161135"
       }
     }
   },
@@ -1657,6 +1691,62 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Zhu_Chen",
         "wikidata": "https://www.wikidata.org/wiki/Q198104"
+      }
+    }
+  },
+  {
+    "id": "Q57310",
+    "name": "Efim Bogoljubov",
+    "lat": 49.095,
+    "lng": 31.547777777,
+    "deathLat": 48.130833333,
+    "deathLng": 8.231666666,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Efim%20Bogoljubov.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Efim%20Bogoljubov.jpg?width=400"
+      },
+      "summary": "Russian chess player (1889–1952)",
+      "birth": {
+        "date": "1889-04-13",
+        "place": "Stanislavchyk"
+      },
+      "death": {
+        "date": "1952-06-18",
+        "place": "Triberg im Schwarzwald"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Efim_Bogoljubow",
+        "wikidata": "https://www.wikidata.org/wiki/Q57310"
+      }
+    }
+  },
+  {
+    "id": "Q435699",
+    "name": "Henry Thomas Buckle",
+    "lat": 51.461455555,
+    "lng": -0.005369444,
+    "deathLat": 33.513,
+    "deathLng": 36.292,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Thomas%20Buckle%20%281857%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Thomas%20Buckle%20%281857%29.jpg?width=400"
+      },
+      "summary": "English historian (1821–1862)",
+      "birth": {
+        "date": "1821-11-24",
+        "place": "Lewisham"
+      },
+      "death": {
+        "date": "1862-05-29",
+        "place": "Damascus"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Henry_Thomas_Buckle",
+        "wikidata": "https://www.wikidata.org/wiki/Q435699"
       }
     }
   },
@@ -1753,6 +1843,8 @@
     "name": "Frank Marshall",
     "lat": 40.712777777,
     "lng": -74.006111111,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Marshall%20%28chess%20player%29.jpg",
@@ -1764,12 +1856,41 @@
         "place": "New York City"
       },
       "death": {
-        "date": "1944-11-09"
+        "date": "1944-11-09",
+        "place": "New York City"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Frank_Marshall_(chess_player)",
         "wikidata": "https://www.wikidata.org/wiki/Q312814"
+      }
+    }
+  },
+  {
+    "id": "Q311737",
+    "name": "Samuel Reshevsky",
+    "lat": 51.966666666,
+    "lng": 19.283333333,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Reshevsky%201964.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Reshevsky%201964.jpg?width=400"
+      },
+      "summary": "American chess player",
+      "birth": {
+        "date": "1911-11-26",
+        "place": "Ozorków"
+      },
+      "death": {
+        "date": "1992-04-04",
+        "place": "New York City"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Samuel_Reshevsky",
+        "wikidata": "https://www.wikidata.org/wiki/Q311737"
       }
     }
   },
@@ -1796,56 +1917,6 @@
     }
   },
   {
-    "id": "Q311737",
-    "name": "Samuel Reshevsky",
-    "lat": 51.966666666,
-    "lng": 19.283333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Reshevsky%201964.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Reshevsky%201964.jpg?width=400"
-      },
-      "summary": "American chess player",
-      "birth": {
-        "date": "1911-11-26",
-        "place": "Ozorków"
-      },
-      "death": {
-        "date": "1992-04-04"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Samuel_Reshevsky",
-        "wikidata": "https://www.wikidata.org/wiki/Q311737"
-      }
-    }
-  },
-  {
-    "id": "Q139438",
-    "name": "Jan Timman",
-    "lat": 52.366666666,
-    "lng": 4.883333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timman%20Jan.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Timman%20Jan.jpg?width=400"
-      },
-      "summary": "Dutch chess grandmaster (1951–2026)",
-      "birth": {
-        "date": "1951-12-14",
-        "place": "Amsterdam"
-      },
-      "death": {
-        "date": "2026-02-18"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Jan_Timman",
-        "wikidata": "https://www.wikidata.org/wiki/Q139438"
-      }
-    }
-  },
-  {
     "id": "Q548946",
     "name": "Anish Giri",
     "lat": 59.95,
@@ -1864,6 +1935,34 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Anish_Giri",
         "wikidata": "https://www.wikidata.org/wiki/Q548946"
+      }
+    }
+  },
+  {
+    "id": "Q139438",
+    "name": "Jan Timman",
+    "lat": 52.366666666,
+    "lng": 4.883333333,
+    "deathLat": 51.983333333,
+    "deathLng": 5.916666666,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timman%20Jan.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Timman%20Jan.jpg?width=400"
+      },
+      "summary": "Dutch chess grandmaster (1951–2026)",
+      "birth": {
+        "date": "1951-12-14",
+        "place": "Amsterdam"
+      },
+      "death": {
+        "date": "2026-02-18",
+        "place": "Arnhem"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Jan_Timman",
+        "wikidata": "https://www.wikidata.org/wiki/Q139438"
       }
     }
   },
@@ -1916,6 +2015,8 @@
     "name": "Johannes Zukertort",
     "lat": 51.25,
     "lng": 22.566666666,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zukertort%2C%20Johannes%20Hermann%20%22-1%22%20-%20DPLA%20-%20178f6bd2074f2347becb2e4ebeabd45b%20%28cropped%29.jpg",
@@ -1927,7 +2028,8 @@
         "place": "Lublin"
       },
       "death": {
-        "date": "1888-06-20"
+        "date": "1888-06-20",
+        "place": "London"
       },
       "facts": [],
       "links": {
@@ -1985,6 +2087,8 @@
     "name": "Richard Réti",
     "lat": 48.291944444,
     "lng": 17.266111111,
+    "deathLat": 50.0875,
+    "deathLng": 14.421388888,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RichardReti.jpg",
@@ -1996,7 +2100,8 @@
         "place": "Pezinok"
       },
       "death": {
-        "date": "1929-06-06"
+        "date": "1929-06-06",
+        "place": "Prague"
       },
       "facts": [
         "Réti endgame study"
@@ -2012,6 +2117,8 @@
     "name": "Lyudmila Rudenko",
     "lat": 50.018564129,
     "lng": 32.986860348,
+    "deathLat": 59.95,
+    "deathLng": 30.316666666,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lyudmila%20Rudenko.jpg",
@@ -2023,7 +2130,8 @@
         "place": "Lubny"
       },
       "death": {
-        "date": "1986-03-04"
+        "date": "1986-03-04",
+        "place": "Saint Petersburg"
       },
       "facts": [],
       "links": {
@@ -2037,6 +2145,8 @@
     "name": "Ruy López de Segura",
     "lat": 38.1199347,
     "lng": -6.5290164,
+    "deathLat": 40.416944444,
+    "deathLng": -3.703333333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Mussini-%20Leonardo%20da%20Cutro%20e%20Ruy%20Lopez%20giocano%20a%20scacchi%20alla%20corte%20di%20Spagna.jpg",
@@ -2048,7 +2158,8 @@
         "place": "Segura de León"
       },
       "death": {
-        "date": "1580-01-01"
+        "date": "1580-01-01",
+        "place": "Madrid"
       },
       "facts": [],
       "links": {
@@ -2106,6 +2217,8 @@
     "name": "Howard Staunton",
     "lat": 54.5,
     "lng": -2.583333333,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Howard-Staunton-ILN.jpeg",
@@ -2117,7 +2230,8 @@
         "place": "Westmorland"
       },
       "death": {
-        "date": "1874-06-22"
+        "date": "1874-06-22",
+        "place": "London"
       },
       "facts": [],
       "links": {
@@ -2127,10 +2241,40 @@
     }
   },
   {
+    "id": "Q318597",
+    "name": "Akiba Rubinstein",
+    "lat": 53.37975,
+    "lng": 22.154944444,
+    "deathLat": 51.221111111,
+    "deathLng": 4.399722222,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Akiba-Rubinstein.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Akiba-Rubinstein.png?width=400"
+      },
+      "summary": "Russian-Polish chess player",
+      "birth": {
+        "date": "1880-12-01",
+        "place": "Stawiski"
+      },
+      "death": {
+        "date": "1961-03-15",
+        "place": "Antwerp"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Akiba_Rubinstein",
+        "wikidata": "https://www.wikidata.org/wiki/Q318597"
+      }
+    }
+  },
+  {
     "id": "Q310532",
     "name": "Miguel Najdorf",
-    "lat": 52.10387,
-    "lng": 20.6337,
+    "lat": 52.108888888,
+    "lng": 20.625,
+    "deathLat": 36.716666666,
+    "deathLng": -4.416666666,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miguel%20Najdorf%20%281973%29.jpg",
@@ -2142,7 +2286,8 @@
         "place": "Grodzisk Mazowiecki"
       },
       "death": {
-        "date": "1997-07-04"
+        "date": "1997-07-04",
+        "place": "Málaga"
       },
       "facts": [],
       "links": {
@@ -2152,35 +2297,12 @@
     }
   },
   {
-    "id": "Q318597",
-    "name": "Akiba Rubinstein",
-    "lat": 53.37975,
-    "lng": 22.154944444,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Akiba-Rubinstein.png",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Akiba-Rubinstein.png?width=400"
-      },
-      "summary": "Russian-Polish chess player",
-      "birth": {
-        "date": "1882-12-12",
-        "place": "Stawiski"
-      },
-      "death": {
-        "date": "1961-03-15"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Akiba_Rubinstein",
-        "wikidata": "https://www.wikidata.org/wiki/Q318597"
-      }
-    }
-  },
-  {
     "id": "Q456761",
     "name": "László Szabó",
     "lat": 47.498333333,
     "lng": 19.040833333,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1szl%C3%B3%20Szab%C3%B3%201966.jpg",
@@ -2192,7 +2314,8 @@
         "place": "Budapest"
       },
       "death": {
-        "date": "1998-08-08"
+        "date": "1998-08-08",
+        "place": "Budapest"
       },
       "facts": [],
       "links": {
@@ -2202,35 +2325,12 @@
     }
   },
   {
-    "id": "Q253772",
-    "name": "Elisabeth Bykova",
-    "lat": 56.194722222,
-    "lng": 40.530833333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bykowa%2CJelisaweta.jpeg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bykowa%2CJelisaweta.jpeg?width=400"
-      },
-      "summary": "Soviet chess player (1913-1989)",
-      "birth": {
-        "date": "1913-11-04",
-        "place": "Bogolyubovo"
-      },
-      "death": {
-        "date": "1989-03-08"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Elisaveta_Bykova",
-        "wikidata": "https://www.wikidata.org/wiki/Q253772"
-      }
-    }
-  },
-  {
     "id": "Q326557",
     "name": "Arpad Elo",
     "lat": 47.330555555,
     "lng": 17.465833333,
+    "deathLat": 43.058055555,
+    "deathLng": -88.114722222,
     "card": {
       "summary": "Hungarian American physicists, developer of the Elo rating",
       "birth": {
@@ -2238,7 +2338,8 @@
         "place": "Pápa"
       },
       "death": {
-        "date": "1992-11-05"
+        "date": "1992-11-05",
+        "place": "Brookfield"
       },
       "facts": [],
       "links": {
@@ -2270,10 +2371,40 @@
     }
   },
   {
+    "id": "Q253772",
+    "name": "Elisabeth Bykova",
+    "lat": 56.194722222,
+    "lng": 40.530833333,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bykowa%2CJelisaweta.jpeg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bykowa%2CJelisaweta.jpeg?width=400"
+      },
+      "summary": "Soviet chess player (1913-1989)",
+      "birth": {
+        "date": "1913-11-04",
+        "place": "Bogolyubovo"
+      },
+      "death": {
+        "date": "1989-03-08",
+        "place": "Moscow"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Elisaveta_Bykova",
+        "wikidata": "https://www.wikidata.org/wiki/Q253772"
+      }
+    }
+  },
+  {
     "id": "Q254159",
     "name": "Olga Rubtsova",
     "lat": 55.750555555,
     "lng": 37.6175,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olga%20Rubtsova.jpeg",
@@ -2285,7 +2416,8 @@
         "place": "Moscow"
       },
       "death": {
-        "date": "1994-12-13"
+        "date": "1994-12-13",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -2321,6 +2453,8 @@
     "name": "Louis-Charles Mahé de La Bourdonnais",
     "lat": -21.114444444,
     "lng": 55.5325,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louisdelabourdonnais.jpg",
@@ -2332,7 +2466,8 @@
         "place": "Réunion"
       },
       "death": {
-        "date": "1840-12-13"
+        "date": "1840-12-13",
+        "place": "London"
       },
       "facts": [],
       "links": {
@@ -2434,6 +2569,8 @@
     "name": "Efim Geller",
     "lat": 46.47747,
     "lng": 30.73262,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Efim%20Geller%2C%201965%20%28cropped%29.jpg",
@@ -2445,37 +2582,13 @@
         "place": "Odesa"
       },
       "death": {
-        "date": "1998-11-17"
+        "date": "1998-11-17",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Efim_Geller",
         "wikidata": "https://www.wikidata.org/wiki/Q352495"
-      }
-    }
-  },
-  {
-    "id": "Q312817",
-    "name": "E. M. Antoniadi",
-    "lat": 41.01224,
-    "lng": 28.976018,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Antoniadi.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Antoniadi.jpg?width=400"
-      },
-      "summary": "Greek astronomer",
-      "birth": {
-        "date": "1870-03-01",
-        "place": "Constantinople"
-      },
-      "death": {
-        "date": "1944-02-10"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/E._M._Antoniadi",
-        "wikidata": "https://www.wikidata.org/wiki/Q312817"
       }
     }
   },
@@ -2502,24 +2615,30 @@
     }
   },
   {
-    "id": "Q360961",
-    "name": "Natan Sharansky",
-    "lat": 48.015833333,
-    "lng": 37.802777777,
+    "id": "Q312817",
+    "name": "E. M. Antoniadi",
+    "lat": 41.01224,
+    "lng": 28.976018,
+    "deathLat": 48.833022222,
+    "deathLng": 2.326888888,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Natan%20Shernasky1.JPG",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Natan%20Shernasky1.JPG?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Antoniadi.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Antoniadi.jpg?width=400"
       },
-      "summary": "Israeli politician (born 1948)",
+      "summary": "Greek astronomer",
       "birth": {
-        "date": "1948-01-20",
-        "place": "Donetsk"
+        "date": "1870-03-01",
+        "place": "Constantinople"
+      },
+      "death": {
+        "date": "1944-02-10",
+        "place": "14th arrondissement of Paris"
       },
       "facts": [],
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Natan_Sharansky",
-        "wikidata": "https://www.wikidata.org/wiki/Q360961"
+        "wikipedia": "https://en.wikipedia.org/wiki/E._M._Antoniadi",
+        "wikidata": "https://www.wikidata.org/wiki/Q312817"
       }
     }
   },
@@ -2542,6 +2661,28 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Harika_Dronavalli",
         "wikidata": "https://www.wikidata.org/wiki/Q109147059"
+      }
+    }
+  },
+  {
+    "id": "Q360961",
+    "name": "Natan Sharansky",
+    "lat": 48.015833333,
+    "lng": 37.802777777,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Natan%20Shernasky1.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Natan%20Shernasky1.JPG?width=400"
+      },
+      "summary": "Israeli politician (born 1948)",
+      "birth": {
+        "date": "1948-01-20",
+        "place": "Donetsk"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Natan_Sharansky",
+        "wikidata": "https://www.wikidata.org/wiki/Q360961"
       }
     }
   },
@@ -2572,6 +2713,8 @@
     "name": "Carl Schlechter",
     "lat": 48.208333333,
     "lng": 16.3725,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schlechter%2C%20Carl%201896%20-%20DPLA%20-%20832da5245429c37f5e2ffcdf1fa3b902%20%28cropped%29.jpg",
@@ -2583,7 +2726,8 @@
         "place": "Vienna"
       },
       "death": {
-        "date": "1918-12-27"
+        "date": "1918-12-27",
+        "place": "Budapest"
       },
       "facts": [],
       "links": {
@@ -2597,6 +2741,8 @@
     "name": "Yuri Averbakh",
     "lat": 54.533333333,
     "lng": 36.266666666,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuriy%20Averbakh%201963.jpg",
@@ -2608,7 +2754,8 @@
         "place": "Kaluga"
       },
       "death": {
-        "date": "2022-05-07"
+        "date": "2022-05-07",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -2644,10 +2791,12 @@
     "name": "Svetozar Gligorić",
     "lat": 44.817777777,
     "lng": 20.456944444,
+    "deathLat": 44.817777777,
+    "deathLng": 20.456944444,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Svetozar%20Gligori%C4%87%201966.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Svetozar%20Gligori%C4%87%201966.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gligoric%201961%20Oberhausen.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gligoric%201961%20Oberhausen.jpg?width=400"
       },
       "summary": "Serbian and Yugoslavian chess player (1923–2012)",
       "birth": {
@@ -2655,12 +2804,41 @@
         "place": "Belgrade"
       },
       "death": {
-        "date": "2012-08-14"
+        "date": "2012-08-14",
+        "place": "Belgrade"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Svetozar_Gligori%C4%87",
         "wikidata": "https://www.wikidata.org/wiki/Q158050"
+      }
+    }
+  },
+  {
+    "id": "Q369600",
+    "name": "Jean-Christophe Yoccoz",
+    "lat": 48.858677777,
+    "lng": 2.379305555,
+    "deathLat": 48.841327777,
+    "deathLng": 2.300291666,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Yoccoz.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Yoccoz.jpg?width=400"
+      },
+      "summary": "French mathematician (1957-2016)",
+      "birth": {
+        "date": "1957-05-29",
+        "place": "11th arrondissement of Paris"
+      },
+      "death": {
+        "date": "2016-09-03",
+        "place": "15th arrondissement of Paris"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Jean-Christophe_Yoccoz",
+        "wikidata": "https://www.wikidata.org/wiki/Q369600"
       }
     }
   },
@@ -2683,31 +2861,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Tan_Zhongyi",
         "wikidata": "https://www.wikidata.org/wiki/Q7682163"
-      }
-    }
-  },
-  {
-    "id": "Q369600",
-    "name": "Jean-Christophe Yoccoz",
-    "lat": 48.858677777,
-    "lng": 2.379305555,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Yoccoz.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Yoccoz.jpg?width=400"
-      },
-      "summary": "French mathematician (1957-2016)",
-      "birth": {
-        "date": "1957-05-29",
-        "place": "11th arrondissement of Paris"
-      },
-      "death": {
-        "date": "2016-09-03"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Jean-Christophe_Yoccoz",
-        "wikidata": "https://www.wikidata.org/wiki/Q369600"
       }
     }
   },
@@ -2737,6 +2890,8 @@
     "name": "Reuben Fine",
     "lat": 40.712777777,
     "lng": -74.006111111,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reuben%20Fine%20%281961%29.jpg",
@@ -2748,7 +2903,8 @@
         "place": "New York City"
       },
       "death": {
-        "date": "1993-03-26"
+        "date": "1993-03-26",
+        "place": "New York City"
       },
       "facts": [],
       "links": {
@@ -2762,6 +2918,8 @@
     "name": "Robert Hübner",
     "lat": 50.942222222,
     "lng": 6.957777777,
+    "deathLat": 50.942222222,
+    "deathLng": 6.957777777,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhr.%20Robert%20H%C3%BCbner%2C%20Bestanddeelnr%20932-7315.jpg",
@@ -2773,7 +2931,8 @@
         "place": "Cologne"
       },
       "death": {
-        "date": "2025-01-05"
+        "date": "2025-01-05",
+        "place": "Cologne"
       },
       "facts": [],
       "links": {
@@ -2787,6 +2946,8 @@
     "name": "Milan Vidmar",
     "lat": 46.051388888,
     "lng": 14.506111111,
+    "deathLat": 46.051388888,
+    "deathLng": 14.506111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Milan%20Vidmar%201930s.jpg",
@@ -2798,7 +2959,8 @@
         "place": "Ljubljana"
       },
       "death": {
-        "date": "1962-10-09"
+        "date": "1962-10-09",
+        "place": "Ljubljana"
       },
       "facts": [],
       "links": {
@@ -2812,6 +2974,8 @@
     "name": "Vugar Hashimov",
     "lat": 40.366655555,
     "lng": 49.835183333,
+    "deathLat": 49.412222222,
+    "deathLng": 8.71,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/VugarGashimov10.jpg",
@@ -2823,7 +2987,8 @@
         "place": "Baku"
       },
       "death": {
-        "date": "2014-01-11"
+        "date": "2014-01-11",
+        "place": "Heidelberg"
       },
       "facts": [
         "chess"
@@ -2837,12 +3002,12 @@
   {
     "id": "Q253961",
     "name": "Nana Alexandria",
-    "lat": 42.15,
-    "lng": 41.666666666,
+    "lat": 42.14194,
+    "lng": 41.67639,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nana%20Alexandria%201986%20Dubai.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nana%20Alexandria%201986%20Dubai.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven%20Schaaktoernooi%20in%20Beverwijk.%20Nana%20Aleksandria%20%28USSR%29%20aan%20bord%2C%20Bestanddeelnr%20923-1999.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven%20Schaaktoernooi%20in%20Beverwijk.%20Nana%20Aleksandria%20%28USSR%29%20aan%20bord%2C%20Bestanddeelnr%20923-1999.jpg?width=400"
       },
       "summary": "Georgian chess player",
       "birth": {
@@ -2853,34 +3018,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Nana_Alexandria",
         "wikidata": "https://www.wikidata.org/wiki/Q253961"
-      }
-    }
-  },
-  {
-    "id": "Q316820",
-    "name": "Ferenc Erkel",
-    "lat": 46.65,
-    "lng": 21.282777777,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erkel%20Ferenc%20Gy%C3%B6rgyi%20Alajos.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Erkel%20Ferenc%20Gy%C3%B6rgyi%20Alajos.jpg?width=400"
-      },
-      "summary": "Hungarian composer, conductor and pianist (1810–1893)",
-      "birth": {
-        "date": "1810-11-07",
-        "place": "Gyula"
-      },
-      "death": {
-        "date": "1893-06-15"
-      },
-      "facts": [
-        "Himnusz",
-        "Hunyadi László"
-      ],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Ferenc_Erkel",
-        "wikidata": "https://www.wikidata.org/wiki/Q316820"
       }
     }
   },
@@ -2907,14 +3044,45 @@
     }
   },
   {
+    "id": "Q316820",
+    "name": "Ferenc Erkel",
+    "lat": 46.65,
+    "lng": 21.282777777,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erkel%20Ferenc%20Gy%C3%B6rgyi%20Alajos.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Erkel%20Ferenc%20Gy%C3%B6rgyi%20Alajos.jpg?width=400"
+      },
+      "summary": "Hungarian composer, conductor and pianist (1810–1893)",
+      "birth": {
+        "date": "1810-11-07",
+        "place": "Gyula"
+      },
+      "death": {
+        "date": "1893-06-15",
+        "place": "Budapest"
+      },
+      "facts": [
+        "Himnusz",
+        "Hunyadi László"
+      ],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Ferenc_Erkel",
+        "wikidata": "https://www.wikidata.org/wiki/Q316820"
+      }
+    }
+  },
+  {
     "id": "Q555232",
     "name": "Pendyala Harikrishna",
     "lat": 16.3,
     "lng": 80.45,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PentalaHarikrishna13.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PentalaHarikrishna13.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-Pentala-Harikrishna.JPG",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-Pentala-Harikrishna.JPG?width=400"
       },
       "summary": "Indian chess player",
       "birth": {
@@ -2933,6 +3101,8 @@
     "name": "Edward Plunkett, 18th Baron of Dunsany",
     "lat": 51.507222222,
     "lng": -0.1275,
+    "deathLat": 53.349722222,
+    "deathLng": -6.260277777,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lord%20Edward%20John%20Moreton%20Drax%20Plunkett%20Dunsany%20by%20Morrall-Hoole%20Studios.jpg",
@@ -2944,7 +3114,8 @@
         "place": "London"
       },
       "death": {
-        "date": "1957-10-25"
+        "date": "1957-10-25",
+        "place": "Dublin"
       },
       "facts": [
         "The King of Elfland's Daughter",
@@ -2985,6 +3156,8 @@
     "name": "Mark Taimanov",
     "lat": 49.9925,
     "lng": 36.231111111,
+    "deathLat": 59.95,
+    "deathLng": 30.316666666,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Taimanov.jpg",
@@ -2996,34 +3169,13 @@
         "place": "Kharkiv"
       },
       "death": {
-        "date": "2016-11-28"
+        "date": "2016-11-28",
+        "place": "Saint Petersburg"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Mark_Taimanov",
         "wikidata": "https://www.wikidata.org/wiki/Q348037"
-      }
-    }
-  },
-  {
-    "id": "Q541305",
-    "name": "Salomėja Zaksaitė",
-    "lat": 54.9,
-    "lng": 23.933333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaksaite%20Salomeja.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaksaite%20Salomeja.jpg?width=400"
-      },
-      "summary": "Lithuanian chess player (born 1985)",
-      "birth": {
-        "date": "1985-07-25",
-        "place": "Kaunas"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Salom%C4%97ja_Zaksait%C4%97",
-        "wikidata": "https://www.wikidata.org/wiki/Q541305"
       }
     }
   },
@@ -3050,10 +3202,34 @@
     }
   },
   {
+    "id": "Q541305",
+    "name": "Salomėja Zaksaitė",
+    "lat": 54.9,
+    "lng": 23.933333333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaksaite%20Salomeja.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaksaite%20Salomeja.jpg?width=400"
+      },
+      "summary": "Lithuanian chess player (born 1985)",
+      "birth": {
+        "date": "1985-07-25",
+        "place": "Kaunas"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Salom%C4%97ja_Zaksait%C4%97",
+        "wikidata": "https://www.wikidata.org/wiki/Q541305"
+      }
+    }
+  },
+  {
     "id": "Q445884",
     "name": "Friðrik Ólafsson",
     "lat": 64.1475,
     "lng": -21.935,
+    "deathLat": 64.1475,
+    "deathLng": -21.935,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fridrik%20Olafsson.jpg",
@@ -3065,7 +3241,8 @@
         "place": "Reykjavík"
       },
       "death": {
-        "date": "2025-04-04"
+        "date": "2025-04-04",
+        "place": "Reykjavík"
       },
       "facts": [],
       "links": {
@@ -3079,6 +3256,8 @@
     "name": "Wolfgang von Kempelen",
     "lat": 48.1516988,
     "lng": 17.1093063,
+    "deathLat": 48.2169,
+    "deathLng": 16.353,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kempelen-charcoal.jpg",
@@ -3090,7 +3269,8 @@
         "place": "Bratislava"
       },
       "death": {
-        "date": "1804-03-26"
+        "date": "1804-03-26",
+        "place": "Alservorstadt"
       },
       "facts": [],
       "links": {
@@ -3104,6 +3284,8 @@
     "name": "George Atwood",
     "lat": 51.4995,
     "lng": -0.1333,
+    "deathLat": 51.4995,
+    "deathLng": -0.1333,
     "card": {
       "summary": "English mathematician (1745–1807)",
       "birth": {
@@ -3111,7 +3293,8 @@
         "place": "Westminster"
       },
       "death": {
-        "date": "1807-07-11"
+        "date": "1807-07-11",
+        "place": "Westminster"
       },
       "facts": [
         "Atwood machine",
@@ -3120,27 +3303,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/George_Atwood",
         "wikidata": "https://www.wikidata.org/wiki/Q441174"
-      }
-    }
-  },
-  {
-    "id": "Q289517",
-    "name": "Giovanni Girolamo Saccheri",
-    "lat": 43.8175,
-    "lng": 7.775,
-    "card": {
-      "summary": "Italian Jesuit and mathematician",
-      "birth": {
-        "date": "1667-09-01",
-        "place": "Sanremo"
-      },
-      "death": {
-        "date": "1733-10-25"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Giovanni_Girolamo_Saccheri",
-        "wikidata": "https://www.wikidata.org/wiki/Q289517"
       }
     }
   },
@@ -3163,6 +3325,30 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Rich%C3%A1rd_Rapport",
         "wikidata": "https://www.wikidata.org/wiki/Q945565"
+      }
+    }
+  },
+  {
+    "id": "Q289517",
+    "name": "Giovanni Girolamo Saccheri",
+    "lat": 43.8175,
+    "lng": 7.775,
+    "deathLat": 45.466944444,
+    "deathLng": 9.19,
+    "card": {
+      "summary": "Italian Jesuit and mathematician",
+      "birth": {
+        "date": "1667-09-01",
+        "place": "Sanremo"
+      },
+      "death": {
+        "date": "1733-10-25",
+        "place": "Milan"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Giovanni_Girolamo_Saccheri",
+        "wikidata": "https://www.wikidata.org/wiki/Q289517"
       }
     }
   },
@@ -3237,6 +3423,8 @@
     "name": "Andor Lilienthal",
     "lat": 55.750555555,
     "lng": 37.6175,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andor%20Lilienthal.jpg",
@@ -3248,7 +3436,8 @@
         "place": "Moscow"
       },
       "death": {
-        "date": "2010-05-08"
+        "date": "2010-05-08",
+        "place": "Budapest"
       },
       "facts": [],
       "links": {
@@ -3302,6 +3491,34 @@
     }
   },
   {
+    "id": "Q317890",
+    "name": "Salo Flohr",
+    "lat": 48.6675,
+    "lng": 25.500277777,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20Elseviers%20weekblad.%20Schaaksimultaan%20Botwinnik%2C%20Bestanddeelnr%20915-8813.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20Elseviers%20weekblad.%20Schaaksimultaan%20Botwinnik%2C%20Bestanddeelnr%20915-8813.jpg?width=400"
+      },
+      "summary": "Czech chess player, arbiter, theoretician, organiser and writer (1908–1983)",
+      "birth": {
+        "date": "1908-11-21",
+        "place": "Horodenka"
+      },
+      "death": {
+        "date": "1983-07-18",
+        "place": "Moscow"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Salo_Flohr",
+        "wikidata": "https://www.wikidata.org/wiki/Q317890"
+      }
+    }
+  },
+  {
     "id": "Q3732506",
     "name": "Eros Riccio",
     "lat": 43.85,
@@ -3320,31 +3537,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Eros_Riccio",
         "wikidata": "https://www.wikidata.org/wiki/Q3732506"
-      }
-    }
-  },
-  {
-    "id": "Q317890",
-    "name": "Salo Flohr",
-    "lat": 48.6675,
-    "lng": 25.500277777,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20Elseviers%20weekblad.%20Schaaksimultaan%20Botwinnik%2C%20Bestanddeelnr%20915-8813.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Opdracht%20Elseviers%20weekblad.%20Schaaksimultaan%20Botwinnik%2C%20Bestanddeelnr%20915-8813.jpg?width=400"
-      },
-      "summary": "Czech chess player, arbiter, theoretician, organiser and writer (1908–1983)",
-      "birth": {
-        "date": "1908-11-21",
-        "place": "Horodenka"
-      },
-      "death": {
-        "date": "1983-07-18"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Salo_Flohr",
-        "wikidata": "https://www.wikidata.org/wiki/Q317890"
       }
     }
   },
@@ -3417,8 +3609,8 @@
   {
     "id": "Q319208",
     "name": "Yasser Seirawan",
-    "lat": 33.513055555,
-    "lng": 36.291944444,
+    "lat": 33.513,
+    "lng": 36.292,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seirawan0301%20137.jpg",
@@ -3433,31 +3625,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Yasser_Seirawan",
         "wikidata": "https://www.wikidata.org/wiki/Q319208"
-      }
-    }
-  },
-  {
-    "id": "Q465247",
-    "name": "Pal Benko",
-    "lat": 49.891944444,
-    "lng": 2.297777777,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%20Benko%201964.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%20Benko%201964.jpg?width=400"
-      },
-      "summary": "Hungarian-American chess player",
-      "birth": {
-        "date": "1928-07-15",
-        "place": "Amiens"
-      },
-      "death": {
-        "date": "2019-08-25"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Pal_Benko",
-        "wikidata": "https://www.wikidata.org/wiki/Q465247"
       }
     }
   },
@@ -3480,6 +3647,34 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Nana_Dzagnidze",
         "wikidata": "https://www.wikidata.org/wiki/Q239796"
+      }
+    }
+  },
+  {
+    "id": "Q465247",
+    "name": "Pal Benko",
+    "lat": 49.891944444,
+    "lng": 2.297777777,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benk%C5%91%20P%C3%A1l%20%282005%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Benk%C5%91%20P%C3%A1l%20%282005%29.jpg?width=400"
+      },
+      "summary": "Hungarian-American chess player",
+      "birth": {
+        "date": "1928-07-15",
+        "place": "Amiens"
+      },
+      "death": {
+        "date": "2019-08-25",
+        "place": "Budapest"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Pal_Benko",
+        "wikidata": "https://www.wikidata.org/wiki/Q465247"
       }
     }
   },
@@ -3598,6 +3793,8 @@
     "name": "Daniel Naroditsky",
     "lat": 37.554166666,
     "lng": -122.313055555,
+    "deathLat": 35.226944444,
+    "deathLng": -80.843333333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DanielNaroditsky16%20%28cropped%29.jpg",
@@ -3609,7 +3806,8 @@
         "place": "San Mateo"
       },
       "death": {
-        "date": "2025-10-19"
+        "date": "2025-10-19",
+        "place": "Charlotte"
       },
       "facts": [],
       "links": {
@@ -3645,6 +3843,8 @@
     "name": "Gioachino Greco",
     "lat": 39.3729467,
     "lng": 16.4239844,
+    "deathLat": 18.2176,
+    "deathLng": -67.8639,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greco%20book.jpg",
@@ -3656,7 +3856,8 @@
         "place": "Celico"
       },
       "death": {
-        "date": "1634-01-01"
+        "date": "1634-01-01",
+        "place": "Antilles"
       },
       "facts": [],
       "links": {
@@ -3732,28 +3933,6 @@
     }
   },
   {
-    "id": "Q1232768",
-    "name": "Dmitry Andreikin",
-    "lat": 54.63,
-    "lng": 39.7425,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dmitry%20Andreikin%20Satka%202018.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dmitry%20Andreikin%20Satka%202018.jpg?width=400"
-      },
-      "summary": "Russian chess grandmaster",
-      "birth": {
-        "date": "1990-02-05",
-        "place": "Ryazan"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Dmitry_Andreikin",
-        "wikidata": "https://www.wikidata.org/wiki/Q1232768"
-      }
-    }
-  },
-  {
     "id": "Q55956238",
     "name": "Pokimane",
     "lat": 32,
@@ -3776,10 +3955,34 @@
     }
   },
   {
+    "id": "Q1232768",
+    "name": "Dmitry Andreikin",
+    "lat": 54.63,
+    "lng": 39.7425,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dmitry%20Andreikin%20Satka%202018.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dmitry%20Andreikin%20Satka%202018.jpg?width=400"
+      },
+      "summary": "Russian chess grandmaster",
+      "birth": {
+        "date": "1990-02-05",
+        "place": "Ryazan"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dmitry_Andreikin",
+        "wikidata": "https://www.wikidata.org/wiki/Q1232768"
+      }
+    }
+  },
+  {
     "id": "Q337325",
     "name": "Sam Loyd",
     "lat": 39.952777777,
     "lng": -75.163611111,
+    "deathLat": 40.712777777,
+    "deathLng": -74.006111111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loyd%2C%20Sam%20-%20DPLA%20-%2066711e1d8fb86a674b6a34e6031d7254.jpg",
@@ -3791,7 +3994,8 @@
         "place": "Philadelphia"
       },
       "death": {
-        "date": "1911-04-10"
+        "date": "1911-04-10",
+        "place": "New York City"
       },
       "facts": [
         "Sam Loyd's Cyclopedia of 5000 Puzzles Tricks and Conundrums"
@@ -3825,27 +4029,24 @@
     }
   },
   {
-    "id": "Q61880",
-    "name": "Vlastimil Hort",
-    "lat": 50.143055555,
-    "lng": 14.105277777,
+    "id": "Q442544",
+    "name": "Evgeny Tomashevsky",
+    "lat": 51.53,
+    "lng": 46.035,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/VlastimilHort10.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VlastimilHort10.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Tomashevsky%20Satka%202018.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Tomashevsky%20Satka%202018.jpg?width=400"
       },
-      "summary": "Czech-German chess player",
+      "summary": "Russian chess grandmaster",
       "birth": {
-        "date": "1944-01-12",
-        "place": "Kladno"
-      },
-      "death": {
-        "date": "2025-05-12"
+        "date": "1987-07-01",
+        "place": "Saratov"
       },
       "facts": [],
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Vlastimil_Hort",
-        "wikidata": "https://www.wikidata.org/wiki/Q61880"
+        "wikipedia": "https://en.wikipedia.org/wiki/Evgeny_Tomashevsky",
+        "wikidata": "https://www.wikidata.org/wiki/Q442544"
       }
     }
   },
@@ -3872,24 +4073,58 @@
     }
   },
   {
-    "id": "Q442544",
-    "name": "Evgeny Tomashevsky",
-    "lat": 51.53,
-    "lng": 46.035,
+    "id": "Q61880",
+    "name": "Vlastimil Hort",
+    "lat": 50.143055555,
+    "lng": 14.105277777,
+    "deathLat": 50.769722222,
+    "deathLng": 7.451666666,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Tomashevsky%20Satka%202018.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Tomashevsky%20Satka%202018.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlastimil%20Hort%201988%20Thessaloniki.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlastimil%20Hort%201988%20Thessaloniki.jpg?width=400"
       },
-      "summary": "Russian chess grandmaster",
+      "summary": "Czech-German chess player",
       "birth": {
-        "date": "1987-07-01",
-        "place": "Saratov"
+        "date": "1944-01-12",
+        "place": "Kladno"
+      },
+      "death": {
+        "date": "2025-05-12",
+        "place": "Eitorf"
       },
       "facts": [],
       "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Evgeny_Tomashevsky",
-        "wikidata": "https://www.wikidata.org/wiki/Q442544"
+        "wikipedia": "https://en.wikipedia.org/wiki/Vlastimil_Hort",
+        "wikidata": "https://www.wikidata.org/wiki/Q61880"
+      }
+    }
+  },
+  {
+    "id": "Q352459",
+    "name": "Joseph Henry Blackburne",
+    "lat": 53.466666666,
+    "lng": -2.233333333,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackburne.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackburne.jpg?width=400"
+      },
+      "summary": "British chess player (1841–1924)",
+      "birth": {
+        "date": "1841-12-10",
+        "place": "Manchester"
+      },
+      "death": {
+        "date": "1924-09-01",
+        "place": "London"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Henry_Blackburne",
+        "wikidata": "https://www.wikidata.org/wiki/Q352459"
       }
     }
   },
@@ -3912,56 +4147,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Vidit_Gujrathi",
         "wikidata": "https://www.wikidata.org/wiki/Q15614436"
-      }
-    }
-  },
-  {
-    "id": "Q352459",
-    "name": "Joseph Henry Blackburne",
-    "lat": 53.466666666,
-    "lng": -2.233333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackburne.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackburne.jpg?width=400"
-      },
-      "summary": "British chess player (1841–1924)",
-      "birth": {
-        "date": "1841-12-10",
-        "place": "Manchester"
-      },
-      "death": {
-        "date": "1924-09-01"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Henry_Blackburne",
-        "wikidata": "https://www.wikidata.org/wiki/Q352459"
-      }
-    }
-  },
-  {
-    "id": "Q378839",
-    "name": "Dawid Janowski",
-    "lat": 53.166666666,
-    "lng": 24.466666666,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janowski%2C%20David%20%22-1%22%20-%20DPLA%20-%208180657a38836009ceefcbbadf2225b1%20%28cropped%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janowski%2C%20David%20%22-1%22%20-%20DPLA%20-%208180657a38836009ceefcbbadf2225b1%20%28cropped%29.jpg?width=400"
-      },
-      "summary": "Polish-French chess player",
-      "birth": {
-        "date": "1868-06-06",
-        "place": "Vawkavysk"
-      },
-      "death": {
-        "date": "1927-01-15"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Dawid_Janowski",
-        "wikidata": "https://www.wikidata.org/wiki/Q378839"
       }
     }
   },
@@ -3991,14 +4176,42 @@
     }
   },
   {
+    "id": "Q378839",
+    "name": "Dawid Janowski",
+    "lat": 53.166666666,
+    "lng": 24.466666666,
+    "deathLat": 43.118888888,
+    "deathLng": 6.128611111,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janowski%2C%20David%20%22-1%22%20-%20DPLA%20-%208180657a38836009ceefcbbadf2225b1%20%28cropped%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janowski%2C%20David%20%22-1%22%20-%20DPLA%20-%208180657a38836009ceefcbbadf2225b1%20%28cropped%29.jpg?width=400"
+      },
+      "summary": "Polish-French chess player",
+      "birth": {
+        "date": "1868-06-06",
+        "place": "Vawkavysk"
+      },
+      "death": {
+        "date": "1927-01-15",
+        "place": "Hyères"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Dawid_Janowski",
+        "wikidata": "https://www.wikidata.org/wiki/Q378839"
+      }
+    }
+  },
+  {
     "id": "Q390430",
     "name": "Lajos Portisch",
     "lat": 46.839166666,
     "lng": 16.851111111,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portisch%2CLajos%201979%20Rio%20b.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Portisch%2CLajos%201979%20Rio%20b.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lajos%20Portisch%201980%20Malta.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lajos%20Portisch%201980%20Malta.jpg?width=400"
       },
       "summary": "Hungarian chess player (1937–)",
       "birth": {
@@ -4039,6 +4252,8 @@
     "name": "Rudolf Spielmann",
     "lat": 48.208333333,
     "lng": 16.3725,
+    "deathLat": 59.329444444,
+    "deathLng": 18.068611111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Spielmann.jpg",
@@ -4050,7 +4265,8 @@
         "place": "Vienna"
       },
       "death": {
-        "date": "1942-08-20"
+        "date": "1942-08-20",
+        "place": "Stockholm"
       },
       "facts": [],
       "links": {
@@ -4064,6 +4280,8 @@
     "name": "Nino Khurtsidze",
     "lat": 41.7225,
     "lng": 44.7925,
+    "deathLat": 41.7225,
+    "deathLng": 44.7925,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nino%20Khurtsidze%202013.jpg",
@@ -4075,7 +4293,8 @@
         "place": "Tbilisi"
       },
       "death": {
-        "date": "2018-04-23"
+        "date": "2018-04-22",
+        "place": "Tbilisi"
       },
       "facts": [],
       "links": {
@@ -4089,6 +4308,8 @@
     "name": "Alexander Kotov",
     "lat": 54.2,
     "lng": 37.616666666,
+    "deathLat": 55.750555555,
+    "deathLng": 37.6175,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zevende%20IBM%20Schaaktoernooi%20geopend.%20De%20officiele%20loting%20A.%20Kotov%20USSR%2C%20Bestanddeelnr%20920-5097.jpg",
@@ -4100,7 +4321,8 @@
         "place": "Tula"
       },
       "death": {
-        "date": "1981-01-08"
+        "date": "1981-01-08",
+        "place": "Moscow"
       },
       "facts": [],
       "links": {
@@ -4136,6 +4358,8 @@
     "name": "Géza Maróczy",
     "lat": 46.25,
     "lng": 20.166666666,
+    "deathLat": 47.498333333,
+    "deathLng": 19.040833333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gezamaroczy.jpg",
@@ -4147,34 +4371,13 @@
         "place": "Szeged"
       },
       "death": {
-        "date": "1951-05-29"
+        "date": "1951-05-29",
+        "place": "Budapest"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/G%C3%A9za_Mar%C3%B3czy",
         "wikidata": "https://www.wikidata.org/wiki/Q305054"
-      }
-    }
-  },
-  {
-    "id": "Q16845654",
-    "name": "Lei Tingjie",
-    "lat": 29.55,
-    "lng": 106.506944444,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%20Zhongyi%20interview%20with%20Lei%20Tingjie%20as%20translator%20%28cropped%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%20Zhongyi%20interview%20with%20Lei%20Tingjie%20as%20translator%20%28cropped%29.jpg?width=400"
-      },
-      "summary": "Chinese chess player",
-      "birth": {
-        "date": "1997-03-03",
-        "place": "Chongqing"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Lei_Tingjie",
-        "wikidata": "https://www.wikidata.org/wiki/Q16845654"
       }
     }
   },
@@ -4201,6 +4404,28 @@
     }
   },
   {
+    "id": "Q16845654",
+    "name": "Lei Tingjie",
+    "lat": 29.55,
+    "lng": 106.506944444,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%20Zhongyi%20interview%20with%20Lei%20Tingjie%20as%20translator%20%28cropped%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%20Zhongyi%20interview%20with%20Lei%20Tingjie%20as%20translator%20%28cropped%29.jpg?width=400"
+      },
+      "summary": "Chinese chess player",
+      "birth": {
+        "date": "1997-03-03",
+        "place": "Chongqing"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Lei_Tingjie",
+        "wikidata": "https://www.wikidata.org/wiki/Q16845654"
+      }
+    }
+  },
+  {
     "id": "Q440144",
     "name": "Almira Skripchenko",
     "lat": 47.022777777,
@@ -4223,35 +4448,12 @@
     }
   },
   {
-    "id": "Q326580",
-    "name": "Harry Nelson Pillsbury",
-    "lat": 42.3875,
-    "lng": -71.1,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pillsbury%2C%20Harry%20Nelson%2C%20as%20a%20Young%20Man%20-%20DPLA%20-%20bcd01a18c987fea609e21f290ce181be%20%28cropped%29.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pillsbury%2C%20Harry%20Nelson%2C%20as%20a%20Young%20Man%20-%20DPLA%20-%20bcd01a18c987fea609e21f290ce181be%20%28cropped%29.jpg?width=400"
-      },
-      "summary": "American chess player (1872-1906)",
-      "birth": {
-        "date": "1872-12-05",
-        "place": "Somerville"
-      },
-      "death": {
-        "date": "1906-06-17"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Harry_Nelson_Pillsbury",
-        "wikidata": "https://www.wikidata.org/wiki/Q326580"
-      }
-    }
-  },
-  {
     "id": "Q357815",
     "name": "Isaac Boleslavsky",
     "lat": 49.666666666,
     "lng": 32.033333333,
+    "deathLat": 53.902246,
+    "deathLng": 27.561837,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IsaacBoleslavsky%201960.jpg",
@@ -4263,12 +4465,41 @@
         "place": "Zolotonosha"
       },
       "death": {
-        "date": "1977-02-15"
+        "date": "1977-02-15",
+        "place": "Minsk"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Boleslavsky",
         "wikidata": "https://www.wikidata.org/wiki/Q357815"
+      }
+    }
+  },
+  {
+    "id": "Q326580",
+    "name": "Harry Nelson Pillsbury",
+    "lat": 42.3875,
+    "lng": -71.1,
+    "deathLat": 39.952777777,
+    "deathLng": -75.163611111,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pillsbury%2C%20Harry%20Nelson%2C%20as%20a%20Young%20Man%20-%20DPLA%20-%20bcd01a18c987fea609e21f290ce181be%20%28cropped%29.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pillsbury%2C%20Harry%20Nelson%2C%20as%20a%20Young%20Man%20-%20DPLA%20-%20bcd01a18c987fea609e21f290ce181be%20%28cropped%29.jpg?width=400"
+      },
+      "summary": "American chess player (1872-1906)",
+      "birth": {
+        "date": "1872-12-05",
+        "place": "Somerville"
+      },
+      "death": {
+        "date": "1906-06-17",
+        "place": "Philadelphia"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Harry_Nelson_Pillsbury",
+        "wikidata": "https://www.wikidata.org/wiki/Q326580"
       }
     }
   },
@@ -4280,7 +4511,7 @@
     "card": {
       "summary": "Chess player and theorist",
       "birth": {
-        "date": "1475-01-01",
+        "date": "1465-01-01",
         "place": "Lucena"
       },
       "death": {
@@ -4298,6 +4529,8 @@
     "name": "Gideon Ståhlberg",
     "lat": 57.835071695,
     "lng": 12.017622746,
+    "deathLat": 59.95,
+    "deathLng": 30.316666666,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gideon%20Stahlberg%201961.jpg",
@@ -4309,7 +4542,8 @@
         "place": "Surte"
       },
       "death": {
-        "date": "1967-05-26"
+        "date": "1967-05-26",
+        "place": "Saint Petersburg"
       },
       "facts": [],
       "links": {
@@ -4323,6 +4557,8 @@
     "name": "George Salmon",
     "lat": 53.349722222,
     "lng": -6.260277777,
+    "deathLat": 53.349722222,
+    "deathLng": -6.260277777,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20George%20Salmon.jpg",
@@ -4334,7 +4570,8 @@
         "place": "Dublin"
       },
       "death": {
-        "date": "1904-01-22"
+        "date": "1904-01-22",
+        "place": "Dublin"
       },
       "facts": [],
       "links": {
@@ -4372,8 +4609,8 @@
     "lng": 77.208888888,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ParimarjanNegi13.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ParimarjanNegi13.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ParimarjanNegi.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ParimarjanNegi.jpg?width=400"
       },
       "summary": "Indian chess grandmaster",
       "birth": {
@@ -4414,6 +4651,8 @@
     "name": "Florencio Campomanes",
     "lat": 14.595833333,
     "lng": 120.977222222,
+    "deathLat": 16.411944444,
+    "deathLng": 120.593333333,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Florencio%20Campomanes.jpg",
@@ -4431,28 +4670,6 @@
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Florencio_Campomanes",
         "wikidata": "https://www.wikidata.org/wiki/Q358221"
-      }
-    }
-  },
-  {
-    "id": "Q543241",
-    "name": "Alexey Dreev",
-    "lat": 45.05,
-    "lng": 41.983333333,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Dreev%202012.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Dreev%202012.jpg?width=400"
-      },
-      "summary": "Russian chess player",
-      "birth": {
-        "date": "1969-01-30",
-        "place": "Stavropol"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Alexey_Dreev",
-        "wikidata": "https://www.wikidata.org/wiki/Q543241"
       }
     }
   },
@@ -4479,10 +4696,34 @@
     }
   },
   {
+    "id": "Q543241",
+    "name": "Alexey Dreev",
+    "lat": 45.05,
+    "lng": 41.983333333,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Dreev%202012.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexey%20Dreev%202012.jpg?width=400"
+      },
+      "summary": "Russian chess player",
+      "birth": {
+        "date": "1969-01-30",
+        "place": "Stavropol"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Alexey_Dreev",
+        "wikidata": "https://www.wikidata.org/wiki/Q543241"
+      }
+    }
+  },
+  {
     "id": "Q434000",
     "name": "Lev Polugaevsky",
     "lat": 53.90894,
     "lng": 30.34296,
+    "deathLat": 48.856666666,
+    "deathLng": 2.352222222,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lev%20Polugaevsky%201972%20%28cropped%29.jpg",
@@ -4494,34 +4735,13 @@
         "place": "Mahilyow"
       },
       "death": {
-        "date": "1995-08-30"
+        "date": "1995-08-30",
+        "place": "Paris"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Lev_Polugaevsky",
         "wikidata": "https://www.wikidata.org/wiki/Q434000"
-      }
-    }
-  },
-  {
-    "id": "Q708938",
-    "name": "Evgeny Alekseev",
-    "lat": 59.716666666,
-    "lng": 30.416666666,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Alekseev%20at%202013%20Chess%20World%20Cup.png",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Alekseev%20at%202013%20Chess%20World%20Cup.png?width=400"
-      },
-      "summary": "Russian chess grandmaster",
-      "birth": {
-        "date": "1985-11-28",
-        "place": "Pushkin"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Evgeny_Alekseev_(chess_player)",
-        "wikidata": "https://www.wikidata.org/wiki/Q708938"
       }
     }
   },
@@ -4552,6 +4772,8 @@
     "name": "Paolo Boi",
     "lat": 37.069166666,
     "lng": 15.2875,
+    "deathLat": 40.835833333,
+    "deathLng": 14.248611111,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Boi.jpg",
@@ -4563,7 +4785,8 @@
         "place": "Syracuse"
       },
       "death": {
-        "date": "1598-01-01"
+        "date": "1598-01-01",
+        "place": "Naples"
       },
       "facts": [],
       "links": {
@@ -4595,6 +4818,28 @@
     }
   },
   {
+    "id": "Q708938",
+    "name": "Evgeny Alekseev",
+    "lat": 59.716666666,
+    "lng": 30.416666666,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Alekseev%20at%202013%20Chess%20World%20Cup.png",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Evgeny%20Alekseev%20at%202013%20Chess%20World%20Cup.png?width=400"
+      },
+      "summary": "Russian chess grandmaster",
+      "birth": {
+        "date": "1985-11-28",
+        "place": "Pushkin"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Evgeny_Alekseev_(chess_player)",
+        "wikidata": "https://www.wikidata.org/wiki/Q708938"
+      }
+    }
+  },
+  {
     "id": "Q525731",
     "name": "Ivan Cheparinov",
     "lat": 42.008187,
@@ -4617,36 +4862,14 @@
     }
   },
   {
-    "id": "Q28479507",
-    "name": "Bibisara Assaubayeva",
-    "lat": 42.883333333,
-    "lng": 71.366666666,
-    "card": {
-      "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibissara%20Assaubayeva%20photo.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibissara%20Assaubayeva%20photo.jpg?width=400"
-      },
-      "summary": "Kazakhstani chess player",
-      "birth": {
-        "date": "2004-02-26",
-        "place": "Taraz"
-      },
-      "facts": [],
-      "links": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Bibisara_Assaubayeva",
-        "wikidata": "https://www.wikidata.org/wiki/Q28479507"
-      }
-    }
-  },
-  {
     "id": "Q923742",
     "name": "László Polgár",
     "lat": 47.783333333,
     "lng": 19.933333333,
     "card": {
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laszlo%20Polgar.jpg",
-        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Laszlo%20Polgar.jpg?width=400"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1szl%C3%B3%20Polg%C3%A1r%20in%201989.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1szl%C3%B3%20Polg%C3%A1r%20in%201989.jpg?width=400"
       },
       "summary": "Hungarian chess teacher",
       "birth": {
@@ -4667,6 +4890,8 @@
     "name": "Isidor Gunsberg",
     "lat": 47.5,
     "lng": 19.1,
+    "deathLat": 51.507222222,
+    "deathLng": -0.1275,
     "card": {
       "image": {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isidor%20Arthur%20Gunsberg.jpg",
@@ -4678,12 +4903,35 @@
         "place": "Pest"
       },
       "death": {
-        "date": "1930-05-02"
+        "date": "1930-05-02",
+        "place": "London"
       },
       "facts": [],
       "links": {
         "wikipedia": "https://en.wikipedia.org/wiki/Isidor_Gunsberg",
         "wikidata": "https://www.wikidata.org/wiki/Q357796"
+      }
+    }
+  },
+  {
+    "id": "Q28479507",
+    "name": "Bibisara Assaubayeva",
+    "lat": 42.883333333,
+    "lng": 71.366666666,
+    "card": {
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibissara%20Assaubayeva%20photo.jpg",
+        "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibissara%20Assaubayeva%20photo.jpg?width=400"
+      },
+      "summary": "Kazakhstani chess player",
+      "birth": {
+        "date": "2004-02-26",
+        "place": "Taraz"
+      },
+      "facts": [],
+      "links": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Bibisara_Assaubayeva",
+        "wikidata": "https://www.wikidata.org/wiki/Q28479507"
       }
     }
   }

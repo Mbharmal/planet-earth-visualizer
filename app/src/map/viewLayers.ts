@@ -1,16 +1,19 @@
 import type { ViewEntry, ViewManifest } from '@pev/shared'
 import type { GeoJSONSource, Map as MapLibreMap } from 'maplibre-gl'
+import { entriesToArcsGeoJSON } from '../data/arcs'
 import { entriesToGeoJSON } from '../data/geojson'
 
 export const VIEW_SOURCE = 'view'
+export const ARCS_SOURCE = 'view-arcs-src'
 export const LAYER_CLUSTERS = 'view-clusters'
 export const LAYER_CLUSTER_COUNT = 'view-cluster-count'
 export const LAYER_POINTS = 'view-points'
 export const LAYER_LABELS = 'view-labels'
+export const LAYER_ARCS = 'view-arcs'
 
 export const CLUSTER_MAX_ZOOM = 11
 
-const ALL_LAYERS = [LAYER_LABELS, LAYER_CLUSTER_COUNT, LAYER_CLUSTERS, LAYER_POINTS]
+const ALL_LAYERS = [LAYER_LABELS, LAYER_CLUSTER_COUNT, LAYER_CLUSTERS, LAYER_POINTS, LAYER_ARCS]
 
 /** Replace whatever view is on the map with the given one. */
 export function setViewOnMap(map: MapLibreMap, manifest: ViewManifest, entries: ViewEntry[]) {
@@ -27,6 +30,21 @@ export function setViewOnMap(map: MapLibreMap, manifest: ViewManifest, entries: 
     cluster: true,
     clusterRadius: 45,
     clusterMaxZoom: CLUSTER_MAX_ZOOM,
+  })
+
+  // Birth→death migration arcs, hidden until toggled. Added first so every
+  // point/cluster layer draws above the lines.
+  map.addSource(ARCS_SOURCE, { type: 'geojson', data: entriesToArcsGeoJSON(entries) })
+  map.addLayer({
+    id: LAYER_ARCS,
+    type: 'line',
+    source: ARCS_SOURCE,
+    layout: { visibility: 'none', 'line-cap': 'round' },
+    paint: {
+      'line-color': manifest.color,
+      'line-width': 1.2,
+      'line-opacity': 0.35,
+    },
   })
 
   map.addLayer({
@@ -103,11 +121,20 @@ export function setViewOnMap(map: MapLibreMap, manifest: ViewManifest, entries: 
 /** Swap the active view's data in place (era filtering, time-lapse). Re-clusters. */
 export function updateViewData(map: MapLibreMap, entries: ViewEntry[]) {
   map.getSource<GeoJSONSource>(VIEW_SOURCE)?.setData(entriesToGeoJSON(entries))
+  map.getSource<GeoJSONSource>(ARCS_SOURCE)?.setData(entriesToArcsGeoJSON(entries))
+}
+
+export function setArcsVisible(map: MapLibreMap, visible: boolean) {
+  if (map.getLayer(LAYER_ARCS)) {
+    map.setLayoutProperty(LAYER_ARCS, 'visibility', visible ? 'visible' : 'none')
+  }
 }
 
 export function removeViewFromMap(map: MapLibreMap) {
   for (const layer of ALL_LAYERS) {
     if (map.getLayer(layer)) map.removeLayer(layer)
   }
-  if (map.getSource(VIEW_SOURCE)) map.removeSource(VIEW_SOURCE)
+  for (const source of [VIEW_SOURCE, ARCS_SOURCE]) {
+    if (map.getSource(source)) map.removeSource(source)
+  }
 }
