@@ -23,6 +23,8 @@ npm run dev        # http://localhost:5173
 | `npm run generate -- <view-id>` | regenerate a view from Wikidata (`--all` for everything) |
 | `node tools/verify-m3.mjs out.png` | end-to-end browser verification (needs Chrome) |
 
+> 📐 **Deep dive:** [docs/DESIGN.md](docs/DESIGN.md) — the full design & architecture document: every technology choice and its alternatives, implementation internals, the bugs that shaped the code, testing philosophy, and the roadmap.
+
 ## How it works
 
 ```
