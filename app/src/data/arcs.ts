@@ -6,34 +6,75 @@ const MIN_ARC_RADIANS = 40 / 6371 // ≈ 40 km
 
 const STEPS = 48
 
-function toVec(lng: number, lat: number): [number, number, number] {
+type Vec3 = [number, number, number]
+
+function toVec(lng: number, lat: number): Vec3 {
   const φ = (lat * Math.PI) / 180
   const λ = (lng * Math.PI) / 180
   return [Math.cos(φ) * Math.cos(λ), Math.cos(φ) * Math.sin(λ), Math.sin(φ)]
 }
 
-/** Great-circle interpolation between two points; longitudes unwrapped so the
- *  line never jumps across the antimeridian. */
-export function greatCircle(from: [number, number], to: [number, number]): Position[] | null {
+function vecToLngLat(v: Vec3): [number, number] {
+  const lng = (Math.atan2(v[1], v[0]) * 180) / Math.PI
+  const lat = (Math.asin(Math.min(1, Math.max(-1, v[2]))) * 180) / Math.PI
+  return [lng, lat]
+}
+
+const add = (a: Vec3, b: Vec3): Vec3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]]
+const scale = (a: Vec3, s: number): Vec3 => [a[0] * s, a[1] * s, a[2] * s]
+const dot = (a: Vec3, b: Vec3): number => a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
+const cross = (a: Vec3, b: Vec3): Vec3 => [
+  a[1] * b[2] - a[2] * b[1],
+  a[2] * b[0] - a[0] * b[2],
+  a[0] * b[1] - a[1] * b[0],
+]
+
+function normalize(v: Vec3): Vec3 {
+  const len = Math.hypot(v[0], v[1], v[2])
+  return len > 0 ? scale(v, 1 / len) : v
+}
+
+const angleBetween = (a: Vec3, b: Vec3): number => Math.acos(Math.min(1, Math.max(-1, dot(a, b))))
+
+/** Central angle between two lng/lat points, in radians. Multiply by 6371 for km. */
+export function angularDistanceRad(a: [number, number], b: [number, number]): number {
+  return angleBetween(toVec(a[0], a[1]), toVec(b[0], b[1]))
+}
+
+/** Spherical linear interpolation between unit vectors (stays on the sphere). */
+function slerpVec(a: Vec3, b: Vec3, t: number): Vec3 {
+  const ω = angleBetween(a, b)
+  if (ω < 1e-9) return a
+  const s = Math.sin(ω)
+  return add(scale(a, Math.sin((1 - t) * ω) / s), scale(b, Math.sin(t * ω) / s))
+}
+
+/**
+ * Bowed arc between two points: a spherical quadratic Bézier (de Casteljau over
+ * slerps) through a control point — the great-circle midpoint rotated toward
+ * the circle's poleward normal by δ = min(0.10, ω·0.22). Short arcs get a
+ * visible curve instead of reading as straight ticks; long arcs stay close to
+ * the honest great circle. All math stays exactly on the sphere.
+ * Longitudes are unwrapped so the line never jumps across the antimeridian.
+ */
+export function bowedArc(from: [number, number], to: [number, number]): Position[] | null {
   const a = toVec(from[0], from[1])
   const b = toVec(to[0], to[1])
-  const dot = Math.min(1, Math.max(-1, a[0] * b[0] + a[1] * b[1] + a[2] * b[2]))
-  const ω = Math.acos(dot)
+  const ω = angleBetween(a, b)
   if (ω < MIN_ARC_RADIANS) return null
 
-  const sinω = Math.sin(ω)
+  const mid = normalize(add(a, b))
+  let pole = normalize(cross(a, b))
+  if (pole[2] < 0) pole = scale(pole, -1) // consistent poleward bow
+  const δ = Math.min(0.1, ω * 0.22)
+  const ctrl = add(scale(mid, Math.cos(δ)), scale(pole, Math.sin(δ))) // mid rotated toward pole (orthonormal pair)
+
   const points: Position[] = []
   let prevLng = from[0]
   for (let i = 0; i <= STEPS; i++) {
     const t = i / STEPS
-    const s1 = Math.sin((1 - t) * ω) / sinω
-    const s2 = Math.sin(t * ω) / sinω
-    const x = s1 * a[0] + s2 * b[0]
-    const y = s1 * a[1] + s2 * b[1]
-    const z = s1 * a[2] + s2 * b[2]
-    let lng = (Math.atan2(y, x) * 180) / Math.PI
-    const lat = (Math.asin(Math.min(1, Math.max(-1, z))) * 180) / Math.PI
-    // Unwrap: keep consecutive longitudes within ±180 of each other.
+    const p = normalize(slerpVec(slerpVec(a, ctrl, t), slerpVec(ctrl, b, t), t))
+    let [lng, lat] = vecToLngLat(p)
     while (lng - prevLng > 180) lng -= 360
     while (lng - prevLng < -180) lng += 360
     prevLng = lng
@@ -42,12 +83,17 @@ export function greatCircle(from: [number, number], to: [number, number]): Posit
   return points
 }
 
+/** The bowed birth→death arc for one entry, or null when not applicable. */
+export function arcForEntry(entry: ViewEntry): Position[] | null {
+  if (entry.deathLat === undefined || entry.deathLng === undefined) return null
+  return bowedArc([entry.lng, entry.lat], [entry.deathLng, entry.deathLat])
+}
+
 /** Birth→death arcs for every entry that has death coordinates. */
 export function entriesToArcsGeoJSON(entries: ViewEntry[]): FeatureCollection<LineString> {
   const features = []
   for (const entry of entries) {
-    if (entry.deathLat === undefined || entry.deathLng === undefined) continue
-    const line = greatCircle([entry.lng, entry.lat], [entry.deathLng, entry.deathLat])
+    const line = arcForEntry(entry)
     if (!line) continue
     features.push({
       type: 'Feature' as const,
