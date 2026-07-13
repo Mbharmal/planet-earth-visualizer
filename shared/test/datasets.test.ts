@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { ViewIndexSchema, ViewManifestSchema, ViewPointsSchema } from '../src/schema'
+import { JourneySchema, ViewIndexSchema, ViewManifestSchema, ViewPointsSchema } from '../src/schema'
 
 /** Validate every committed dataset against the shared schema, so a bad
  *  generator run or hand edit fails CI instead of breaking the app at runtime. */
@@ -27,6 +27,26 @@ describe('datasets/index.json', () => {
       .map((d) => d.name)
       .sort()
     expect(index.views.map((v) => v.id).sort()).toEqual(dirs)
+  })
+})
+
+describe('journeys', () => {
+  it('every journey listed in the index parses and matches its summary', async () => {
+    for (const summary of index.journeys ?? []) {
+      const journey = JourneySchema.parse(JSON.parse(await readFile(join(DATASETS_DIR, summary.path), 'utf8')))
+      expect(journey.id).toBe(summary.id)
+      expect(journey.color).toBe(summary.color)
+      expect(journey.person.name).toBe(summary.person)
+      // Chronological waypoints, each resource link is https-ish
+      const years = journey.waypoints.map((w) => w.from)
+      expect([...years].sort((a, b) => a - b)).toEqual(years)
+    }
+  })
+
+  it('every journey file on disk is listed in the index', async () => {
+    const files = (await readdir(join(DATASETS_DIR, 'journeys'))).filter((f) => f.endsWith('.json')).sort()
+    const listed = (index.journeys ?? []).map((j) => j.path.split('/').pop()).sort()
+    expect(files).toEqual(listed)
   })
 })
 

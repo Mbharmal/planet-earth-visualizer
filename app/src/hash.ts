@@ -5,6 +5,9 @@ export interface HashState {
   entry?: string
   era?: [number, number]
   arcs?: boolean
+  /** Active journey id, with a 1-based waypoint number for deep links. */
+  journey?: string
+  wp?: number
 }
 
 function parseEra(raw: string | null): [number, number] | undefined {
@@ -23,6 +26,11 @@ export function parseHash(): HashState {
     entry: params.get('entry') ?? undefined,
     era: parseEra(params.get('era')),
     arcs: params.get('arcs') === '1' || undefined,
+    journey: params.get('journey') ?? undefined,
+    wp: (() => {
+      const raw = Number(params.get('wp'))
+      return Number.isInteger(raw) && raw >= 1 ? raw : undefined
+    })(),
   }
 }
 
@@ -32,6 +40,10 @@ export function writeHash(state: HashState) {
   if (state.entry) params.set('entry', state.entry)
   if (state.era) params.set('era', `${state.era[0]}:${state.era[1]}`)
   if (state.arcs) params.set('arcs', '1')
+  if (state.journey) {
+    params.set('journey', state.journey)
+    if (state.wp) params.set('wp', String(state.wp))
+  }
   const hash = params.toString()
   history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname + window.location.search)
 }

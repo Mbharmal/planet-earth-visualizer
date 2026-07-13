@@ -22,5 +22,14 @@
       "color": "#4f7df9",
       "path": "views/scientists"
     }
+  ],
+  "journeys": [
+    {
+      "id": "euler",
+      "title": "Leonhard Euler — the wandering mathematician",
+      "person": "Leonhard Euler",
+      "color": "#4a3aa7",
+      "path": "journeys/euler.json"
+    }
   ]
 }

@@ -3,15 +3,19 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArcsToggle } from './components/ArcsToggle'
 import { ClusterList } from './components/ClusterList'
 import { InfoCard } from './components/InfoCard'
+import { JourneyPanel } from './components/JourneyPanel'
+import { JourneyPicker } from './components/JourneyPicker'
 import { LoadingOverlay } from './components/LoadingOverlay'
 import { TimelineBar } from './components/TimelineBar'
 import { TitleBadge } from './components/TitleBadge'
 import { TourCard } from './components/TourCard'
 import { ViewSwitcher } from './components/ViewSwitcher'
 import { entryYear } from './data/geojson'
+import { useJourney } from './data/useJourney'
 import { useViewData } from './data/useViewData'
 import { useViewIndex } from './data/useViewIndex'
 import { parseHash, writeHash } from './hash'
+import { JourneyPlayer } from './journey/journeyPlayer'
 import { wireViewInteractions, type ClusterSelection } from './map/interactions'
 import { MapView } from './map/MapView'
 import { removeViewFromMap, setArcsVisible, setViewOnMap, updateViewData } from './map/viewLayers'
@@ -28,8 +32,18 @@ export default function App() {
   const [eraRange, setEraRange] = useState<[number, number] | null>(initialHash.era ?? null)
   const [showArcs, setShowArcs] = useState(initialHash.arcs ?? false)
 
+  // --- Journeys -----------------------------------------------------------
+  const [journeyId, setJourneyId] = useState<string | null>(initialHash.journey ?? null)
+  const [wpIndex, setWpIndex] = useState(0)
+  const [autoplay, setAutoplay] = useState(false)
+  const [pickerOpen, setPickerOpen] = useState(false)
+  const playerRef = useRef<JourneyPlayer | null>(null)
+  const initialWpRef = useRef(initialHash.wp ? initialHash.wp - 1 : 0)
+  const journeyActive = journeyId !== null
+
   const indexState = useViewIndex()
   const views = indexState.status === 'ready' ? indexState.views : []
+  const journeys = indexState.status === 'ready' ? indexState.journeys : []
 
   // Default to the first view once the index arrives (unless deep-linked).
   useEffect(() => {
@@ -44,6 +58,9 @@ export default function App() {
   const viewState = useViewData(activeView?.path ?? null)
   const entries = viewState.status === 'ready' ? viewState.data.entries : []
 
+  const journeySummary = journeys.find((j) => j.id === journeyId) ?? null
+  const journeyState = useJourney(journeySummary?.path ?? null)
+
   // Year bounds of the active view (null when no entry has a known birth year).
   const yearBounds = useMemo<[number, number] | null>(() => {
     const years = entries.map(entryYear).filter((y): y is number => y !== null)
@@ -51,14 +68,14 @@ export default function App() {
     return [Math.min(...years), Math.max(...years)]
   }, [entries])
 
-  // --- Cinematic tour ---------------------------------------------------
+  // --- Cinematic tour -----------------------------------------------------
   const tourSnapshot = useRef<{ era: [number, number] | null; arcs: boolean }>({ era: null, arcs: false })
   const tour = useTour(map, entries, {
     onStart: () => {
       tourSnapshot.current = { era: eraRange, arcs: showArcs }
       setSelectedId(null)
       setCluster(null)
-      if (map) setArcsVisible(map, false) // static arcs would compete with traced journeys
+      if (map) setArcsVisible(map, false)
     },
     onYear: (year) => {
       if (yearBounds) setEraRange([yearBounds[0], year])
@@ -73,8 +90,7 @@ export default function App() {
   const touringRef = useRef(touring)
   touringRef.current = touring
 
-  // Spacebar toggles pause/play while a tour is active (unless a control has focus,
-  // which would double-fire the key).
+  // Spacebar toggles pause/play while a tour is active.
   useEffect(() => {
     if (!touring) return
     const onKeyDown = (e: KeyboardEvent) => {
@@ -88,6 +104,36 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [touring, tour])
 
+  // --- Journey player lifecycle -------------------------------------------
+  useEffect(() => {
+    if (!map || !journeyActive || journeyState.status !== 'ready') return
+    const player = new JourneyPlayer(map, journeyState.journey, {
+      onWaypoint: setWpIndex,
+      onAutoplay: setAutoplay,
+    })
+    playerRef.current = player
+    player.goTo(initialWpRef.current, { animate: false })
+    initialWpRef.current = 0
+    return () => {
+      playerRef.current = null
+      player.destroy()
+    }
+  }, [map, journeyActive, journeyState])
+
+  // Journey keyboard navigation.
+  useEffect(() => {
+    if (!journeyActive) return
+    const onKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      if (target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName)) return
+      if (e.key === 'ArrowRight') playerRef.current?.next()
+      else if (e.key === 'ArrowLeft') playerRef.current?.prev()
+      else if (e.key === 'Escape') setJourneyId(null)
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [journeyActive])
+
   // Keep the URL hash shareable. Era is suppressed during a tour (transient state).
   useEffect(() => {
     writeHash({
@@ -95,8 +141,10 @@ export default function App() {
       entry: selectedId ?? undefined,
       era: touring ? undefined : (eraRange ?? undefined),
       arcs: showArcs || undefined,
+      journey: journeyId ?? undefined,
+      wp: journeyId ? wpIndex + 1 : undefined,
     })
-  }, [activeViewId, selectedId, eraRange, showArcs, touring])
+  }, [activeViewId, selectedId, eraRange, showArcs, touring, journeyId, wpIndex])
 
   // Support back/forward navigation and externally-set hashes.
   useEffect(() => {
@@ -108,6 +156,8 @@ export default function App() {
       setEraRange(hash.era ?? null)
       setShowArcs(hash.arcs ?? false)
       setCluster(null)
+      initialWpRef.current = hash.wp ? hash.wp - 1 : 0
+      setJourneyId(hash.journey ?? null)
     }
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
@@ -124,13 +174,11 @@ export default function App() {
     })
   }, [entries, eraRange])
 
-  // Put the active view's points on the map once both map and data are ready.
+  // Put the active view's points on the map — except while a journey owns the globe.
   useEffect(() => {
-    if (!map || viewState.status !== 'ready') return
+    if (!map || viewState.status !== 'ready' || journeyActive) return
     setViewOnMap(map, viewState.data.manifest, viewState.data.entries)
     const cleanup = wireViewInteractions(map, {
-      // During a tour, canvas clicks belong to pause/play — don't hijack the
-      // camera with select-flyTo or open popovers.
       onSelect: (id) => {
         if (touringRef.current) return
         setCluster(null)
@@ -149,19 +197,19 @@ export default function App() {
         // map may already be destroyed on unmount
       }
     }
-  }, [map, viewState])
+  }, [map, viewState, journeyActive])
 
   // Era filter / tour year: swap the source data in place (re-clusters correctly).
   useEffect(() => {
-    if (!map || viewState.status !== 'ready') return
+    if (!map || viewState.status !== 'ready' || journeyActive) return
     updateViewData(map, filteredEntries)
-  }, [map, viewState, filteredEntries])
+  }, [map, viewState, filteredEntries, journeyActive])
 
-  // Static migration-arcs visibility (layer is rebuilt on view switch; hidden while touring).
+  // Static migration-arcs visibility (rebuilt on view switch; hidden while touring).
   useEffect(() => {
-    if (!map || viewState.status !== 'ready') return
+    if (!map || viewState.status !== 'ready' || journeyActive) return
     setArcsVisible(map, showArcs && !touring)
-  }, [map, viewState, showArcs, touring])
+  }, [map, viewState, showArcs, touring, journeyActive])
 
   const selected = useMemo(() => entries.find((entry) => entry.id === selectedId) ?? null, [entries, selectedId])
   const clusterEntries = useMemo(
@@ -190,12 +238,22 @@ export default function App() {
   }, [map, selected])
 
   const switchView = (viewId: string) => {
-    if (viewId === activeViewId) return
+    if (viewId === activeViewId && !journeyActive) return
     tour.cancel() // must run before the view effect re-adds base layers
+    setJourneyId(null)
+    setPickerOpen(false)
     setSelectedId(null)
     setCluster(null)
     setEraRange(null)
     setActiveViewId(viewId)
+  }
+
+  const startJourney = (id: string) => {
+    tour.cancel()
+    setPickerOpen(false)
+    setSelectedId(null)
+    setCluster(null)
+    setJourneyId(id)
   }
 
   const cycleSpeed = () => {
@@ -213,21 +271,32 @@ export default function App() {
         </div>
       )}
       {!map && !mapError && <LoadingOverlay />}
-      <TitleBadge subtitle={viewState.status === 'ready' ? viewState.data.manifest.description : undefined} />
+      <TitleBadge
+        subtitle={
+          journeyActive && journeyState.status === 'ready'
+            ? journeyState.journey.title
+            : viewState.status === 'ready'
+              ? viewState.data.manifest.description
+              : undefined
+        }
+      />
       <ViewSwitcher
         views={views}
         activeViewId={activeViewId}
         loading={viewState.status === 'loading'}
+        hasJourneys={journeys.length > 0}
+        journeysActive={journeyActive || pickerOpen}
         onSelect={switchView}
+        onJourneys={() => setPickerOpen(true)}
       />
-      {viewState.status === 'ready' && !touring && (
+      {viewState.status === 'ready' && !touring && !journeyActive && (
         <ArcsToggle
           active={showArcs}
           accentColor={viewState.data.manifest.color}
           onToggle={() => setShowArcs((v) => !v)}
         />
       )}
-      {yearBounds && viewState.status === 'ready' && (
+      {yearBounds && viewState.status === 'ready' && !journeyActive && (
         <TimelineBar
           minYear={yearBounds[0]}
           maxYear={yearBounds[1]}
@@ -247,6 +316,24 @@ export default function App() {
           onCollapse={tour.resume}
         />
       )}
+      {pickerOpen && !journeyActive && (
+        <JourneyPicker journeys={journeys} onSelect={startJourney} onClose={() => setPickerOpen(false)} />
+      )}
+      {journeyActive && journeyState.status === 'ready' && (
+        <JourneyPanel
+          journey={journeyState.journey}
+          waypointIndex={wpIndex}
+          autoplay={autoplay}
+          onNext={() => playerRef.current?.next()}
+          onPrev={() => playerRef.current?.prev()}
+          onAutoplayToggle={() => playerRef.current?.setAutoplay(!autoplay)}
+          onOverview={() => playerRef.current?.overview()}
+          onExit={() => setJourneyId(null)}
+        />
+      )}
+      {journeyActive && journeyState.status === 'error' && (
+        <div className="error-banner">Failed to load journey: {journeyState.message}</div>
+      )}
       {(indexState.status === 'error' || viewState.status === 'error') && (
         <div className="error-banner">
           Failed to load {indexState.status === 'error' ? 'view index' : 'view'}:{' '}
@@ -264,7 +351,7 @@ export default function App() {
           onClose={() => setCluster(null)}
         />
       )}
-      {selected && viewState.status === 'ready' && !touring && (
+      {selected && viewState.status === 'ready' && !touring && !journeyActive && (
         <InfoCard entry={selected} accentColor={viewState.data.manifest.color} onClose={() => setSelectedId(null)} />
       )}
     </div>

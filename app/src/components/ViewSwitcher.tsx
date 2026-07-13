@@ -5,16 +5,27 @@ interface ViewSwitcherProps {
   views: ViewSummary[]
   activeViewId: string | null
   loading: boolean
+  hasJourneys: boolean
+  journeysActive: boolean
   onSelect: (viewId: string) => void
+  onJourneys: () => void
 }
 
-export function ViewSwitcher({ views, activeViewId, loading, onSelect }: ViewSwitcherProps) {
-  if (views.length === 0) return null
+export function ViewSwitcher({
+  views,
+  activeViewId,
+  loading,
+  hasJourneys,
+  journeysActive,
+  onSelect,
+  onJourneys,
+}: ViewSwitcherProps) {
+  if (views.length === 0 && !hasJourneys) return null
 
   return (
     <nav className={styles.bar} aria-label="Views">
       {views.map((view) => {
-        const active = view.id === activeViewId
+        const active = view.id === activeViewId && !journeysActive
         return (
           <button
             key={view.id}
@@ -28,6 +39,16 @@ export function ViewSwitcher({ views, activeViewId, loading, onSelect }: ViewSwi
           </button>
         )
       })}
+      {hasJourneys && (
+        <button
+          className={`${styles.chip} ${journeysActive ? styles.active : ''}`}
+          style={journeysActive ? { background: '#4a3aa7', borderColor: '#4a3aa7' } : undefined}
+          onClick={onJourneys}
+          aria-pressed={journeysActive}
+        >
+          <span aria-hidden>🧭</span> Journeys
+        </button>
+      )}
     </nav>
   )
 }

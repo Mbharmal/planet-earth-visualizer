@@ -1,6 +1,8 @@
 # 🌍 Planet Earth Visualizer
 
-An interactive 3D globe of thematic "views" — famous scientists, artists and chess players mapped where they were born. Click a dot to see who it is; click a cluster to zoom in or pick from the people at that spot.
+An interactive 3D globe of thematic "views" — famous scientists, artists and chess players mapped where they were born. Click a dot to see who it is; press ▶ for a cinematic tour through the view's history; open 🧭 **Journeys** to follow a single life (Euler's, to start) across the globe chapter by chapter, with narratives, formulas and further reading.
+
+Adding a journey is pure data — see [docs/ADDING_A_JOURNEY.md](docs/ADDING_A_JOURNEY.md).
 
 Built with [MapLibre GL JS](https://maplibre.org/) (globe projection) on the free [OpenFreeMap](https://openfreemap.org/) basemap, React 19 + TypeScript + Vite. Datasets are generated from [Wikidata](https://www.wikidata.org/) — no backend, the whole site is static files.
 

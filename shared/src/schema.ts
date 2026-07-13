@@ -20,9 +20,20 @@ export const ViewSummarySchema = z.object({
   path: z.string().min(1),
 })
 
+export const JourneySummarySchema = z.object({
+  id: slug,
+  title: z.string().min(1),
+  person: z.string().min(1),
+  color: hexColor,
+  /** Path of the journey file relative to the datasets root, e.g. "journeys/euler.json". */
+  path: z.string().min(1),
+})
+
 export const ViewIndexSchema = z.object({
   schemaVersion: z.literal(1),
   views: z.array(ViewSummarySchema),
+  /** Guided multi-waypoint life stories. Optional so older indexes stay valid. */
+  journeys: z.array(JourneySummarySchema).optional(),
 })
 
 export const PointStyleSchema = z.object({
@@ -86,8 +97,67 @@ export const ViewEntrySchema = z.object({
 /** Contents of a view's points.json: a flat array of entries (not GeoJSON — portable to native SDKs). */
 export const ViewPointsSchema = z.array(ViewEntrySchema)
 
+/** Sanitized MathML markup (browsers render it natively; content is repo-authored). */
+const mathML = z.string().startsWith('<math').max(4000)
+
+const imageRef = z.object({
+  url: z.url(),
+  thumbUrl: z.url(),
+  caption: z.string().optional(),
+})
+
+const resourceLink = z.object({
+  label: z.string().min(1),
+  url: z.url(),
+})
+
+export const JourneyWaypointSchema = z.object({
+  id: slug,
+  title: z.string().min(1),
+  place: z.string().min(1),
+  lat: z.number().min(-90).max(90),
+  lng: z.number().min(-180).max(180),
+  /** Year span at this place (negative = BCE). `to` omitted for a single-year event. */
+  from: z.int(),
+  to: z.int().optional(),
+  role: z.enum(['birth', 'education', 'work', 'residence', 'voyage', 'death']),
+  /** The story of this chapter — a paragraph or two of plain text. */
+  narrative: z.string().min(1),
+  media: z
+    .object({
+      image: imageRef.optional(),
+      formula: mathML.optional(),
+      formulaCaption: z.string().optional(),
+    })
+    .optional(),
+  /** Keywords of works produced in this period, rendered as chips. */
+  works: z.array(z.string()).max(8).optional(),
+  /** Further reading for this specific chapter. */
+  resources: z.array(resourceLink).max(6).optional(),
+})
+
+export const JourneySchema = z.object({
+  id: slug,
+  title: z.string().min(1),
+  person: z.object({
+    name: z.string().min(1),
+    lifespan: z.string().min(1),
+    image: imageRef.optional(),
+    wikidata: z.url().optional(),
+  }),
+  summary: z.string().min(1),
+  color: hexColor,
+  waypoints: z.array(JourneyWaypointSchema).min(2),
+  /** Further reading for the whole journey. */
+  resources: z.array(resourceLink).max(10).optional(),
+  attribution: z.string(),
+})
+
 export type ViewSummary = z.infer<typeof ViewSummarySchema>
 export type ViewIndex = z.infer<typeof ViewIndexSchema>
+export type JourneySummary = z.infer<typeof JourneySummarySchema>
+export type JourneyWaypoint = z.infer<typeof JourneyWaypointSchema>
+export type Journey = z.infer<typeof JourneySchema>
 export type PointStyle = z.infer<typeof PointStyleSchema>
 export type ViewManifest = z.infer<typeof ViewManifestSchema>
 export type ViewEntry = z.infer<typeof ViewEntrySchema>

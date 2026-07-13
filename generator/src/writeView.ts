@@ -1,4 +1,4 @@
-import { ViewIndexSchema, ViewManifestSchema, ViewPointsSchema, type ViewEntry, type ViewIndex, type ViewManifest } from '@pev/shared'
+import { JourneySchema, ViewIndexSchema, ViewManifestSchema, ViewPointsSchema, type ViewEntry, type ViewIndex, type ViewManifest } from '@pev/shared'
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { ViewConfig } from './config'
@@ -26,7 +26,7 @@ export async function writeView(config: ViewConfig, entries: ViewEntry[]): Promi
   return manifest
 }
 
-/** Rebuild index.json by scanning the views directory, so it can never drift from reality. */
+/** Rebuild index.json by scanning the datasets directories, so it can never drift from reality. */
 export async function rebuildIndex(): Promise<ViewIndex> {
   const viewsDir = join(DATASETS_DIR, 'views')
   const dirs = (await readdir(viewsDir, { withFileTypes: true })).filter((d) => d.isDirectory())
@@ -45,7 +45,26 @@ export async function rebuildIndex(): Promise<ViewIndex> {
   }
   views.sort((a, b) => a.title.localeCompare(b.title))
 
-  const index = ViewIndexSchema.parse({ schemaVersion: 1, views })
+  // Journeys are hand-authored files in datasets/journeys/ — scan and summarize.
+  const journeys = []
+  const journeysDir = join(DATASETS_DIR, 'journeys')
+  try {
+    const files = (await readdir(journeysDir)).filter((f) => f.endsWith('.json'))
+    for (const file of files.sort()) {
+      const journey = JourneySchema.parse(JSON.parse(await readFile(join(journeysDir, file), 'utf8')))
+      journeys.push({
+        id: journey.id,
+        title: journey.title,
+        person: journey.person.name,
+        color: journey.color,
+        path: `journeys/${file}`,
+      })
+    }
+  } catch {
+    // no journeys directory yet — fine
+  }
+
+  const index = ViewIndexSchema.parse({ schemaVersion: 1, views, ...(journeys.length > 0 ? { journeys } : {}) })
   await writeFile(join(DATASETS_DIR, 'index.json'), JSON.stringify(index, null, 2) + '\n')
   return index
 }
